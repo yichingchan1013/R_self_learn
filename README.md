@@ -1,28 +1,6 @@
 ## R_self_learn_2018/12
-### self-introduction
-> * Name: Dennis Tseng
-> * Major: Business Administration
-> * School: National Taiwan University
-> * Goal: keeping R self-learing notes
 
-> "Practice makes perfect."
-
-### R-related experience
-> * self-studied 16+ courses on [Datacamp](https://www.datacamp.com)
-> * finished first 7 chapters of [The art of R programming](http://diytranscriptomics.com/Reading/files/The%20Art%20of%20R%20Programming.pdf)
-> * finished [Hands-On Programming with R](http://shop.oreilly.com/product/0636920028574.do)
-> * finished [R for Data Science](http://r4ds.had.co.nz)
-> * finished [R for Data Science](http://r4ds.had.co.nz)
-> * finished [R for Data Science](http://r4ds.had.co.nz)
-> * finished [*Text Mining with R*](https://www.tidytextmining.com/)
-> * finished first 5 chapters of [*Machine Learning with R*](https://the-eye.eu/public/Books/Programming/Machine%20Learning%20with%20R%20-%20Second%20Edition%20%5BeBook%5D.pdf)
-
-### Homework & Project links
-> * **Homework**: [`HW2`](https://dennishi0925.github.io/CSX_RProject_Spring_2018/week2/HW2.html), [`HW3`](https://dennishi0925.github.io/CSX_RProject_Spring_2018/week3/HW3.html)
-> * **Project**: [`project1`](
-https://dennishi0925.github.io/CSX_RProject_Spring_2018/project1/project01.html), [`project2`](https://docs.google.com/presentation/d/1VWUVwEL3ItNMLSffdv3-53xGA-xP0vYW7hlBx3MF0u8/edit#slide=id.p)
-
-### week1_12/01
+## week1_12/01
 > * finished **Chapter1** & **Chapter2** of [*R for Data Science*](http://r4ds.had.co.nz)
 > * learned [**stringr**](https://www.rdocumentation.org/packages/stringr/versions/1.1.0) packge
 
@@ -80,3 +58,25 @@ https://dennishi0925.github.io/CSX_RProject_Spring_2018/project1/project01.html)
 ### week17
 > * finished **Chapter6** of *R Graphics Cookbook*
 > * finished **Chapter14** of *R for Data Science*
+
+### self-introduction
+> * Name: Dennis Tseng
+> * Major: Business Administration
+> * School: National Taiwan University
+> * Goal: keeping R self-learing notes
+
+> "Practice makes perfect."
+
+### R-related experience
+> * self-studied 16+ courses on [Datacamp](https://www.datacamp.com)
+> * finished first 7 chapters of [The art of R programming](http://diytranscriptomics.com/Reading/files/The%20Art%20of%20R%20Programming.pdf)
+> * finished [Hands-On Programming with R](http://shop.oreilly.com/product/0636920028574.do)
+> * finished [R for Data Science](http://r4ds.had.co.nz)
+> * finished [Text Mining with R](https://www.tidytextmining.com/)
+> * finished first 5 chapters of [Machine Learning with R](https://the-eye.eu/public/Books/Programming/Machine%20Learning%20with%20R%20-%20Second%20Edition%20%5BeBook%5D.pdf)
+
+### Homework & Project links
+> * **Homework**: [`HW2`](https://dennishi0925.github.io/CSX_RProject_Spring_2018/week2/HW2.html), [`HW3`](https://dennishi0925.github.io/CSX_RProject_Spring_2018/week3/HW3.html)
+> * **Project**: [`project1`](
+https://dennishi0925.github.io/CSX_RProject_Spring_2018/project1/project01.html), [`project2`](https://docs.google.com/presentation/d/1VWUVwEL3ItNMLSffdv3-53xGA-xP0vYW7hlBx3MF0u8/edit#slide=id.p)
+
