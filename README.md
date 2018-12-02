@@ -3,17 +3,18 @@
 ### week1_12/01
 #### Expected:
 ##### ML
-> ML
+
+ML
 * finished **Chapter1** of *Machine Learning with R*
 
-> Stat
+Stat
 * finished **Chapter2** of *Applied Statistics with R*
-> * finished **Chapter2** of *Experimental Design & Analysis*
+* finished **Chapter2** of *Experimental Design & Analysis*
 
-> DataVis
->> * check the teacher's resource
->> * Read one article related to data visualization
->> * Read one article related to data journalism
+DataVis
+* check the teacher's resource 
+* Read one article related to data visualization
+* Read one article related to data journalism
 
 #####DataVis
 > * finished **Chapter2** of *Applied Statistics with R*
