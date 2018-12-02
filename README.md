@@ -1,5 +1,16 @@
 ## R_self_learn_2018/12
 
+### Goal
+> * Applied [Scrum](https://funevo.com/2015/06/27/scrum-ru-men-jie-shao-xin-shou-zhi-nan-introduce/) concept to self-learning path 
+> * Field: Basic and R-related, Statistics, Machine Learning, Text Mining, Data Vis, Others   
+> * week = sprint, month = scrum, weekly review on Sunday, monthly review on 2nd day of the month
+
+### Goal
+> **2018/12**: Statistics- , Machine Learning- , Data Visualization-   
+> **2019/01**: Basic   
+> **2018/02**: Basic   
+
+
 ### week1_12/01
 #### Expected:
 
@@ -11,11 +22,20 @@
 > * finished **Chapter2** of *Experimental Design & Analysis*   
 
 > **DataVis**   
-> * check the teacher's resource    
+> * checked the teacher's resource    
 > * Read one article related to data visualization   
 > * Read one article related to data journalism   
 
+> **R-related and Basic**   
+> * Wrote the 1st draft of Dennis' R learning path   
+> * Read one article related to data visualization   
+> * **SQL**: Read one article related to **SQL Join Speed Comparison**   
 > * learned [**stringr**](https://www.rdocumentation.org/packages/stringr/versions/1.1.0) packge
+
+> **Others**   
+> * **Korean**: Korean Number, shopping, place, verb, one new chapter of listening   
+> * **Reading**: Chinese Capitalism, Watergate event, novel?
+> * **Reading**: Chinese Capitalism, Watergate event, novel?
 
 ### week2_12/08
 > * learned [**kableExtra**](https://www.rdocumentation.org/packages/kableExtra/versions/0.7.0) packge
