@@ -12,14 +12,14 @@
 > finished **Chapter2** of *Experimental Design & Analysis*   
 
 > **DataVis**   
->* check the teacher's resource    
->* Read one article related to data visualization   
-> * Read one article related to data journalism   
+>- check the teacher's resource    
+>- Read one article related to data visualization   
+> - Read one article related to data journalism   
 
-#####DataVis
-> * finished **Chapter2** of *Applied Statistics with R*
-> * finished **Chapter2** of *Experimental Design & Analysis*
-> * Read one article related to data journalism
+> **DataVis**  
+> - finished **Chapter2** of *Applied Statistics with R*
+> - finished **Chapter2** of *Experimental Design & Analysis*
+> - Read one article related to data journalism
 
 > * learned [**stringr**](https://www.rdocumentation.org/packages/stringr/versions/1.1.0) packge
 
