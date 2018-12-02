@@ -19,7 +19,8 @@
 
 > **Stat**   
 > * finished **Chapter2** of *Applied Statistics with R*   
-> * finished **Chapter2** of *Experimental Design & Analysis*   
+> * finished **Chapter16 Categorical Outcomes** of *Experimental Design & Analysis*   
+> * Reviewed **Chapter16 Chi-square Test** of *Statistics*   
 
 > **DataVis**   
 > * checked the teacher's resource    
