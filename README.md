@@ -12,9 +12,9 @@
 > finished **Chapter2** of *Experimental Design & Analysis*   
 
 > **DataVis**   
-> check the teacher's resource    
-> Read one article related to data visualization   
-> Read one article related to data journalism   
+>* check the teacher's resource    
+>* Read one article related to data visualization   
+> * Read one article related to data journalism   
 
 #####DataVis
 > * finished **Chapter2** of *Applied Statistics with R*
