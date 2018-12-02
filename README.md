@@ -6,9 +6,9 @@
 > * week = sprint, month = scrum, weekly review on Sunday, monthly review on 2nd day of the month
 
 ### Goal
-> **2018/12**: Statistics- , Machine Learning- , Data Visualization-   
-> **2019/01**: Basic   
-> **2018/02**: Basic   
+> * **2018/12**: Statistics- , Machine Learning- , Data Visualization-   
+> * **2019/01**: Basic   
+> * **2018/02**: Basic   
 
 
 ### week1_12/01
