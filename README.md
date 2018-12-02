@@ -4,19 +4,16 @@
 #### Expected:
 
 > **ML**   
-> * finished **Chapter1** of *Machine Learning with R*   
+> * finished **Chapter1** of *Machine Learning with R*  
+
 > **Stat**   
 > * finished **Chapter2** of *Applied Statistics with R*   
 > * finished **Chapter2** of *Experimental Design & Analysis*   
+
 > **DataVis**   
 > * check the teacher's resource    
 > * Read one article related to data visualization   
 > * Read one article related to data journalism   
-
-> **DataVis**
-> * finished **Chapter2** of *Applied Statistics with R*
-> * finished **Chapter2** of *Experimental Design & Analysis*
-> * Read one article related to data journalism
 
 > * learned [**stringr**](https://www.rdocumentation.org/packages/stringr/versions/1.1.0) packge
 
@@ -47,33 +44,6 @@
 
 ### week10
 > * finished **Chapter1** & **Chapter2** & **Chapter3** of [*R Graphics Cookbook*](http://www.cookbook-r.com/Graphs/)
-
-### week11
-> * finished **Chapter4** of *R Graphics Cookbook*
-
-### week12
-> * finished **Chapter5** of *R Graphics Cookbook*
-> * 10.4.4 ("What weather conditions make it more likely to see a delay?") of *R for Data Science* is worth noting
-
-### week13
-> * finished **Chapter11** of *R for Data Science*
-
-### week14
-> * finished **Chapter12** of *R for Data Science*
-
-### week14
-> * finished **Chapter13** of *R for Data Science*
- 
-### week15
-> * finished [`final presentation`](https://drive.google.com/open?id=1FJdYLb8Z0pno8GqUE3e79dVPILzaJ0q-)
- for NTUSC data
-
-### week16
-> * finished [`Final Project Website`](https://dennishi0925.github.io/CSX_2018_final/index.html) and [`Final Project Shiny APP`](https://dennistseng.shinyapps.io/NTUSCapp/)
-
-### week17
-> * finished **Chapter6** of *R Graphics Cookbook*
-> * finished **Chapter14** of *R for Data Science*
 
 ### self-introduction
 > * Name: Dennis Tseng
