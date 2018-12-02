@@ -1,7 +1,22 @@
 ## R_self_learn_2018/12
 
-## week1_12/01
-> * finished **Chapter1** & **Chapter2** of [*R for Data Science*](http://r4ds.had.co.nz)
+### week1_12/01
+####Expected:
+#####ML
+> * finished **Chapter1** of *Machine Learning with R*
+#####Stat
+> * finished **Chapter2** of *Applied Statistics with R*
+> * finished **Chapter2** of *Experimental Design & Analysis*
+#####DataVis
+> * check the teacher's resource
+> * Read one article related to data visualization
+> * Read one article related to data journalism
+
+#####DataVis
+> * finished **Chapter2** of *Applied Statistics with R*
+> * finished **Chapter2** of *Experimental Design & Analysis*
+> * Read one article related to data journalism
+
 > * learned [**stringr**](https://www.rdocumentation.org/packages/stringr/versions/1.1.0) packge
 
 ### week2_12/08
