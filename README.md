@@ -4,14 +4,14 @@
 #### Expected:
 ##### ML
 
-ML
-* finished **Chapter1** of *Machine Learning with R*
+> **ML**
+> finished **Chapter1** of *Machine Learning with R*
 
-Stat
-> * finished **Chapter2** of *Applied Statistics with R*
-> * finished **Chapter2** of *Experimental Design & Analysis*
+> **Stat**
+> finished **Chapter2** of *Applied Statistics with R*
+> finished **Chapter2** of *Experimental Design & Analysis*
 
-DataVis
+> **DataVis**
 > check the teacher's resource 
 > Read one article related to data visualization
 > Read one article related to data journalism
