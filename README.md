@@ -32,6 +32,8 @@
 > * Read one article related to data visualization   
 > * **SQL**: Read one article related to **SQL Join Speed Comparison**   
 > * learned [**stringr**](https://www.rdocumentation.org/packages/stringr/versions/1.1.0) packge
+> * Recommended [Why R for data science – and not Python?](https://www.r-bloggers.com/why-r-for-data-science-and-not-python/)
+> * Read at least 5 articles on R-bloggers per week
 
 > **Others**   
 > * **Korean**: Korean Number, shopping, place, verb, one new chapter of listening   
