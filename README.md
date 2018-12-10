@@ -47,7 +47,8 @@
 > * Read one article related to data visualization   
 > * **SQL**: Read [**Anatomy of an Index**](https://www.rdocumentation.org/packages/stringr/versions/1.1.0)   
 > * learned [**stringr**](https://www.rdocumentation.org/packages/stringr/versions/1.1.0) packge
-> * Recommended [Why R for data science – and not Python?](https://www.r-bloggers.com/why-r-for-data-science-and-not-python/)
+> * Recommended [Where in the world can I study data journalism?](https://medium.com/ucd-ischool/where-in-the-world-can-i-study-data-journalism-44c006e55ea5)
+> * Read at least 5 articles on [R-bloggers](https://www.cjr.org/index.php) daily
 > * Read at least 5 articles on R-bloggers per week
 
 > **Others**   
