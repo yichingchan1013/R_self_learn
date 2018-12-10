@@ -5,14 +5,19 @@
 > * Field: Basic and R-related, Statistics, Machine Learning, Text Mining, Data Vis, Others   
 > * week = sprint, month = scrum, weekly review on Sunday, monthly review on 2nd day of the month
 
-### Goal
+### Schedule
 > * **2018/12**: Statistics- , Machine Learning- , Data Visualization-   
 > * **2019/01**: Basic   
 > * **2018/02**: Basic   
 
+### Resource
+[Interactive Data Journalism: A One-Semester Syllabus](https://source.opennews.org/articles/interactive-data-journalism-one-semester/)
+[MPA 635: DATA VISUALIZATION](https://datavizf18.classes.andrewheiss.com/)
+[Data journalism syllabus: From numeracy to visualization and beyond](https://journalistsresource.org/syllabi/data-journalism-visualization-mapping-ethics-syllabus)
+[Use Index, SQL](https://use-the-index-luke.com/sql/where-clause)
+[Applied Stat with R](https://daviddalpiaz.github.io/appliedstats/)
 
 ### week1_12/01
-#### Expected:
 
 > **Stat**   
 > * finished **Chapter16 Categorical Outcomes** of *Experimental Design & Analysis*   
@@ -87,6 +92,8 @@
 > * Goal: keeping R self-learing notes
 
 > "Practice makes perfect."
+
+
 
 ### R-related experience
 > * self-studied 16+ courses on [Datacamp](https://www.datacamp.com)
