@@ -14,6 +14,21 @@
 ### week1_12/01
 #### Expected:
 
+> **Stat**   
+> * finished **Chapter16 Categorical Outcomes** of *Experimental Design & Analysis*   
+> * Reviewed **Chapter16 Chi-square Test** of *Statistics*    
+
+> **R-related and Basic**   
+> * **SQL**: Read [**Anatomy of an Index**](https://www.rdocumentation.org/packages/stringr/versions/1.1.0)   
+> * Recommended [Why R for data science – and not Python?](https://www.r-bloggers.com/why-r-for-data-science-and-not-python/)
+> * Read 5 articles on R-bloggers
+
+> **Others**   
+> * **Korean**: Korean Number, shopping, place, verb, one new chapter of listening   
+> * **Reading**: Chinese Capitalism, City of Theives
+
+### week2_12/08
+
 > **ML**   
 > * finished **Chapter1** of *Machine Learning with R*  
 
@@ -30,18 +45,14 @@
 > **R-related and Basic**   
 > * Wrote the 1st draft of Dennis' R learning path   
 > * Read one article related to data visualization   
-> * **SQL**: Read one article related to **SQL Join Speed Comparison**   
+> * **SQL**: Read [**Anatomy of an Index**](https://www.rdocumentation.org/packages/stringr/versions/1.1.0)   
 > * learned [**stringr**](https://www.rdocumentation.org/packages/stringr/versions/1.1.0) packge
 > * Recommended [Why R for data science – and not Python?](https://www.r-bloggers.com/why-r-for-data-science-and-not-python/)
 > * Read at least 5 articles on R-bloggers per week
 
 > **Others**   
 > * **Korean**: Korean Number, shopping, place, verb, one new chapter of listening   
-> * **Reading**: Chinese Capitalism, Watergate event, novel?
-> * **Reading**: Chinese Capitalism, Watergate event, novel?
-
-### week2_12/08
-> * learned [**kableExtra**](https://www.rdocumentation.org/packages/kableExtra/versions/0.7.0) packge
+> * **Reading**: Watergate event, novel?
 
 ### week3
 > * finished **ggplot2 chapter** of [R in action 2nd](http://kek.ksu.ru/eos/DataMining/1379968983.pdf)
