@@ -16,6 +16,9 @@
 [Data journalism syllabus: From numeracy to visualization and beyond](https://journalistsresource.org/syllabi/data-journalism-visualization-mapping-ethics-syllabus)
 [Use Index, SQL](https://use-the-index-luke.com/sql/where-clause)
 [Applied Stat with R](https://daviddalpiaz.github.io/appliedstats/)
+[Data Visualization](http://socviz.co/gettingstarted.html)
+[Nikkei DataWatch](https://asia.nikkei.com/Spotlight/Datawatch)
+[The Data & News Society](https://dnnsociety.org)
 
 ### week1_12/01
 
