@@ -46,15 +46,15 @@
 > * Reviewed **Chapter16 Chi-square Test** of *Statistics*   
 
 > **DataVis**   
-> * checked the teacher's resource    
-> * Read one article related to data visualization   
+> * finished **Chapter1** of *Data Visualization*  
+> * finished **Chapter3** of *Interactive Web Design*  
 > * Read one article related to data journalism   
 
 > **R-related and Basic**   
 > * Wrote the 1st draft of Dennis' R learning path   
 > * Read one article related to data visualization   
 > * **SQL**: Read [**Anatomy of an Index**](https://www.rdocumentation.org/packages/stringr/versions/1.1.0)   
-> * learned [**stringr**](https://www.rdocumentation.org/packages/stringr/versions/1.1.0) packge
+> * Reviewed [**blogdown**](https://www.rdocumentation.org/packages/stringr/versions/1.1.0) packge
 > * Recommended [Where in the world can I study data journalism?](https://medium.com/ucd-ischool/where-in-the-world-can-i-study-data-journalism-44c006e55ea5)
 > * Read at least 5 articles on [R-bloggers](https://www.cjr.org/index.php) daily
 > * Read at least 5 articles on R-bloggers per week
