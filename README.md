@@ -37,9 +37,6 @@
 
 ### week2_12/08
 
-> **ML**   
-> * finished **Chapter1** of *Machine Learning with R*  
-
 > **Stat**   
 > * finished **Chapter2** of *Applied Statistics with R*   
 > * finished **Chapter16 Categorical Outcomes** of *Experimental Design & Analysis*   
@@ -60,14 +57,51 @@
 > * Read at least 5 articles on R-bloggers per week
 
 > **Others**   
-> * **Korean**: Korean Number, shopping, place, verb, one new chapter of listening   
-> * **Reading**: Watergate event, novel?
+> * **Korean**: Korean Number, shopping
+> * **Reading**: Watergate event, 返校日
 
 ### week3
-> * finished **ggplot2 chapter** of [R in action 2nd](http://kek.ksu.ru/eos/DataMining/1379968983.pdf)
-> * recommended **[Quick Guide to Data Journalism](https://www.datacamp.com/community/blog/data-journalism-guide-tools)**, providing a complete gide to help become a data journalist
+
+> **Stat**   
+> * finished **Chapter17 Logistic Regression** of *Applied Statistics with R*
+
+> **DataVis**    
+> * Read one article related to data journalism   
+
+> **R-related and Basic**   
+> * Reviewed [**tidyr**](https://www.rdocumentation.org/packages/stringr/versions/1.1.0) packge
+> * Learned [**R NLP相關**](https://www.rdocumentation.org/packages/stringr/versions/1.1.0) packge
+> * Read at least 5 articles on [R-bloggers](https://www.cjr.org/index.php) daily
+
+> **Others**   
+> * **Korean**: Korean verb
+> * **Reading**: 可畏的敵手,韓國怎麼改變的? : 崛起的真相, 紅色通緝令
+> * 準備期末考
 
 ### week4
+
+> **Stat**   
+> * finished **Chapter2** of *Applied Statistics with R*   
+> * finished **Chapter16 Categorical Outcomes** of *Experimental Design & Analysis*   
+> * Reviewed **Chapter16 Chi-square Test** of *Statistics*   
+
+> **DataVis and Data Journalsim**   
+> * finished **Chapter1** of *Data Visualization*  
+> * finished **Chapter3** of *Interactive Web Design*  
+> * Read one article related to data journalism   
+
+> **R-related and Basic**   
+> * Wrote the 1st draft of Dennis' R learning path   
+> * Read one article related to data visualization   
+> * **SQL**: Read [**Anatomy of an Index**](https://www.rdocumentation.org/packages/stringr/versions/1.1.0)   
+> * Reviewed [**blogdown**](https://www.rdocumentation.org/packages/stringr/versions/1.1.0) packge
+> * Recommended [Where in the world can I study data journalism?](https://medium.com/ucd-ischool/where-in-the-world-can-i-study-data-journalism-44c006e55ea5)
+> * Read at least 5 articles on [R-bloggers](https://www.cjr.org/index.php) daily
+> * Read at least 5 articles on R-bloggers per week
+
+> **Others**   
+> * **Korean**: Korean Number, shopping
+> * **Reading**: 性別力, 優秀的綿羊
 
 ### week5
 > * had a general understanding of css and Xpath
