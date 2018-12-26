@@ -11,14 +11,14 @@
 > * **2018/02**: Basic   
 
 ### Resource
-[Interactive Data Journalism: A One-Semester Syllabus](https://source.opennews.org/articles/interactive-data-journalism-one-semester/)
-[MPA 635: DATA VISUALIZATION](https://datavizf18.classes.andrewheiss.com/)
-[Data journalism syllabus: From numeracy to visualization and beyond](https://journalistsresource.org/syllabi/data-journalism-visualization-mapping-ethics-syllabus)
-[Use Index, SQL](https://use-the-index-luke.com/sql/where-clause)
-[Applied Stat with R](https://daviddalpiaz.github.io/appliedstats/)
-[Data Visualization](http://socviz.co/gettingstarted.html)
-[Nikkei DataWatch](https://asia.nikkei.com/Spotlight/Datawatch)
-[The Data & News Society](https://dnnsociety.org)
+[Interactive Data Journalism: A One-Semester Syllabus](https://source.opennews.org/articles/interactive-data-journalism-one-semester/)   
+[MPA 635: DATA VISUALIZATION](https://datavizf18.classes.andrewheiss.com/)   
+[Data journalism syllabus: From numeracy to visualization and beyond](https://journalistsresource.org/syllabi/data-journalism-visualization-mapping-ethics-syllabus)   
+[Use Index, SQL](https://use-the-index-luke.com/sql/where-clause)   
+[Applied Stat with R](https://daviddalpiaz.github.io/appliedstats/)   
+[Data Visualization](http://socviz.co/gettingstarted.html)   
+[Nikkei DataWatch](https://asia.nikkei.com/Spotlight/Datawatch)   
+[The Data & News Society](https://dnnsociety.org)   
 
 ### week1_12/01
 
@@ -60,7 +60,7 @@
 > * **Korean**: Korean Number, shopping
 > * **Reading**: Watergate event, 返校日
 
-### week3
+### week3_12/15
 
 > **Stat**   
 > * finished **Chapter17 Logistic Regression** of *Applied Statistics with R*
@@ -78,10 +78,15 @@
 > * **Reading**: 可畏的敵手,韓國怎麼改變的? : 崛起的真相, 紅色通緝令
 > * 準備期末考
 
-### week4
+### week4_12/22
 
 > **Stat**   
 > * finished **Chapter2** of *Applied Statistics with R*   
+> * finished **Chapter16 Categorical Outcomes** of *Experimental Design & Analysis*   
+> * Reviewed **Chapter16 Chi-square Test** of *Statistics*   
+
+> **Text Mining**   
+> * finished **Chapter1** of *Mastering Text Mining with R* p.50   
 > * finished **Chapter16 Categorical Outcomes** of *Experimental Design & Analysis*   
 > * Reviewed **Chapter16 Chi-square Test** of *Statistics*   
 
