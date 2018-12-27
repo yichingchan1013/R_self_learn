@@ -100,7 +100,7 @@
 > * Read one article related to data visualization   
 > * **SQL**: Read [**Anatomy of an Index**](https://www.rdocumentation.org/packages/stringr/versions/1.1.0)   
 > * Reviewed [**blogdown**](https://www.rdocumentation.org/packages/stringr/versions/1.1.0) packge
-> * Recommended [Where in the world can I study data journalism?](https://medium.com/ucd-ischool/where-in-the-world-can-i-study-data-journalism-44c006e55ea5)
+> * Recommended [Detecting Potential Cyber Armies of Election Campaigns Based on Behavioral Analysis](https://www.slideshare.net/MingHungWang/detecting-potential-cyber-armies-of-election-campaigns-based-on-behavioral-analysis/MingHungWang/detecting-potential-cyber-armies-of-election-campaigns-based-on-behavioral-analysis?fbclid=IwAR3ZsAqyXhlHzVOXzhbIQmlmr4EFBVEllr3n1e3SxpYVX-cmJFvwTbV28eY)
 > * Read at least 5 articles on [R-bloggers](https://www.cjr.org/index.php) daily
 > * Read at least 5 articles on R-bloggers per week
 
