@@ -86,7 +86,7 @@
 > * Reviewed **Chapter16 Chi-square Test** of *Statistics*   
 
 > **Text Mining**   
-> * finished **Chapter1** of *Mastering Text Mining with R* p.50   
+> * finished **Chapter1** and **Chapter2** of *Mastering Text Mining with R* p.50   
 > * finished **Chapter16 Categorical Outcomes** of *Experimental Design & Analysis*   
 > * Reviewed **Chapter16 Chi-square Test** of *Statistics*   
 
