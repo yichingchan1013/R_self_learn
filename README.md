@@ -80,40 +80,26 @@
 
 ### week4_12/22
 
-> **Stat**   
-> * finished **Chapter2** of *Applied Statistics with R*   
-> * finished **Chapter16 Categorical Outcomes** of *Experimental Design & Analysis*   
-> * Reviewed **Chapter16 Chi-square Test** of *Statistics*   
-
 > **Text Mining**   
 > * finished **Chapter1** and **Chapter2** of *Mastering Text Mining with R* p.91   
-> * finished **Chapter16 Categorical Outcomes** of *Experimental Design & Analysis*   
-> * Reviewed **Chapter16 Chi-square Test** of *Statistics*   
-
-> **DataVis and Data Journalsim**   
-> * finished **Chapter1** of *Data Visualization*  
-> * finished **Chapter3** of *Interactive Web Design*  
-> * Read one article related to data journalism   
 
 > **R-related and Basic**   
-> * Wrote the 1st draft of Dennis' R learning path   
-> * Read one article related to data visualization   
-> * **SQL**: Read [**Anatomy of an Index**](https://www.rdocumentation.org/packages/stringr/versions/1.1.0)   
-> * Reviewed [**blogdown**](https://www.rdocumentation.org/packages/stringr/versions/1.1.0) packge
 > * Recommended [Detecting Potential Cyber Armies of Election Campaigns Based on Behavioral Analysis](https://www.slideshare.net/MingHungWang/detecting-potential-cyber-armies-of-election-campaigns-based-on-behavioral-analysis/MingHungWang/detecting-potential-cyber-armies-of-election-campaigns-based-on-behavioral-analysis?fbclid=IwAR3ZsAqyXhlHzVOXzhbIQmlmr4EFBVEllr3n1e3SxpYVX-cmJFvwTbV28eY)
 > * Read at least 5 articles on [R-bloggers](https://www.cjr.org/index.php) daily
-> * Read at least 5 articles on R-bloggers per week
 
 > **Others**   
-> * **Korean**: Korean Number, shopping
-> * **Reading**: 性別力, 優秀的綿羊
+> * **Korean**: Korean time related noun
+> * **Reading**: 陀螺儀 by 伊版幸太郎
 
-### week5
-> * had a general understanding of css and Xpath
-> * practiced web crawling using [**rvest**](https://github.com/hadley/rvest)
+### week5_12/29
+> * prepared final exam
 
-### week6
-> * finished **Chapter1** & **Chapter2** & **Chapter3** of [*Machine Learning with R*](https://the-eye.eu/public/Books/Programming/Machine%20Learning%20with%20R%20-%20Second%20Edition%20%5BeBook%5D.pdf)
+### week6_01/07
+> * finished **Chapter1** & **Chapter2** & **Chapter3** of [*Tidy evaluation*](https://tidyeval.tidyverse.org/index.html)
+
+
+性別力, 優秀的綿羊
+崩潰, 關上門以後, MM9
 
 ### week7
 > * finished **Chapter4** of *Machine Learning with R*
