@@ -94,18 +94,20 @@
 ### week5_12/29
 > * prepared final exam
 
-### week6_01/07
-> * finished **Chapter1** & **Chapter2** & **Chapter3** of [*Tidy evaluation*](https://tidyeval.tidyverse.org/index.html)
+### week6_01/06
+> * finished [*Tidy evaluation*](https://tidyeval.tidyverse.org/index.html)
+> * **Reading**: 崩潰, 關上門以後, MM9
 
+### week7_01/13
+> * used [*RSelenium*](https://tidyeval.tidyverse.org/index.html) to crawled comments on Google Play
+> * practiced logistic regression to predict response rate, taking [how to make a churn model in R](https://lukesingham.com/how-to-make-a-churn-model-in-r/) as the reference
+> * read several studies related to applications of text mining in political science and social media analysis
+> * completed my final essay titled **nature of playing sports-themed video games**, assigned by philosophical approaches to games' professor
+> **Reading**: 失控的謊言
 
-性別力, 優秀的綿羊
-崩潰, 關上門以後, MM9
-
-### week7
-> * finished **Chapter4** of *Machine Learning with R*
-
-### week8
-> * finished **Building Web Applications in R with Shiny** courses on Datacamp
+### week8_01/20
+> * finished **Advanced R** courses on Datacamp
+性別力, 優秀的綿羊, 不當行為
 
 ### week9
 > * results:[`project3.csv`](https://github.com/Dennishi0925/CSX_RProject_Spring_2018/blob/master/week9/titanic_prediction.csv)
