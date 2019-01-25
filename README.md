@@ -6,9 +6,9 @@
 > * week = sprint, month = scrum, weekly review on Sunday, monthly review on 2nd day of the month
 
 ### Schedule
-> * **2018/12**: Statistics- , Machine Learning- , Data Visualization-   
-> * **2019/01**: Basic   
-> * **2018/02**: Basic   
+> * **2018/12**: Statistics, Data Visualization   
+> * **2019/01**: R programming, Text Mining   
+> * **2018/02**: Data Visualization   
 
 ### Resource
 [Interactive Data Journalism: A One-Semester Syllabus](https://source.opennews.org/articles/interactive-data-journalism-one-semester/)   
