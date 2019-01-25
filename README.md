@@ -108,14 +108,14 @@
 ### week8_01/20
 > * finished **Advanced R** courses on Datacamp
 > * Learned [**tidystringdist**](https://colinfay.me/tidystringdist/reference/tidy_stringdist.html) packge
-> * Learned [**purrr**](https://colinfay.me/tidystringdist/reference/tidy_stringdist.html) packge, recommended [**使用purrr package學functional programming的觀念**](https://weitinglin.com/tag/purrr/), a series of articles teaching purrr
+> * Digged deeper into [**purrr**](https://colinfay.me/tidystringdist/reference/tidy_stringdist.html) packge, recommended [**使用purrr package學functional programming的觀念**](https://weitinglin.com/tag/purrr/), a series of articles teaching purrr
 
 
 > * prepared for Dr.Hsieh's Public Opinion Analysis class' research proposal, focusing on cyber/water army detection
 > **Reading**: 不當行為, 活著告訴你
 
 
-### week9
+### week9_01/27
 > * results:[`project3.csv`](https://github.com/Dennishi0925/CSX_RProject_Spring_2018/blob/master/week9/titanic_prediction.csv)
 性別力, 優秀的綿羊, 
 
