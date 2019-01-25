@@ -81,7 +81,7 @@
 ### week4_12/22
 
 > **Text Mining**   
-> * finished **Chapter1** and **Chapter2** of *Mastering Text Mining with R* p.91   
+> * finished **Chapter1** and **Chapter2** of *Mastering Text Mining with R* p.91 (do not recommend this book, there are many quaility issues) 
 
 > **R-related and Basic**   
 > * Recommended [Detecting Potential Cyber Armies of Election Campaigns Based on Behavioral Analysis](https://www.slideshare.net/MingHungWang/detecting-potential-cyber-armies-of-election-campaigns-based-on-behavioral-analysis/MingHungWang/detecting-potential-cyber-armies-of-election-campaigns-based-on-behavioral-analysis?fbclid=IwAR3ZsAqyXhlHzVOXzhbIQmlmr4EFBVEllr3n1e3SxpYVX-cmJFvwTbV28eY)
@@ -107,10 +107,17 @@
 
 ### week8_01/20
 > * finished **Advanced R** courses on Datacamp
-性別力, 優秀的綿羊, 不當行為
+> * Learned [**tidystringdist**](https://colinfay.me/tidystringdist/reference/tidy_stringdist.html) packge
+> * Learned [**purrr**](https://colinfay.me/tidystringdist/reference/tidy_stringdist.html) packge, recommended [**使用purrr package學functional programming的觀念**](https://weitinglin.com/tag/purrr/), a series of articles teaching purrr
+
+
+> * prepared for Dr.Hsieh's Public Opinion Analysis class' research proposal, focusing on cyber/water army detection
+> **Reading**: 不當行為, 活著告訴你
+
 
 ### week9
 > * results:[`project3.csv`](https://github.com/Dennishi0925/CSX_RProject_Spring_2018/blob/master/week9/titanic_prediction.csv)
+性別力, 優秀的綿羊, 
 
 ### week10
 > * finished **Chapter1** & **Chapter2** & **Chapter3** of [*R Graphics Cookbook*](http://www.cookbook-r.com/Graphs/)
