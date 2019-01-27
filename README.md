@@ -111,18 +111,18 @@
 > * prepared for Dr.Hsieh's Public Opinion Analysis class' research proposal, focusing on cyber/water army detection, read 3 research papers related to the topic
 > * finished 50 pages of [*foundations of statistical natural language processing*](http://www.cookbook-r.com/Graphs/)
 > * studied half of **SQL Fundamentals for Business Intelligence** on O'reilly Safiri, installed PSQL und used it for practice
+> * Read at least 5 articles on [R-bloggers](https://www.cjr.org/index.php) daily
 > **Reading**: 不當行為, 活著告訴你
 
 ### week9_01/27
-> * Learned [**tidystringdist**](https://colinfay.me/tidystringdist/reference/tidy_stringdist.html) packge
-> * Digged deeper into [**purrr**](https://colinfay.me/tidystringdist/reference/tidy_stringdist.html) packge, recommended [**使用purrr package學functional programming的觀念**](https://weitinglin.com/tag/purrr/), a series of articles teaching purrr
+> * 3.7 Save your work finished **Chapter2** of *Data Visualization*  
 > * prepared for Dr.Hsieh's Public Opinion Analysis class' research proposal, focusing on cyber/water army detection
-> * p.50 finished 50 pages of [*foundations of statistical natural language processing*](http://www.cookbook-r.com/Graphs/)
+> * p.50 finished of [*foundations of statistical natural language processing*](http://www.cookbook-r.com/Graphs/)
 > * studied half of **SQL Fundamentals for Business Intelligence** on O'reilly Safiri, installed PSQL und used it for practice
+> * Read at least 5 articles on [R-bloggers](https://www.cjr.org/index.php) daily
 > **Reading**: 不當行為, 活著告訴你
-有機會讀Speech and Language Processing
 
-> * results:[`project3.csv`](https://github.com/Dennishi0925/CSX_RProject_Spring_2018/blob/master/week9/titanic_prediction.csv)
+有機會讀Speech and Language Processing
 性別力, 優秀的綿羊, 
 
 ### week10
