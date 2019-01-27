@@ -108,13 +108,20 @@
 ### week8_01/20
 > * Learned [**tidystringdist**](https://colinfay.me/tidystringdist/reference/tidy_stringdist.html) packge
 > * Digged deeper into [**purrr**](https://colinfay.me/tidystringdist/reference/tidy_stringdist.html) packge, recommended [**使用purrr package學functional programming的觀念**](https://weitinglin.com/tag/purrr/), a series of articles teaching purrr
-> * prepared for Dr.Hsieh's Public Opinion Analysis class' research proposal, focusing on cyber/water army detection
-> * p.50 finished **Chapter1** of [*foundations of statistical natural language processing*](http://www.cookbook-r.com/Graphs/)
+> * prepared for Dr.Hsieh's Public Opinion Analysis class' research proposal, focusing on cyber/water army detection, read 3 research papers related to the topic
+> * finished 50 pages of [*foundations of statistical natural language processing*](http://www.cookbook-r.com/Graphs/)
+> * studied half of **SQL Fundamentals for Business Intelligence** on O'reilly Safiri, installed PSQL und used it for practice
 > **Reading**: 不當行為, 活著告訴你
 
+### week9_01/27
+> * Learned [**tidystringdist**](https://colinfay.me/tidystringdist/reference/tidy_stringdist.html) packge
+> * Digged deeper into [**purrr**](https://colinfay.me/tidystringdist/reference/tidy_stringdist.html) packge, recommended [**使用purrr package學functional programming的觀念**](https://weitinglin.com/tag/purrr/), a series of articles teaching purrr
+> * prepared for Dr.Hsieh's Public Opinion Analysis class' research proposal, focusing on cyber/water army detection
+> * p.50 finished 50 pages of [*foundations of statistical natural language processing*](http://www.cookbook-r.com/Graphs/)
+> * studied half of **SQL Fundamentals for Business Intelligence** on O'reilly Safiri, installed PSQL und used it for practice
+> **Reading**: 不當行為, 活著告訴你
 有機會讀Speech and Language Processing
 
-### week9_01/27
 > * results:[`project3.csv`](https://github.com/Dennishi0925/CSX_RProject_Spring_2018/blob/master/week9/titanic_prediction.csv)
 性別力, 優秀的綿羊, 
 
@@ -128,8 +135,6 @@
 > * Goal: keeping R self-learing notes
 
 > "Practice makes perfect."
-
-
 
 ### R-related experience
 > * self-studied 16+ courses on [Datacamp](https://www.datacamp.com)
