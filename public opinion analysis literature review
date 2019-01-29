@@ -1,98 +1,36 @@
-## R_self_learn_2018/12
+## Public Opinion Analysis 
 
-### Goal
-> * Applied [Scrum](https://funevo.com/2015/06/27/scrum-ru-men-jie-shao-xin-shou-zhi-nan-introduce/) concept to self-learning path 
-> * Field: Basic and R-related, Statistics, Machine Learning, Text Mining, Data Vis, Others   
-> * week = sprint, month = scrum, weekly review on Sunday, monthly review on 2nd day of the month
+### Topic
+> * cyber army detection on social media 
+> * from abnormal behavior to content analysis
+> * key word: ???
 
-### Schedule
-> * **2018/12**: Statistics, Data Visualization   
-> * **2019/01**: R programming, Text Mining   
-> * **2018/02**: Data Visualization   
+### Course Info
+如欲修課的同學，請於開學第一週前將三頁初步計畫書以E-mail寄送給開課教師（MUST）。初步計畫書內容須包含，研究主題、研究前沿（網路上別人做到哪裡，請找英文）、所欲處理的資料、個人的程式學習狀況概述、個人修課的需求、本學期其他修課概況。
 
 ### Resource
-[Interactive Data Journalism: A One-Semester Syllabus](https://source.opennews.org/articles/interactive-data-journalism-one-semester/)   
-[MPA 635: DATA VISUALIZATION](https://datavizf18.classes.andrewheiss.com/)   
-[Data journalism syllabus: From numeracy to visualization and beyond](https://journalistsresource.org/syllabi/data-journalism-visualization-mapping-ethics-syllabus)   
-[Use Index, SQL](https://use-the-index-luke.com/sql/where-clause)   
-[Applied Stat with R](https://daviddalpiaz.github.io/appliedstats/)   
-[Data Visualization](http://socviz.co/gettingstarted.html)   
-[Nikkei DataWatch](https://asia.nikkei.com/Spotlight/Datawatch)   
-[The Data & News Society](https://dnnsociety.org)   
+[foundations of statistical natural language processing]()   
+[MPA 635](https://datavizf18.classes.andrewheiss.com/)   
+[Datand](https://jouryllabus)   
+
 
 ### week1_12/01
 
 > **Stat**   
 > * finished **Chapter16 Categorical Outcomes** of *Experimental Design & Analysis*   
-> * Reviewed **Chapter16 Chi-square Test** of *Statistics*    
+> * Reviewed **Chapter16 Chi-square Test** of *Statistics*      
 
-> **R-related and Basic**   
-> * **SQL**: Read [**Anatomy of an Index**](https://www.rdocumentation.org/packages/stringr/versions/1.1.0)   
-> * Recommended [Why R for data science – and not Python?](https://www.r-bloggers.com/why-r-for-data-science-and-not-python/)
-> * Read 5 articles on R-bloggers
+### Opinion Spam Detection in Web Forum: A Real Case Study 
 
-> **Others**   
-> * **Korean**: Korean Number, shopping, place, verb, one new chapter of listening   
-> * **Reading**: Chinese Capitalism, City of Theives
+> * Keywords: Fake Web Review; Opinion Spam Detection; Web Forum. 
+> * summary: 利用被揭露出的三星寫手門事件真實資料，區分付費寫手的發文與真實發文者的區別，利用發文時間、發文日期、發文字數、發文圖片佔比、發文英文字佔比、發文提及品牌次數...產出眾多feature，再結合發文的原始文本內容，對其進行PCA減少維度，以前述的feature以及文本內容的維度試圖建立預測文章是否為寫手發文的模型，
+> * techniques:
 
-### week2_12/08
+### Analysis of Cyber Army’s Behaviours on Web Forum for Elect Campaign
 
-> **Stat**   
-> * finished **Chapter2** of *Applied Statistics with R*   
-> * finished **Chapter16 Categorical Outcomes** of *Experimental Design & Analysis*   
-> * Reviewed **Chapter16 Chi-square Test** of *Statistics*   
-
-> **DataVis**   
-> * finished **Chapter1** of *Data Visualization*  
-> * finished **Chapter3** of *Interactive Web Design*  
-> * Read one article related to data journalism   
-
-> **R-related and Basic**   
-> * Wrote the 1st draft of Dennis' R learning path   
-> * Read one article related to data visualization   
-> * **SQL**: Read [**Anatomy of an Index**](https://www.rdocumentation.org/packages/stringr/versions/1.1.0)   
-> * Reviewed [**blogdown**](https://www.rdocumentation.org/packages/stringr/versions/1.1.0) packge
-> * Recommended [Where in the world can I study data journalism?](https://medium.com/ucd-ischool/where-in-the-world-can-i-study-data-journalism-44c006e55ea5)
-> * Read at least 5 articles on [R-bloggers](https://www.cjr.org/index.php) daily
-> * Read at least 5 articles on R-bloggers per week
-
-> **Others**   
-> * **Korean**: Korean Number, shopping
-> * **Reading**: Watergate event, 返校日
-
-### week3_12/15
-
-> **Stat**   
-> * finished **Chapter17 Logistic Regression** of *Applied Statistics with R*
-
-> **DataVis**    
-> * Read one article related to data journalism   
-
-> **R-related and Basic**   
-> * Reviewed [**tidyr**](https://www.rdocumentation.org/packages/stringr/versions/1.1.0) packge
-> * Learned [**R NLP相關**](https://www.rdocumentation.org/packages/stringr/versions/1.1.0) packge
-> * Read at least 5 articles on [R-bloggers](https://www.cjr.org/index.php) daily
-
-> **Others**   
-> * **Korean**: Korean verb
-> * **Reading**: 可畏的敵手,韓國怎麼改變的? : 崛起的真相, 紅色通緝令
-> * 準備期末考
-
-### week4_12/22
-
-> **Text Mining**   
-> * finished **Chapter1** and **Chapter2** of *Mastering Text Mining with R* p.91 (do not recommend this book, there are many quaility issues) 
-
-> **R-related and Basic**   
-> * Recommended [Detecting Potential Cyber Armies of Election Campaigns Based on Behavioral Analysis](https://www.slideshare.net/MingHungWang/detecting-potential-cyber-armies-of-election-campaigns-based-on-behavioral-analysis/MingHungWang/detecting-potential-cyber-armies-of-election-campaigns-based-on-behavioral-analysis?fbclid=IwAR3ZsAqyXhlHzVOXzhbIQmlmr4EFBVEllr3n1e3SxpYVX-cmJFvwTbV28eY)
-> * Read at least 5 articles on [R-bloggers](https://www.cjr.org/index.php) daily
-
-> **Others**   
-> * **Korean**: Korean time related noun
-> * **Reading**: 陀螺儀 by 伊版幸太郎
-
-### week5_12/29
-> * prepared final exam
+> * Keywords: Cyber army; Deception; Opinion spammer
+> * summary:
+> * techniques:
 
 ### week6_01/06
 > * finished [*Tidy evaluation*](https://tidyeval.tidyverse.org/index.html)
