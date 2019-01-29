@@ -89,7 +89,13 @@
                  常見重要指標包含ＯＯＯＯＯＯＯ待補     
       -network:  利用KNN-based model, graph-based classification等技術找出潛在的spammers，關注重點為使用者群以及店家(就電商而言)，
                  常見重要指標包含ＯＯＯＯＯＯＯ待補  
-    作者以三個實體 - 推噓文(comments)、發文(articles)、個人檔案(users)為對象，
+    就研究方法而言，本研究不採取監督式學習而採取非監督式學習基於以下幾個原因: bbs上的網軍不希望被認出故內容模仿真實用戶; 
+    bbs沒有評價系統難以分辨網軍行為; bbs的互動不像電商網站有和店家互動式的，也不像社群網站有那麼多連結，只有簡單的回文而已，難以建立網絡。
+    本研究採取的
+    作者認為網軍採取的策略是為了滿足兩個目的: 效率最大化以及避免被抓包(maximize efficiency and avoid being detected)，
+    因此其行為會有兩個特性: 使用不同帳號連續發文、同個帳號總共會發出多篇不連續的文
+    
+    以三個實體 - 推噓文(comments)、發文(articles)、個人檔案(users)為對象，
     (a)divide-and-conquer method for detecting collusive IWA in BBS: 依照貼文ID分拆資料，再來畫social network，
     接著用篩掉沒過門檻者，而後使用hierarchical clustering 
     (b)發文時間: 網軍組多半在上班時間發文比較已知網軍組與對照組(treatment group)的行為差別，抓出兩組人於特定時間段的發文紀錄並進行比較。
@@ -113,5 +119,5 @@
 > * social networks with real identities vs. BBS with anonymous identities
 > * paid users in news website/e-commerce review page/micrp-blog platforms/Bulletin Board System/social networks
 > * similarities between intenet water army and review spammers, like purpose, behavior patterns, organization, etc.
-> * Read at least 5 articles on [R-bloggers](https://www.cjr.org/index.php) daily
+> * 衝熱度不等於帶風向，想想網軍的發文incentive，中國水軍可能是以帖子計價，台灣網軍可能是以帖子以及風向計價，ID切換類似順序
 > **Reading**: 不當行為, 活著告訴你
