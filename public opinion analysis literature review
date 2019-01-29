@@ -32,7 +32,8 @@
     本研究結論為寫手文目的是在炒熱討論，然而就主文與回文有如下的差異
     (a)主文而言會將重點放在使用者體驗，傾向會有較多圖與文字，發文時間為上班時間，討論也會較為熱烈，模型判定是否為寫手較容易
     (b)因回文以維繫熱度為前提，又因為回文的寫手文章比率較低，相對較難以判斷
-> * techniques: Web Crawling, Descriptive Statistics, Bag-of-Words(結巴斷詞), Sentiment Analysis(情感分析), PCA(主成分分析), text classification(文本分類)
+> * techniques: Web Crawling, Descriptive Statistics, Chinese Segmentation(結巴斷詞), Sentiment Analysis(情感分析),
+    Bag-of-Words(詞袋計算), PCA(主成分分析), text classification(文本分類)
     利用 Scikit-Learn, Logistic Regression, SVM with linear kernel, SVM with RBF kernel 等演算法
 
 ### Analysis of Cyber Army’s Behaviours on Web Forum for Elect Campaign
@@ -53,12 +54,17 @@
 > * Author: Ming-Hung Wang and Chin-Laung Lei
 > * Keywords: Cyber army; Deception; Opinion spammer
 > * summary: 利用社群網站ptt上的選舉相關文章，以情感分析與peer to peer ratings預測選舉結果與得票率。
-    除了傳統民調以外，以社群媒體內容進行選舉預測者主要採取兩個做法: 聲量大小為基礎(volume-based)與情感為基礎(sentiment-based)，
+    就**文獻探討**而言，本研究比較了利用社群網站進行事件預測的做法
+    除了傳統民調以外，以社群媒體內容進行選舉預測主要基於: 聲量大小為基礎(volume-based)與情感為基礎(sentiment-based)，
     但上述方法主要以發文者的發文內容(text body of uauthor-generated content)為關注重點，忽略了非發文者的留言者，
     此外即使作者發了很多篇文，以發文者為關注重點的方法卻只會計算一次(they can only vote once in the election)，造成誤差，
-    本篇即是作者修改前人做法後的調整，主要強調兩點，第一是利用peer-to-peer ratings計算候選人被接受度用來平衡關注發文者與留言者，
+    本篇即是作者修改前人做法後的調整，作者以三個實體 - 推噓文(comments)、發文(articles)、候選人(candidates)為對象，主要強調兩點，
+    第一是利用peer-to-peer ratings計算候選人被接受度用來平衡關注發文者與留言者，
     第二是結合三種指標得出總體分數以建構模型，分別是peer-to-peer ratings, sentiment scores, and candidate mentioning volumes。
-    主要貢獻有三(1)(2)利用時段分析(temporal analysis)(3)
+    就**研究貢獻**而言，本研究的創新主要有三
+    (a)Peer-to-peer rating: 考慮了留言者，提出peer-to-peer ratings指標
+    (b)Public opinion monitoring: 利用時段分析(temporal analysis)於上述三個指標，發現peer-to-peer ratings有其重要性
+    (c)Election result prediction: 結合三個指標建立了較傳統方法優越的選舉結果與得票率預測模型
     就**研究方法**而言，本研究的順序如下
     (1)中文斷詞: 因社群媒體上用字與正式場合用字不同，考慮斷詞效果，本研究首先以結巴對每篇文章斷詞，剔除停止詞後計算文字使用頻率，
     選取使用頻率最高的2000個字之後手動確認斷詞後的語意是否是否合宜，而後將篩選過後的使用頻率最高的1000個字加入字典，再一次進行斷詞。
@@ -71,16 +77,13 @@
     實際計算方法請參考論文。
     (6)Hybrid Election Forecasting: VS = (Volume + Sentiment + Public.Acceptance)^2, VS代表vote share
     就**實際案例**而言，本研究以台灣2014六都市長選舉為主題，爬了PTT上八卦版與政黑版選前三個月的文章與推噓，進行了時間序列分析與選舉預測:
-    (1)Time-series analysis: 以Z分數正規化前述的三項指標後，執行時間序列分析預測選舉結果
-    (2)Prediction model accuracy: 以線性迴歸模型預測選舉結果，再和學界傳統兩種方法比較預測結果
-    作者以三個實體 - 推噓文(comments)、發文(articles)、個人檔案(users)為對象，
-    比較已知網軍組與對照組(treatment group)的行為差別，抓出兩組人於特定時間段的發文紀錄並進行比較。
-    本研究發現主要差別在於
-    (a)發文數量: 網軍組較對照組多出許多
-    (b)發文時間: 網軍組多半在上班時間發文
-    (c)發文內容: 就發文紀錄而言，兩組的市長選舉相關發文比例相似，但網軍組(連陣營)的發文與推噓文以攻擊對方陣營較多
-> * techniques: Web Crawling, Descriptive Statistics, Chinese Segmentation(結巴斷詞), Sentiment Analysis(情感分析), PCA(主成分分析), text classification(文本分類)
-    利用 Scikit-Learn, Logistic Regression, SVM with linear kernel, SVM with RBF kernel 等演算法
+    (a)Time-series analysis: 以Z分數正規化前述的三項指標後，執行時間序列分析，發現情緒與公眾接受度的變異(variance)較大，
+    研究認為聲量為較不敏感(sensitive)的指標。計算相關性後發現三者兩兩呈現正相關，聲量與情緒相關性最高，聲量與公眾接受度次之，情緒與公眾接受度最低，
+    研究認為由此可知公眾接受度可以呈現舊有輿情監測未能注意的另一個重要面向。就預測而言，研究認為這三個指標各自都值得監測但不適合單獨用來預測。
+    (b)Prediction model accuracy: 以線性迴歸模型預測選舉結果，再和學界傳統兩種方法比較預測結果。結果顯示本研究的最準確。
+ 
+> * techniques: Web Crawling, Chinese Segmentation(結巴斷詞), Sentiment Analysis(情感分析), Time Series Analysis(時間序列分析)
+    利用 Logistic Regression 進行選舉預測
 
 ### week7_01/13
 > * used [*RSelenium*](https://tidyeval.tidyverse.org/index.html) to crawled comments on Google Play
