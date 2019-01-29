@@ -78,7 +78,7 @@
 > * Author: Guirong Chen, Wandong Cai, Jiuming Huang and Xianlong Jiao
 > * Keywords: uncovering Internet water army; characterizing Internet water army behavior; user behavior analysis; online forum
 > * summary: 利用被揭露出的2014連柯台北市長選舉Sina新浪網軍帳號資料，研究網軍發文的行為。
-    文獻探討部分，作者提到兩個值得觀察的重點
+    就**文獻探討**而言，作者提到幾個值得觀察的重點
     (a)social networks with real identities vs. BBS with anonymous identities
     (b)paid users in news website/e-commerce review page/micrp-blog platforms/Bulletin Board System/social networks
     (c)similarities between intenet water army and review spammers, like purpose, behavior patterns, organization, etc.
@@ -89,11 +89,19 @@
                  常見重要指標包含ＯＯＯＯＯＯＯ待補     
       -network:  利用KNN-based model, graph-based classification等技術找出潛在的spammers，關注重點為使用者群以及店家(就電商而言)，
                  常見重要指標包含ＯＯＯＯＯＯＯ待補  
-    就研究方法而言，本研究不採取監督式學習而採取非監督式學習基於以下幾個原因: bbs上的網軍不希望被認出故內容模仿真實用戶; 
+    就**研究方法**而言，本研究不採取監督式學習而採取非監督式學習，主要基於以下幾個bbs的特性: bbs上的網軍不希望被認出故內容模仿真實用戶; 
     bbs沒有評價系統難以分辨網軍行為; bbs的互動不像電商網站有和店家互動式的，也不像社群網站有那麼多連結，只有簡單的回文而已，難以建立網絡。
-    本研究採取的
-    作者認為網軍採取的策略是為了滿足兩個目的: 效率最大化以及避免被抓包(maximize efficiency and avoid being detected)，
-    因此其行為會有兩個特性: 使用不同帳號連續發文、同個帳號總共會發出多篇不連續的文
+    作者認為，網軍採取的發文策略與其按文計價的報酬息息相關: 效率最大化以及避免被抓包(maximize efficiency and avoid being detected)，
+    因此其行為會有兩個特性: 使用不同帳號連續發文(所以網軍帳號會集體出現)、同個帳號總共會發出多篇不連續的文(所以網軍帳號會在時段內大量發文)。
+    考慮上述行為特性，本研究發展一套獨特的辨別網軍步驟，簡述如下: 
+    (1)Data decomposition and preprocessing: 將資料集切成以貼文為單位的多個次資料集，此步驟是考慮了中國水軍的行為特性，
+    較少與自己人互動，但容易集中回單篇貼文以創造熱點(hype)，且以貼文為單位進行分析可以減少時間帶來的干擾。本研究另外設下熱點貼文指標，
+    認為熱門(hot)不壹定要是水軍刻意造出來的熱點(hype)，但熱點卻一定要熱門才行，作者以熱點貼文指標過濾掉回應數量較少的貼文，減少時間浪費。
+    (2)compute the behavior similarity: 計算每則貼文下使用者之間(each pair of users)的行為相似性。
+    主要基於下列幾個指標: Participation degree similarity, Reply time similarity, Reply frequency similarity
+    (3)construct a user similarity network: 依照行為相似性繪製使用者網絡
+    (4)prune the user similarity network: 依照特定門檻篩選掉網軍身份疑慮不夠顯著者 
+    (5)perform a simple clustering algorithm: 利用clustering 以及統計分析技巧得到潛在水軍名單與對應發文
     
     以三個實體 - 推噓文(comments)、發文(articles)、個人檔案(users)為對象，
     (a)divide-and-conquer method for detecting collusive IWA in BBS: 依照貼文ID分拆資料，再來畫social network，
