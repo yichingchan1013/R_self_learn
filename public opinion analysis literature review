@@ -22,9 +22,14 @@
 
 ### Opinion Spam Detection in Web Forum: A Real Case Study 
 
+> * Author: Yu-Ren Chen and Hsin-Hsi Chen
 > * Keywords: Fake Web Review; Opinion Spam Detection; Web Forum. 
-> * summary: 利用被揭露出的三星寫手門事件真實資料，區分付費寫手的發文與真實發文者的區別，利用發文時間、發文日期、發文字數、發文圖片佔比、發文英文字佔比、發文提及品牌次數...產出眾多feature，再結合發文的原始文本內容，對其進行PCA減少維度，以前述的feature以及文本內容的維度試圖建立預測文章是否為寫手發文的模型，
-> * techniques:
+> * summary: 利用被揭露出的三星寫手門事件真實資料，區分付費寫手的發文與真實發文者的區別。
+    作者以三個實體 - 貼文串(threads)、首文(posts)、個人檔案(profiles)為對象，
+    產出眾多feature，如發文時間、發文日期、發文字數、發文圖片佔比、發文英文字佔比、發文提及品牌次數、首文是否為寫手文等，
+    再結合發文的原始文本內容，對其進行斷詞後找出bag-of-word再以PCA降維，試圖以前述feature及文本內容建立預測文章是否為寫手發文的模型。
+> * techniques: Bag-of-Words(結巴斷詞), Sentiment Analysis(情感分析), PCA(主成分分析), text classification(文本分類)
+    利用 Scikit-Learn, Logistic Regression, SVM with linear kernel, SVM with RBF kernel 等演算法
 
 ### Analysis of Cyber Army’s Behaviours on Web Forum for Elect Campaign
 
