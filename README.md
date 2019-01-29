@@ -120,7 +120,7 @@
 > * p.50 finished of [*foundations of statistical natural language processing*](http://www.cookbook-r.com/Graphs/)
 > * studied half of **SQL Fundamentals for Business Intelligence** on O'reilly Safiri, installed PSQL und used it for practice
 > * Read at least 5 articles on [R-bloggers](https://www.cjr.org/index.php) daily
-> **Reading**: 不當行為, 活著告訴你
+> **Reading**: 昏迷指數3, 
 
 有機會讀Speech and Language Processing
 性別力, 優秀的綿羊, 
