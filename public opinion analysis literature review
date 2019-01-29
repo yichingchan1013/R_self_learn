@@ -14,15 +14,7 @@
 [MPA 635](https://datavizf18.classes.andrewheiss.com/)   
 [Datand](https://jouryllabus)   
 
-
-### week1_12/01
-
-> **Stat**   
-> * finished **Chapter16 Categorical Outcomes** of *Experimental Design & Analysis*   
-> * Reviewed **Chapter16 Chi-square Test** of *Statistics*      
-
 ### Opinion Spam Detection in Web Forum: A Real Case Study 
-
 > * Author: Yu-Ren Chen and Hsin-Hsi Chen
 > * Keywords: Fake Web Review; Opinion Spam Detection; Web Forum. 
 > * summary: 利用被揭露出的三星寫手門事件mobile01真實資料，區分付費寫手的發文與真實發文者的區別。
@@ -37,7 +29,6 @@
     利用 Scikit-Learn, Logistic Regression, SVM with linear kernel, SVM with RBF kernel 等演算法
 
 ### Analysis of Cyber Army’s Behaviours on Web Forum for Elect Campaign
-
 > * Author: Man-Chun Ko and Hsin-Hsi Chen
 > * Keywords: Cyber army; Deception; Opinion spammer
 > * summary: 利用被揭露出的2014連柯台北市長選舉ptt網軍帳號資料，研究網軍發文的行為。
@@ -50,7 +41,6 @@
 > * techniques: Web Crawling, Descriptive Statistics
 
 ### Boosting Election Prediction Accuracy by Crowd Wisdom on Social Forums
-
 > * Author: Ming-Hung Wang and Chin-Laung Lei
 > * Keywords: Cyber army; Deception; Opinion spammer
 > * summary: 利用社群網站ptt上的選舉相關文章，以情感分析與peer to peer ratings預測選舉結果與得票率。
@@ -81,16 +71,33 @@
     研究認為聲量為較不敏感(sensitive)的指標。計算相關性後發現三者兩兩呈現正相關，聲量與情緒相關性最高，聲量與公眾接受度次之，情緒與公眾接受度最低，
     研究認為由此可知公眾接受度可以呈現舊有輿情監測未能注意的另一個重要面向。就預測而言，研究認為這三個指標各自都值得監測但不適合單獨用來預測。
     (b)Prediction model accuracy: 以線性迴歸模型預測選舉結果，再和學界傳統兩種方法比較預測結果。結果顯示本研究的最準確。
- 
 > * techniques: Web Crawling, Chinese Segmentation(結巴斷詞), Sentiment Analysis(情感分析), Time Series Analysis(時間序列分析)
     利用 Logistic Regression 進行選舉預測
 
-### week7_01/13
-> * used [*RSelenium*](https://tidyeval.tidyverse.org/index.html) to crawled comments on Google Play
-> * practiced logistic regression to predict response rate, taking [how to make a churn model in R](https://lukesingham.com/how-to-make-a-churn-model-in-r/) as the reference
-> * read several studies related to applications of text mining in political science and social media analysis
-> * completed my final essay titled **nature of playing sports-themed video games**, assigned by philosophical approaches to games' professor
-> **Reading**: 失控的謊言
+### Uncovering and Characterizing Internet Water Army in Online Forums
+> * Author: Guirong Chen, Wandong Cai, Jiuming Huang and Xianlong Jiao
+> * Keywords: uncovering Internet water army; characterizing Internet water army behavior; user behavior analysis; online forum
+> * summary: 利用被揭露出的2014連柯台北市長選舉Sina新浪網軍帳號資料，研究網軍發文的行為。
+    文獻探討部分，作者提到兩個值得觀察的重點
+    (a)social networks with real identities vs. BBS with anonymous identities
+    (b)paid users in news website/e-commerce review page/micrp-blog platforms/Bulletin Board System/social networks
+    (c)similarities between intenet water army and review spammers, like purpose, behavior patterns, organization, etc.
+    (d)content-based, behavior-based, network-based approaches   
+      -content:  利用NLP, 情緒分析, 文字分類, 公眾意見探勘等技術找出潛在的spam，因時間成本考量網軍習慣產出複製貼上的內容，
+                 因此有學者使用複製偵測法(duplication detection)，其他常見的做法包含考慮長度、熱門字使用比率、評論相似度等指標
+      -behavior: 利用統計分析, 使用者行為建模, 時間序列分析等技術找出潛在的spam posts，因時間成本考量網軍習慣產出複製貼上的內容，
+                 常見重要指標包含ＯＯＯＯＯＯＯ待補     
+      -network:  利用KNN-based model, graph-based classification等技術找出潛在的spammers，關注重點為使用者群以及店家(就電商而言)，
+                 常見重要指標包含ＯＯＯＯＯＯＯ待補  
+    作者以三個實體 - 推噓文(comments)、發文(articles)、個人檔案(users)為對象，
+    (a)divide-and-conquer method for detecting collusive IWA in BBS: 依照貼文ID分拆資料，再來畫social network，
+    接著用篩掉沒過門檻者，而後使用hierarchical clustering 
+    (b)發文時間: 網軍組多半在上班時間發文比較已知網軍組與對照組(treatment group)的行為差別，抓出兩組人於特定時間段的發文紀錄並進行比較。
+    本研究發現主要差別在於
+    (a)發文數量: 網軍組較對照組多出許多
+    (b)發文時間: 網軍組多半在上班時間發文
+    (c)發文內容: 就發文紀錄而言，兩組的市長選舉相關發文比例相似，但網軍組(連陣營)的發文與推噓文以攻擊對方陣營較多
+> * techniques: Web Crawling, Descriptive Statistics
 
 ### week8_01/20
 > * Learned [**tidystringdist**](https://colinfay.me/tidystringdist/reference/tidy_stringdist.html) packge
@@ -101,38 +108,10 @@
 > * Read at least 5 articles on [R-bloggers](https://www.cjr.org/index.php) daily
 > **Reading**: 不當行為, 活著告訴你
 
-### week9_01/27
-> * 3.7 Save your work finished **Chapter2** of *Data Visualization*  
-> * prepared for Dr.Hsieh's Public Opinion Analysis class' research proposal, focusing on cyber/water army detection
-> * p.50 finished of [*foundations of statistical natural language processing*](http://www.cookbook-r.com/Graphs/)
-> * studied half of **SQL Fundamentals for Business Intelligence** on O'reilly Safiri, installed PSQL und used it for practice
+### reflection
+> * behavior-based, content-based, network-based approaches   
+> * social networks with real identities vs. BBS with anonymous identities
+> * paid users in news website/e-commerce review page/micrp-blog platforms/Bulletin Board System/social networks
+> * similarities between intenet water army and review spammers, like purpose, behavior patterns, organization, etc.
 > * Read at least 5 articles on [R-bloggers](https://www.cjr.org/index.php) daily
 > **Reading**: 不當行為, 活著告訴你
-
-有機會讀Speech and Language Processing
-性別力, 優秀的綿羊, 
-
-### week10
-> * finished **Chapter1** & **Chapter2** & **Chapter3** of [*R Graphics Cookbook*](http://www.cookbook-r.com/Graphs/)
-
-### self-introduction
-> * Name: Dennis Tseng
-> * Major: Business Administration
-> * School: National Taiwan University
-> * Goal: keeping R self-learing notes
-
-> "Practice makes perfect."
-
-### R-related experience
-> * self-studied 16+ courses on [Datacamp](https://www.datacamp.com)
-> * finished first 7 chapters of [The art of R programming](http://diytranscriptomics.com/Reading/files/The%20Art%20of%20R%20Programming.pdf)
-> * finished [Hands-On Programming with R](http://shop.oreilly.com/product/0636920028574.do)
-> * finished [R for Data Science](http://r4ds.had.co.nz)
-> * finished [Text Mining with R](https://www.tidytextmining.com/)
-> * finished first 5 chapters of [Machine Learning with R](https://the-eye.eu/public/Books/Programming/Machine%20Learning%20with%20R%20-%20Second%20Edition%20%5BeBook%5D.pdf)
-
-### Homework & Project links
-> * **Homework**: [`HW2`](https://dennishi0925.github.io/CSX_RProject_Spring_2018/week2/HW2.html), [`HW3`](https://dennishi0925.github.io/CSX_RProject_Spring_2018/week3/HW3.html)
-> * **Project**: [`project1`](
-https://dennishi0925.github.io/CSX_RProject_Spring_2018/project1/project01.html), [`project2`](https://docs.google.com/presentation/d/1VWUVwEL3ItNMLSffdv3-53xGA-xP0vYW7hlBx3MF0u8/edit#slide=id.p)
-
