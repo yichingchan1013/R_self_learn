@@ -115,18 +115,22 @@
 > **Reading**: 不當行為, 活著告訴你
 
 ### week9_01/27
-> * 3.7 Save your work finished **Chapter2** of *Data Visualization*  
+> * finished **Chapter2** of *Data Visualization*  
 > * prepared for Dr.Hsieh's Public Opinion Analysis class' research proposal, focusing on cyber/water army detection
-> * p.50 finished of [*foundations of statistical natural language processing*](http://www.cookbook-r.com/Graphs/)
-> * studied half of **SQL Fundamentals for Business Intelligence** on O'reilly Safiri, installed PSQL und used it for practice
+> * finished 10 pages of [*foundations of statistical natural language processing*](http://www.cookbook-r.com/Graphs/)
 > * Read at least 5 articles on [R-bloggers](https://www.cjr.org/index.php) daily
-> **Reading**: 昏迷指數3, 
+> **Reading**: 昏迷指數3, 犯罪小說家, 希波克拉底的誓言
 
-有機會讀Speech and Language Processing
-性別力, 優秀的綿羊, 
 
 ### week10
+> * 3.7 Save your work finished **Chapter2** of *Data Visualization*  
+> * prepared for Dr.Hsieh's Public Opinion Analysis class' research proposal, focusing on cyber/water army detection
+> * finished 10 pages of [*foundations of statistical natural language processing*](http://www.cookbook-r.com/Graphs/)
+> * Read at least 5 articles on [R-bloggers](https://www.cjr.org/index.php) daily
+> **Reading**: 昏迷指數3, 犯罪小說家, 希波克拉底的誓言
 > * finished **Chapter1** & **Chapter2** & **Chapter3** of [*R Graphics Cookbook*](http://www.cookbook-r.com/Graphs/)
+有機會讀Speech and Language Processing
+性別力, 優秀的綿羊, 
 
 ### self-introduction
 > * Name: Dennis Tseng
