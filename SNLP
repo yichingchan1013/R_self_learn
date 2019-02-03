@@ -1,0 +1,171 @@
+## Statistical Natural Language Processing
+
+### Topic
+> * cyber army detection on social media 
+> * from abnormal behavior to content analysis
+> * key word: ???
+
+### Course Info
+如欲修課的同學，請於開學第一週前將三頁初步計畫書以E-mail寄送給開課教師（MUST）。
+初步計畫書內容須包含，研究主題、研究前沿（網路上別人做到哪裡，請找英文）、所欲處理的資料、個人的程式學習狀況概述、個人修課的需求、本學期其他修課概況。
+
+### Resource
+[foundations of statistical natural language processing]()   
+[MPA 635](https://datavizf18.classes.andrewheiss.com/)   
+[Datand](https://jouryllabus)   
+
+### Chapter 1 Introduction     
+原本的語言學會去尋找語言的規則譬如文法，再來會試圖分辨什麼是好的vs.不好的，但嘗試做這件事情面臨到的問題是語言要跟上人類的需求，
+所以常常會有文法上的變化，所以前述的規則就很難一體適用，而這本書的做法不僅僅做分拆，更想做的事情其實是找pattern
+（跟前面的做法比起來，前者比較像是嘗試找出規範性的規則，但遇到問題了，後者則是比較敘述性，直接看結果），
+所以就利用數學算術以及統計跟機率來計算語言的元素
+
+rationalist: 給機器一定的知識以及推理系統就可以像人類一樣
+empiricist: 跟r差在程度差距，也假定人有一些基本的運作系統，對怎樣開展推理或運作有特別的偏好，但是相對前者比較抽象/高階，r會直接假設人腦預設了一套語言規則系統，但e只認為人可能會有發現關聯、辨認模式、歸納法等，透過input可能是教學可能是環境耳濡目染，讓人可以學會語言
+
+就NLP而言，r比較偏向給定一些規則接著讓機器運作，e比較偏向給一些大方向/函數，細部的操作/參數則由統計或機器學習決定
+
+E很強調以corpus為背景學習text的意涵/用途（因為沒辦法從真實世界直接學習，所以會看特定文本底下的text）
+I-language: language module of the human mind
+E-language: data such as texts (the E-language)
+
+r-linguistic competence 語言能力: reflects the knowledge of language structure that is assumed to be in the mind of a native speaker; one can
+isolate linguistic competence and describe it in isolation
+e-linguistic performance 語言表現: in the world, which is affected by all sorts of things such as memory limitations and distracting
+noises in the environment; reject this notion and want to describe actual use of language.
+
+上面大概是講說r認為有所謂的語言能力，人內建能力可以理解語言架構，e則關注實際語言被實際使用的狀況
+最後小結論，r就是設定規則（先驗的）看文句，e則是用統計（後驗的）看文句
+
+兩個語言學家應該問的問題
+-What kinds of things do people say? 
+-What do these things say/ask/request about the world?
+看文本內的pattern其實就可以讓我們理解文句的句法架構，所以NLP就在處理這塊，也就回答了第一個問題
+又跳回去講R會怎麼回答第一個問題，R會用文法來講，值得注意的是，grammality純粹用來說這句話是不是well-formed，但判斷標準卻不是以人們會不會這樣說來決定，也就是說利用某些規則去評價，但這些規則未必貼合現實（譬如說非母語使用者會講一些文法對的話，但講出來很怪）也就是說，有些句子文法對有些句子文法錯，so what，這個（文法對錯）的資訊到底告訴了我們什麼？（既然不是用現實情況來評價的話）
+
+#語言的non-categorical(categorical: 明確的) 現象
+正因為語言變遷普遍來說是隨時間慢慢演化的，因此若要觀察這樣的趨勢不是直接說喔喔這個詞是什麼屬性有什麼用途，較好的作法應該是觀察使用頻率以及和其他詞彙的關係，也就是說應該是用統計方法而非明確的觀察判斷，更激進一點說：把Language and cognition以 probabilistic phenomena看待
+批評者說，統計不能告訴我們一段話的意義是什麼，但是作者回應，統計會問要怎麼定義一段話的意義？從統計NLP的角度來看，意義會在於distribution of contexts over which words and utterances are used.也呼應前述的"the meaning of a word is defined by the circumstances of its use"
+
+a practical NLP system must be good at making disambiguation decisions of word sense, word category, syntactic structure, and
+semantic scope. But the goal of maximizing coverage while minimizing resultant ambiguity is fundamentally inconsistent with  symbolic NLP
+systems, where extending the coverage of the grammar to obscure constructions simply increases the number of undesired parses for common sentences and vice versa.
+A Statistical NLP approach seeks to solve these problems by automatically learning lexical and structural preferences from corpora. Rather than parsing solely using syntactic categories, such as part of speech labels, we recognize that there is a lot of information in the relationships between words, that is, which words tend to group with each other.
+In particular, the use of statistical models offers a good solution to the ambiguity problem: statistical models are robust,
+generalize well, and behave gracefully in the presence of errors and new data.
+
+第一個問題等同問
+Rather than starting off by dividing sentences into grammatical and ungrammatical ones, we instead ask, 
+“What are the common patterns that occur in language use?” The major tool which we use to identify these patterns is counting things, 
+otherwise known as statistics, and so the scientific foundation of the book is found in probability theory.
+
+How many words are there in the text?
+1. How many word tokens there are: 
+2. How many different words (how many word types): 
+tokens, individual occurrences of something
+types, the different things present
+the ratio of tokens to types, which is simply the average frequency with which each type is used
+
+
+
+### Analysis of Cyber Army’s Behaviours on Web Forum for Elect Campaign
+> * Author: Man-Chun Ko and Hsin-Hsi Chen
+> * Keywords: Cyber army; Deception; Opinion spammer
+> * summary: 利用被揭露出的2014連柯台北市長選舉ptt網軍帳號資料，研究網軍發文的行為。
+    作者以三個實體 - 推噓文(comments)、發文(articles)、個人檔案(users)為對象，
+    比較已知網軍組與對照組(treatment group)的行為差別，抓出兩組人於特定時間段的發文紀錄並進行比較。
+    本研究發現主要差別在於
+    (a)發文數量: 網軍組較對照組多出許多
+    (b)發文時間: 網軍組多半在上班時間發文
+    (c)發文內容: 就發文紀錄而言，兩組的市長選舉相關發文比例相似，但網軍組(連陣營)的發文與推噓文以攻擊對方陣營較多
+> * techniques: Web Crawling, Descriptive Statistics
+
+### Boosting Election Prediction Accuracy by Crowd Wisdom on Social Forums
+> * Author: Ming-Hung Wang and Chin-Laung Lei
+> * Keywords: Cyber army; Deception; Opinion spammer
+> * summary: 利用社群網站ptt上的選舉相關文章，以情感分析與peer to peer ratings預測選舉結果與得票率。
+    就**文獻探討**而言，本研究比較了利用社群網站進行事件預測的做法
+    除了傳統民調以外，以社群媒體內容進行選舉預測主要基於: 聲量大小為基礎(volume-based)與情感為基礎(sentiment-based)，
+    但上述方法主要以發文者的發文內容(text body of uauthor-generated content)為關注重點，忽略了非發文者的留言者，
+    此外即使作者發了很多篇文，以發文者為關注重點的方法卻只會計算一次(they can only vote once in the election)，造成誤差，
+    本篇即是作者修改前人做法後的調整，作者以三個實體 - 推噓文(comments)、發文(articles)、候選人(candidates)為對象，主要強調兩點，
+    第一是利用peer-to-peer ratings計算候選人被接受度用來平衡關注發文者與留言者，
+    第二是結合三種指標得出總體分數以建構模型，分別是peer-to-peer ratings, sentiment scores, and candidate mentioning volumes。
+    就**研究貢獻**而言，本研究的創新主要有三
+    (a)Peer-to-peer rating: 考慮了留言者，提出peer-to-peer ratings指標
+    (b)Public opinion monitoring: 利用時段分析(temporal analysis)於上述三個指標，發現peer-to-peer ratings有其重要性
+    (c)Election result prediction: 結合三個指標建立了較傳統方法優越的選舉結果與得票率預測模型
+    就**研究方法**而言，本研究的順序如下
+    (1)中文斷詞: 因社群媒體上用字與正式場合用字不同，考慮斷詞效果，本研究首先以結巴對每篇文章斷詞，剔除停止詞後計算文字使用頻率，
+    選取使用頻率最高的2000個字之後手動確認斷詞後的語意是否是否合宜，而後將篩選過後的使用頻率最高的1000個字加入字典，再一次進行斷詞。
+    (2)聲量計算: 對每篇文的每個詞進行確認，若文章有詞包含候選人相關名稱，則判定屬於該候選人相關文章，同篇文可能同時和多位候選人有關。
+    (3)情緒分數計算: 對每篇文的每個詞進行確認，依據詞彙的正負替候選人的正負情緒分數各自加分。
+    (4)候選人被接受度: 前面的聲量與情緒分數計算對象皆為發文(articles)，本指標的計算對象則涵蓋推噓文(comments)，
+    計算每篇候選人相關發文累積的推噓後各自加總，兩者相減後得到候選人被接受度分數。
+    (5)Smoothing: 為捕捉時序效果，本研究以日為單位計算上述三項指標，但因為選舉的特性包含不特定的重大事件，需要進行撫平(smoothing)，
+    又考慮到離選舉近的事件影響更大，故另外進行了N-day exponential weighted moving average (EWMA) on daily observations.
+    實際計算方法請參考論文。
+    (6)Hybrid Election Forecasting: VS = (Volume + Sentiment + Public.Acceptance)^2, VS代表vote share
+    就**實際案例**而言，本研究以台灣2014六都市長選舉為主題，爬了PTT上八卦版與政黑版選前三個月的文章與推噓，進行了時間序列分析與選舉預測:
+    (a)Time-series analysis: 以Z分數正規化前述的三項指標後，執行時間序列分析，發現情緒與公眾接受度的變異(variance)較大，
+    研究認為聲量為較不敏感(sensitive)的指標。計算相關性後發現三者兩兩呈現正相關，聲量與情緒相關性最高，聲量與公眾接受度次之，情緒與公眾接受度最低，
+    研究認為由此可知公眾接受度可以呈現舊有輿情監測未能注意的另一個重要面向。就預測而言，研究認為這三個指標各自都值得監測但不適合單獨用來預測。
+    (b)Prediction model accuracy: 以線性迴歸模型預測選舉結果，再和學界傳統兩種方法比較預測結果。結果顯示本研究的最準確。
+> * techniques: Web Crawling, Chinese Segmentation(結巴斷詞), Sentiment Analysis(情感分析), Time Series Analysis(時間序列分析)
+    利用 Logistic Regression 進行選舉預測
+
+### Uncovering and Characterizing Internet Water Army in Online Forums
+> * Author: Guirong Chen, Wandong Cai, Jiuming Huang and Xianlong Jiao
+> * Keywords: uncovering Internet water army; characterizing Internet water army behavior; user behavior analysis; online forum
+> * summary: 利用被揭露出的2014連柯台北市長選舉Sina新浪網軍帳號資料，研究網軍發文的行為。
+    就**文獻探討**而言，作者提到幾個值得觀察的重點
+    (a)social networks with real identities vs. BBS with anonymous identities
+    (b)paid users in news website/e-commerce review page/micrp-blog platforms/Bulletin Board System/social networks
+    (c)similarities between intenet water army and review spammers, like purpose, behavior patterns, organization, etc.
+    (d)content-based, behavior-based, network-based approaches   
+      -content:  利用NLP, 情緒分析, 文字分類, 公眾意見探勘等技術找出潛在的spam，因時間成本考量網軍習慣產出複製貼上的內容，
+                 因此有學者使用複製偵測法(duplication detection)，其他常見的做法包含考慮長度、熱門字使用比率、評論相似度等指標
+      -behavior: 利用統計分析, 使用者行為建模, 時間序列分析等技術找出潛在的spam posts，因時間成本考量網軍習慣產出複製貼上的內容，
+                 常見重要指標包含ＯＯＯＯＯＯＯ待補     
+      -network:  利用KNN-based model, graph-based classification等技術找出潛在的spammers，關注重點為使用者群以及店家(就電商而言)，
+                 常見重要指標包含ＯＯＯＯＯＯＯ待補  
+    就**研究方法**而言，本研究不採取監督式學習而採取非監督式學習，主要基於以下幾個bbs的特性: bbs上的網軍不希望被認出故內容模仿真實用戶; 
+    bbs沒有評價系統難以分辨網軍行為; bbs的互動不像電商網站有和店家互動式的，也不像社群網站有那麼多連結，只有簡單的回文而已，難以建立網絡。
+    作者認為，網軍採取的發文策略與其按文計價的報酬息息相關: 效率最大化以及避免被抓包(maximize efficiency and avoid being detected)，
+    因此其行為會有兩個特性: 使用不同帳號連續發文(所以網軍帳號會集體出現)、同個帳號總共會發出多篇不連續的文(所以網軍帳號會在時段內大量發文)。
+    考慮上述行為特性，本研究發展一套獨特的辨別網軍步驟，簡述如下: 
+    (1)Data decomposition and preprocessing: 將資料集切成以貼文為單位的多個次資料集，此步驟是考慮了中國水軍的行為特性，
+    較少與自己人互動，但容易集中回單篇貼文以創造熱點(hype)，且以貼文為單位進行分析可以減少時間帶來的干擾。本研究另外設下熱點貼文指標，
+    認為熱門(hot)不壹定要是水軍刻意造出來的熱點(hype)，但熱點卻一定要熱門才行，作者以熱點貼文指標過濾掉回應數量較少的貼文，減少時間浪費。
+    (2)compute the behavior similarity: 計算每則貼文下使用者之間(each pair of users)的行為相似性。
+    主要基於下列幾個指標: Participation degree similarity, Reply time similarity, Reply frequency similarity
+    (3)construct a user similarity network: 依照行為相似性繪製使用者網絡
+    (4)prune the user similarity network: 依照特定門檻篩選掉網軍身份疑慮不夠顯著者 
+    (5)perform a simple clustering algorithm: 利用clustering 以及統計分析技巧得到潛在水軍名單與對應發文
+    
+    以三個實體 - 推噓文(comments)、發文(articles)、個人檔案(users)為對象，
+    (a)divide-and-conquer method for detecting collusive IWA in BBS: 依照貼文ID分拆資料，再來畫social network，
+    接著用篩掉沒過門檻者，而後使用hierarchical clustering 
+    (b)發文時間: 網軍組多半在上班時間發文比較已知網軍組與對照組(treatment group)的行為差別，抓出兩組人於特定時間段的發文紀錄並進行比較。
+    本研究發現主要差別在於
+    (a)發文數量: 網軍組較對照組多出許多
+    (b)發文時間: 網軍組多半在上班時間發文
+    (c)發文內容: 就發文紀錄而言，兩組的市長選舉相關發文比例相似，但網軍組(連陣營)的發文與推噓文以攻擊對方陣營較多
+> * techniques: Web Crawling, Descriptive Statistics
+
+### week8_01/20
+> * Learned [**tidystringdist**](https://colinfay.me/tidystringdist/reference/tidy_stringdist.html) packge
+> * Digged deeper into [**purrr**](https://colinfay.me/tidystringdist/reference/tidy_stringdist.html) packge, recommended [**使用purrr package學functional programming的觀念**](https://weitinglin.com/tag/purrr/), a series of articles teaching purrr
+> * prepared for Dr.Hsieh's Public Opinion Analysis class' research proposal, focusing on cyber/water army detection, read 3 research papers related to the topic
+> * finished 50 pages of [*foundations of statistical natural language processing*](http://www.cookbook-r.com/Graphs/)
+> * studied half of **SQL Fundamentals for Business Intelligence** on O'reilly Safiri, installed PSQL und used it for practice
+> * Read at least 5 articles on [R-bloggers](https://www.cjr.org/index.php) daily
+> **Reading**: 不當行為, 活著告訴你
+
+### reflection
+> * behavior-based, content-based, network-based approaches   
+> * social networks with real identities vs. BBS with anonymous identities
+> * paid users in news website/e-commerce review page/micrp-blog platforms/Bulletin Board System/social networks
+> * similarities between intenet water army and review spammers, like purpose, behavior patterns, organization, etc.
+> * 衝熱度不等於帶風向，想想網軍的發文incentive，中國水軍可能是以帖子計價，台灣網軍可能是以帖子以及風向計價，ID切換類似順序
+> **Reading**: 不當行為, 活著告訴你
