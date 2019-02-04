@@ -1,5 +1,6 @@
 ## Statistical Natural Language Processing
-p.60
+p.69
+https://dictionary.cambridge.org/zht/%E8%A9%9E%E5%85%B8/%E8%8B%B1%E8%AA%9E/
 ### Topic
 > * cyber army detection on social media 
 > * from abnormal behavior to content analysis
@@ -59,14 +60,15 @@ Rather than starting off by dividing sentences into grammatical and ungrammatica
 “What are the common patterns that occur in language use?” The major tool which we use to identify these patterns is counting things, 
 otherwise known as statistics, and so the scientific foundation of the book is found in probability theory.
 
-How many words are there in the text?
+* 其他語言學家會感興趣的問題   
+> How many words are there in the text?
 1. How many word tokens there are: 
 2. How many different words (how many word types): 
 tokens, individual occurrences of something
 types, the different things present
 the ratio of tokens to types, which is simply the average frequency with which each type is used
-
-
+> collocations
+> concordances
 
 ### Analysis of Cyber Army’s Behaviours on Web Forum for Elect Campaign
 > * Author: Man-Chun Ko and Hsin-Hsi Chen
