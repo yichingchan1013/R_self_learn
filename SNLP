@@ -70,17 +70,11 @@ the ratio of tokens to types, which is simply the average frequency with which e
 > collocations
 > concordances
 
-### Analysis of Cyber Army’s Behaviours on Web Forum for Elect Campaign
-> * Author: Man-Chun Ko and Hsin-Hsi Chen
-> * Keywords: Cyber army; Deception; Opinion spammer
-> * summary: 利用被揭露出的2014連柯台北市長選舉ptt網軍帳號資料，研究網軍發文的行為。
-    作者以三個實體 - 推噓文(comments)、發文(articles)、個人檔案(users)為對象，
-    比較已知網軍組與對照組(treatment group)的行為差別，抓出兩組人於特定時間段的發文紀錄並進行比較。
-    本研究發現主要差別在於
-    (a)發文數量: 網軍組較對照組多出許多
-    (b)發文時間: 網軍組多半在上班時間發文
-    (c)發文內容: 就發文紀錄而言，兩組的市長選舉相關發文比例相似，但網軍組(連陣營)的發文與推噓文以攻擊對方陣營較多
-> * techniques: Web Crawling, Descriptive Statistics
+### Chapter 2 math 
+* 資訊理論相關簡介:
+編碼理論ch1-3 http://aries.dyu.edu.tw/~thhu/
+如何找出劣幣?—簡介訊息與熵的概念 https://web.math.sinica.edu.tw/math_media/d223/22303.pdf
+聊不來，聊的來?-初探資訊理論 http://kuanchen-blog.logdown.com/posts/333763
 
 ### Boosting Election Prediction Accuracy by Crowd Wisdom on Social Forums
 > * Author: Ming-Hung Wang and Chin-Laung Lei
