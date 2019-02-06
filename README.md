@@ -19,6 +19,7 @@
 [Data Visualization](http://socviz.co/gettingstarted.html)   
 [Nikkei DataWatch](https://asia.nikkei.com/Spotlight/Datawatch)   
 [The Data & News Society](https://dnnsociety.org)   
+[The Data Journalism Handbook 2](https://datajournalismhandbook.org/handbook/two)
 
 ### week1_12/01
 
@@ -122,7 +123,20 @@
 > **Reading**: 昏迷指數3, 犯罪小說家, 希波克拉底的誓言
 
 
-### week10
+### week10_02/03
+> * 3.7 Save your work finished **Chapter2** of *Data Visualization*  
+> * prepared for Dr.Hsieh's Public Opinion Analysis class' research proposal, focusing on cyber/water army detection
+> * finished 10 pages of [*foundations of statistical natural language processing*](http://www.cookbook-r.com/Graphs/)
+> * Recommended [How the BBC Visual and Data Journalism team works with graphics in R](
+https://medium.com/bbc-visual-and-data-journalism/how-the-bbc-visual-and-data-journalism-team-works-with-graphics-in-r-ed0b35693535?fbclid=IwAR2Z5Mp4FJA7VHkE1V7rrcXTv3AJM-_BFddKSNIwQ9skqUrRl6JqfkU37zU
+)
+> * Read at least 5 articles on [R-bloggers](https://www.cjr.org/index.php) daily
+> **Reading**: 昏迷指數3, 犯罪小說家, 希波克拉底的誓言
+> * finished **Chapter1** & **Chapter2** & **Chapter3** of [*R Graphics Cookbook*](http://www.cookbook-r.com/Graphs/)
+有機會讀Speech and Language Processing
+性別力, 優秀的綿羊, 
+
+### week10_02/03
 > * 3.7 Save your work finished **Chapter2** of *Data Visualization*  
 > * prepared for Dr.Hsieh's Public Opinion Analysis class' research proposal, focusing on cyber/water army detection
 > * finished 10 pages of [*foundations of statistical natural language processing*](http://www.cookbook-r.com/Graphs/)
