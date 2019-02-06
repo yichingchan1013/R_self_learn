@@ -1,19 +1,9 @@
 ## Statistical Natural Language Processing
-p.99
+p
 https://dictionary.cambridge.org/zht/%E8%A9%9E%E5%85%B8/%E8%8B%B1%E8%AA%9E/
-### Topic
-> * cyber army detection on social media 
-> * from abnormal behavior to content analysis
-> * key word: ???
-
-### Course Info
-如欲修課的同學，請於開學第一週前將三頁初步計畫書以E-mail寄送給開課教師（MUST）。
-初步計畫書內容須包含，研究主題、研究前沿（網路上別人做到哪裡，請找英文）、所欲處理的資料、個人的程式學習狀況概述、個人修課的需求、本學期其他修課概況。
 
 ### Resource
 [foundations of statistical natural language processing]()   
-[MPA 635](https://datavizf18.classes.andrewheiss.com/)   
-[Datand](https://jouryllabus)   
 
 ### Chapter 1 Introduction     
 原本的語言學會去尋找語言的規則譬如文法，再來會試圖分辨什麼是好的vs.不好的，但嘗試做這件事情面臨到的問題是語言要跟上人類的需求，
@@ -72,11 +62,15 @@ the ratio of tokens to types, which is simply the average frequency with which e
 
 ### Chapter 2 math 
 * 資訊理論相關簡介:
-編碼理論ch1-3 http://aries.dyu.edu.tw/~thhu/
-如何找出劣幣?—簡介訊息與熵的概念 https://web.math.sinica.edu.tw/math_media/d223/22303.pdf
-聊不來，聊的來?-初探資訊理論 http://kuanchen-blog.logdown.com/posts/333763
- https://charlesliuyx.github.io/2017/09/11/%E4%BB%80%E4%B9%88%E6%98%AF%E4%BF%A1%E6%81%AF%E7%86%B5%E3%80%81%E4%BA%A4%E5%8F%89%E7%86%B5%E5%92%8C%E7%9B%B8%E5%AF%B9%E7%86%B5/
- http://interactivepython.org/runestone/static/pythonds/Introduction/toctree.html
+> 編碼理論ch1-3 http://aries.dyu.edu.tw/~thhu/
+> 如何找出劣幣?—簡介訊息與熵的概念 https://web.math.sinica.edu.tw/math_media/d223/22303.pdf
+> 聊不來，聊的來?-初探資訊理論 http://kuanchen-blog.logdown.com/posts/333763
+>  https://charlesliuyx.github.io/2017/09/11/%E4%BB%80%E4%B9%88%E6%98%AF%E4%BF%A1%E6%81%AF%E7%86%B5%E3%80%81%E4%BA%A4%E5%8F%89%E7%86%B5%E5%92%8C%E7%9B%B8%E5%AF%B9%E7%86%B5/
+>  http://interactivepython.org/runestone/static/pythonds/Introduction/toctree.html
+>  https://zhuanlan.zhihu.com/p/26486223
+> 求通俗解释NLP里的perplexity是什么？ https://www.zhihu.com/question/58482430
+上面這連結cover書裡面資訊理論的段落了
+
 ### Boosting Election Prediction Accuracy by Crowd Wisdom on Social Forums
 > * Author: Ming-Hung Wang and Chin-Laung Lei
 > * Keywords: Cyber army; Deception; Opinion spammer
