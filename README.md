@@ -2,7 +2,7 @@
 
 ### Goal
 > * Applied [Scrum](https://funevo.com/2015/06/27/scrum-ru-men-jie-shao-xin-shou-zhi-nan-introduce/) concept to self-learning path 
-> * Field: Basic and R-related, Statistics, Machine Learning, Text Mining, Data Vis, Others   
+> * Field: Basic and R-related, Statistics, Machine Learning, Text Mining, Data Vis, Data Jounalsim, Others   
 > * week = sprint, month = scrum, weekly review on Sunday, monthly review on 2nd day of the month
 
 ### Schedule
@@ -20,6 +20,7 @@
 [Nikkei DataWatch](https://asia.nikkei.com/Spotlight/Datawatch)   
 [The Data & News Society](https://dnnsociety.org)   
 [The Data Journalism Handbook 2](https://datajournalismhandbook.org/handbook/two)
+[data-journalism-awards](https://medium.com/data-journalism-awards)
 
 ### week1_12/01
 
