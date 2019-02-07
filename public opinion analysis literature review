@@ -77,7 +77,7 @@
 ### Uncovering and Characterizing Internet Water Army in Online Forums
 > * Author: Guirong Chen, Wandong Cai, Jiuming Huang and Xianlong Jiao
 > * Keywords: uncovering Internet water army; characterizing Internet water army behavior; user behavior analysis; online forum
-> * summary: 利用被揭露出的2014連柯台北市長選舉Sina新浪網軍帳號資料，研究網軍發文的行為。
+> * summary: 利用Sina新浪論壇的討論與回覆，辨識出可能的水軍。
     就**文獻探討**而言，作者提到幾個值得觀察的重點
     (a)social networks with real identities vs. BBS with anonymous identities
     (b)paid users in news website/e-commerce review page/micrp-blog platforms/Bulletin Board System/social networks
@@ -168,6 +168,55 @@
     (c)和學界傳統兩種方法比較預測結果。結果顯示本研究的最準確。
 > * techniques: Web Crawling, 利用 Linear Regression 進行預測
     
+### Behavior Modeling of Internet Water Army in Online Forums
+> * Author: Ke Zeng, Xiao Wang, Qingpeng Zhang, Xinzhan Zhang, Fei-Yue Wang
+> * Keywords: Social networks; Social media; Information Filtering; Opinion Leader; Public Opinion 
+> * summary: 利用社群網站ptt上的選舉相關文章，設計模型有效率地找出熱門主題文章並且辨識有影嚮力的作者．
+    作者認為，水軍(internet water army/astroturfer)採取的發文策略有兩個特點:
+    增加影響力以及避免被抓包(increase the ability to exert influence and avoid being detected)，
+    和先前水軍行為研究的主要差別在於，前者強調效率最大化，本研究強調增加影響力(influence)與效果(efficiency)
+    因希望能夠理解網軍在集體意見形成過程中的內有機制，因此將重點放在水軍的知識探勘、行為學習、策略調整。
+    本研究建制了multi-agent system模擬水軍行為，
+    就**文獻探討**而言，本研究介紹了過往(a)預測網路內容受歡迎程度(popularity)(b)預測網路內容評價(ratings)的做法，
+    (a)最常見的方式是以使用者時序上的行為或內容的早期受歡迎程度紀錄預測未來受歡迎程度(temporal and early-access behavior)，
+    (b)最常見的方式是對回覆(reviews)進行文字探勘/情感分析，得出特性後建立模型，本研究則使用早期回覆紀錄(early rating records)建立模型。
+    (c)學者指出社會事件發生時，由於短時間內資訊量會大幅上升，一篇文章若想要有意義，需要有人認真對待並且有他人回覆。
+    (d)學者認為意見領袖的傳播運作分為兩個階段，首先意見領袖會接收傳播媒體的訊息，消化後再將訊息散播給各自的讀者。
+    意見領袖的領袖特質通常可以用三個面向進行評估:
+    就**研究貢獻**而言，本研究的貢獻主要有二
+    (a)預測熱門文章: 利用回歸模型預測文章是否重要
+    (b)辨識重要作者: 表現超越舊有辨識重要作者的方法
+    就**研究方法**而言，本研究的架構如下
+    1.預測熱門文章: 預測(a)文章回應數(discussion frequency)與(b)文章評價(public ratings) 2.辨識重要作者:
+    (a)預測文章回應數(Article Reply Quantity Prediction):
+     (1)主要指標: 回覆數量的時序改變，計算每篇文章p在時間內(以固定秒數為時段t乘上時段數量s算出總時間)的回應，以Dp表示
+     (2)其他指標: 文章總體相關指標如文章長度，發文時段屬於上班或下班時，間發文日期屬於週間或週末
+     模型應變數為文章總回應數Tp，自變數為所有主要指標(sigma(xi*Di))與文章相關指標
+    (b)預測文章評價(Article Rating Score Prediction):
+     因本研究認為高度正評或高度負評的文章代表公眾對其評價立場一致，也代表公眾會更關心這篇文章，因此本研究希望能夠計算出一篇文章的總評價，
+     計算文章的評價方式為以文章的總正評減去總負評得到總評分數(總回應數是總正評加上總負評加上中立評論)。此外因本研究希望減少預測所需時間，
+     因此目標是找到前n篇評論與整體文章評論相關係數大於等於0.8的門檻，便能夠以前n篇評論預測整篇文章的評價。
+      (1)主要指標: 前n篇評論的正評數與負評數
+      (2)其他指標: 前n篇評論的n值，前n篇評論出現所花費時間，文章總字數，文章出現關鍵字
+      因觀察到文章發文時間與評論時間的時間差呈現log-normal分佈，因此作者對前n篇評論出現時間進行log transformation，
+      此外也發現正評數與負評數都呈現指數分佈，因此針對文章總評價進行了保持其極化程度的log transformation，
+      計算方式是以sgn(總評價)*log(|總評價+1|)，其中sgn(x) = 1 若a>=1, sgn(x) = -1 otherwise(猜測這邊的a應該要改成x?)
+      模型也考慮了前n篇評論中正評與負評與前n篇評論出現所需時間的交互項，因其可能會有interdependence，例如前面正評多可能影響後面負評變少
+    (c)辨識重要作者(Hybrid Influential Author Identification):
+     因本研究希望發現有影響力的作者，因此混合考慮受大眾認同程度(正負評)以及總體熱門程度(回應)
+     (1)單篇文章共識度: 文章總評價/文章總回應數 = 正減掉負/正加負加中立，在正負一之間
+     (2)作者共識分數: sigma(單篇文章共識度)/作者總文章數
+     (3)作者影響力分數: sigma(單篇文章共識度*log(文章總回應數))/作者總文章數，相較共識分數額外考慮了作者發文的回應數
+     為找出有影響力的作者，又希望避免少回應導致高共識程度的bias(只有五篇推文的文章)，因此本研究僅列入有二十則回應以上的文章。
+    就**實際案例**而言，本研究以台灣的(a)太陽花學運(b)2014六都市長選舉(c)2016總統大選為主題，爬了PTT上八卦版的文章與推噓，
+    資料日期:(a)運動期間(b)(c)選舉期間兩個月; 並且實驗了1~6slots(時間段數量)以及3~25minutes(時間段長度)做為模型的單位，
+    考慮兩個指標: adjusted R^2以及Spearman，但因為本研究目標是考慮重要文章，與預測實際文章回應數相比(filter掉少回應樣本)，
+    文章回應數的排名(相對最多回應與相對最少回應)更為重要，因此本研究挑選Spearman為衡量模型準確度(accuracy)的指標。
+    (a)測試了要多少slot、時間段長度要多少
+    (b)測試了n要設多少門檻
+    (c)和學界傳統兩種方法比較預測結果。結果顯示本研究的最準確。
+> * techniques: Web Crawling, 利用 Linear Regression 進行預測
+
 ### week8_01/20
 > * Learned [**tidystringdist**](https://colinfay.me/tidystringdist/reference/tidy_stringdist.html) packge
 > * Digged deeper into [**purrr**](https://colinfay.me/tidystringdist/reference/tidy_stringdist.html) packge, recommended [**使用purrr package學functional programming的觀念**](https://weitinglin.com/tag/purrr/), a series of articles teaching purrr
