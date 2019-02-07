@@ -116,10 +116,17 @@
 ### SocialDNA: A Novel Approach for Distinguishing Notable Articles and Authors through Social Events
 > * Author: Ming-Hung Wang and Chin-Laung Lei
 > * Keywords: Social networks; Social media; Information Filtering; Opinion Leader; Public Opinion 
-> * summary: 利用社群網站ptt上的選舉相關文章，找出 Extracting trending information 並且辨識 Identifying influential authors
-    對使用者來說，在重大社會事件發生時，與其慢慢地看完一篇又一篇可能不很重要的文章，能夠直接細讀有影響力的文章更為重要，本研究
-    以兩個指標來預測文章的回文數，frequent discussion and extreme acceptance or rejection by the online public
-    就**文獻探討**而言，本研究比較了利用社群網站進行事件預測的做法
+> * summary: 利用社群網站ptt上的選舉相關文章，設計模型有效率地找出熱門主題文章並且辨識有影嚮力的作者．
+    在重大社會事件發生時，對讀者來說與其慢慢地瀏覽所有文章，能夠細讀有影響力的文章更為重要，政府則關心如何有效率且有效果地更正迷思或破除留言。
+    本研究提出SocialDNA方法，企圖快速且全面的方式理解社群論壇的文章與作者，主要想解決兩個議題，(a)找出熱門主題文章以及(b)辨識有影嚮力的作者。
+    就**研究貢獻**而言，本研究的貢獻主要有二
+    (a)預測熱門文章: 利用回歸模型預測文章是否重要
+    (b)辨識重要作者: 表現超越舊有辨識重要作者的方法
+    就**文獻探討**而言，本研究介紹了過往預測網路內容受歡迎程度(popularity)的做法
+    最常見的方式是以使用者時序上的行為或內容的早期受歡迎程度紀錄預測未來受歡迎程度(temporal and early-access behavior)，
+    例如: 利用網路新聞下方的每小時留言進行預測; 利用影片的首日獲取(access)相關數據
+    然而，上述方法無法適用在有重大社會事件突然發生或正在進行時的情況，理由有二，其一是這類型的內容會以小時為單位出現/消失，
+    其二是以天或小時為單位進行預測無法做到實時預測，基於這兩個理由，本研究試圖縮短預測內容受歡迎程度的時間
     除了傳統民調以外，以社群媒體內容進行選舉預測主要基於: 聲量大小為基礎(volume-based)與情感為基礎(sentiment-based)，
     但上述方法主要以發文者的發文內容(text body of uauthor-generated content)為關注重點，忽略了非發文者的留言者，
     此外即使作者發了很多篇文，以發文者為關注重點的方法卻只會計算一次(they can only vote once in the election)，造成誤差，
@@ -127,7 +134,7 @@
     第一是利用peer-to-peer ratings計算候選人被接受度用來平衡關注發文者與留言者，
     第二是結合三種指標得出總體分數以建構模型，分別是peer-to-peer ratings, sentiment scores, and candidate mentioning volumes。
     就**研究貢獻**而言，本研究的創新主要有三
-    (a)Peer-to-peer rating: 考慮了留言者，提出peer-to-peer ratings指標
+    (a)pre: 考慮了留言者，提出peer-to-peer ratings指標
     (b)Public opinion monitoring: 利用時段分析(temporal analysis)於上述三個指標，發現peer-to-peer ratings有其重要性
     (c)Election result prediction: 結合三個指標建立了較傳統方法優越的選舉結果與得票率預測模型
     就**研究方法**而言，本研究的順序如下
