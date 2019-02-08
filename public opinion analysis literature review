@@ -176,46 +176,45 @@
     增加影響力以及避免被抓包(increase the ability to exert influence and avoid being detected)，
     和先前水軍行為研究的主要差別在於，前者強調效率最大化，本研究強調增加影響力(influence)與效果(efficiency)
     因希望能夠理解網軍在集體意見形成過程中的內有機制，因此將重點放在水軍的知識探勘、行為學習、策略調整。
-    本研究建制了multi-agent system模擬水軍行為，
-    就**文獻探討**而言，本研究介紹了過往(a)預測網路內容受歡迎程度(popularity)(b)預測網路內容評價(ratings)的做法，
-    (a)最常見的方式是以使用者時序上的行為或內容的早期受歡迎程度紀錄預測未來受歡迎程度(temporal and early-access behavior)，
-    (b)最常見的方式是對回覆(reviews)進行文字探勘/情感分析，得出特性後建立模型，本研究則使用早期回覆紀錄(early rating records)建立模型。
-    (c)學者指出社會事件發生時，由於短時間內資訊量會大幅上升，一篇文章若想要有意義，需要有人認真對待並且有他人回覆。
-    (d)學者認為意見領袖的傳播運作分為兩個階段，首先意見領袖會接收傳播媒體的訊息，消化後再將訊息散播給各自的讀者。
-    意見領袖的領袖特質通常可以用三個面向進行評估:
-    就**研究貢獻**而言，本研究的貢獻主要有二
-    (a)預測熱門文章: 利用回歸模型預測文章是否重要
-    (b)辨識重要作者: 表現超越舊有辨識重要作者的方法
-    就**研究方法**而言，本研究的架構如下
-    1.預測熱門文章: 預測(a)文章回應數(discussion frequency)與(b)文章評價(public ratings) 2.辨識重要作者:
-    (a)預測文章回應數(Article Reply Quantity Prediction):
-     (1)主要指標: 回覆數量的時序改變，計算每篇文章p在時間內(以固定秒數為時段t乘上時段數量s算出總時間)的回應，以Dp表示
-     (2)其他指標: 文章總體相關指標如文章長度，發文時段屬於上班或下班時，間發文日期屬於週間或週末
-     模型應變數為文章總回應數Tp，自變數為所有主要指標(sigma(xi*Di))與文章相關指標
-    (b)預測文章評價(Article Rating Score Prediction):
-     因本研究認為高度正評或高度負評的文章代表公眾對其評價立場一致，也代表公眾會更關心這篇文章，因此本研究希望能夠計算出一篇文章的總評價，
-     計算文章的評價方式為以文章的總正評減去總負評得到總評分數(總回應數是總正評加上總負評加上中立評論)。此外因本研究希望減少預測所需時間，
-     因此目標是找到前n篇評論與整體文章評論相關係數大於等於0.8的門檻，便能夠以前n篇評論預測整篇文章的評價。
-      (1)主要指標: 前n篇評論的正評數與負評數
-      (2)其他指標: 前n篇評論的n值，前n篇評論出現所花費時間，文章總字數，文章出現關鍵字
-      因觀察到文章發文時間與評論時間的時間差呈現log-normal分佈，因此作者對前n篇評論出現時間進行log transformation，
-      此外也發現正評數與負評數都呈現指數分佈，因此針對文章總評價進行了保持其極化程度的log transformation，
-      計算方式是以sgn(總評價)*log(|總評價+1|)，其中sgn(x) = 1 若a>=1, sgn(x) = -1 otherwise(猜測這邊的a應該要改成x?)
-      模型也考慮了前n篇評論中正評與負評與前n篇評論出現所需時間的交互項，因其可能會有interdependence，例如前面正評多可能影響後面負評變少
-    (c)辨識重要作者(Hybrid Influential Author Identification):
-     因本研究希望發現有影響力的作者，因此混合考慮受大眾認同程度(正負評)以及總體熱門程度(回應)
-     (1)單篇文章共識度: 文章總評價/文章總回應數 = 正減掉負/正加負加中立，在正負一之間
-     (2)作者共識分數: sigma(單篇文章共識度)/作者總文章數
-     (3)作者影響力分數: sigma(單篇文章共識度*log(文章總回應數))/作者總文章數，相較共識分數額外考慮了作者發文的回應數
-     為找出有影響力的作者，又希望避免少回應導致高共識程度的bias(只有五篇推文的文章)，因此本研究僅列入有二十則回應以上的文章。
-    就**實際案例**而言，本研究以台灣的(a)太陽花學運(b)2014六都市長選舉(c)2016總統大選為主題，爬了PTT上八卦版的文章與推噓，
-    資料日期:(a)運動期間(b)(c)選舉期間兩個月; 並且實驗了1~6slots(時間段數量)以及3~25minutes(時間段長度)做為模型的單位，
-    考慮兩個指標: adjusted R^2以及Spearman，但因為本研究目標是考慮重要文章，與預測實際文章回應數相比(filter掉少回應樣本)，
-    文章回應數的排名(相對最多回應與相對最少回應)更為重要，因此本研究挑選Spearman為衡量模型準確度(accuracy)的指標。
-    (a)測試了要多少slot、時間段長度要多少
-    (b)測試了n要設多少門檻
-    (c)和學界傳統兩種方法比較預測結果。結果顯示本研究的最準確。
-> * techniques: Web Crawling, 利用 Linear Regression 進行預測
+    本研究建制了multi-agent system模擬水軍行為，在系統中設定一般agent與水軍agent，分別為兩種agents設定行為模式與目標，
+    觀察動態的水軍行為與實際的策略調整，最後結論如下: 
+    (a)水軍行為與User Life Cycle以及Reading Interval有關
+    (b)若有特定主題發表後過了一段時間，水軍偏好開新串而非回舊文以增加其影響力並且重新喚起大眾注意力
+    > * techniques: multi-agent technology/system(軟體業術語)
+
+### cial Forums
+> * Author: Ming-Hung Wang and Chin-Laung Lei
+> * Keywords: Cyber army; Deception; Opinion spammer
+> * summary: 利用社群網站ptt上的選舉相關文章，以情感分析與peer to peer ratings預測選舉結果與得票率。
+    就**文獻探討**而言，本研究比較了利用社群網站進行事件預測的做法
+    除了傳統民調以外，以社群媒體內容進行選舉預測主要基於: 聲量大小為基礎(volume-based)與情感為基礎(sentiment-based)，
+    但上述方法主要以發文者的發文內容(text body of uauthor-generated content)為關注重點，忽略了非發文者的留言者，
+    此外即使作者發了很多篇文，以發文者為關注重點的方法卻只會計算一次(they can only vote once in the election)，造成誤差，
+    本篇即是作者修改前人做法後的調整，作者以三個實體 - 推噓文(comments)、發文(articles)、候選人(candidates)為對象，主要強調兩點，
+    第一是利用peer-to-peer ratings計算候選人被接受度用來平衡關注發文者與留言者，
+    第二是結合三種指標得出總體分數以建構模型，分別是peer-to-peer ratings, sentiment scores, and candidate mentioning volumes。
+    就**研究貢獻**而言，本研究的創新主要有三
+    (a)Peer-to-peer rating: 考慮了留言者，提出peer-to-peer ratings指標
+    (b)Public opinion monitoring: 利用時段分析(temporal analysis)於上述三個指標，發現peer-to-peer ratings有其重要性
+    (c)Election result prediction: 結合三個指標建立了較傳統方法優越的選舉結果與得票率預測模型
+    就**研究方法**而言，本研究的順序如下
+    (1)中文斷詞: 因社群媒體上用字與正式場合用字不同，考慮斷詞效果，本研究首先以結巴對每篇文章斷詞，剔除停止詞後計算文字使用頻率，
+    選取使用頻率最高的2000個字之後手動確認斷詞後的語意是否是否合宜，而後將篩選過後的使用頻率最高的1000個字加入字典，再一次進行斷詞。
+    (2)聲量計算: 對每篇文的每個詞進行確認，若文章有詞包含候選人相關名稱，則判定屬於該候選人相關文章，同篇文可能同時和多位候選人有關。
+    (3)情緒分數計算: 對每篇文的每個詞進行確認，依據詞彙的正負替候選人的正負情緒分數各自加分。
+    (4)候選人被接受度: 前面的聲量與情緒分數計算對象皆為發文(articles)，本指標的計算對象則涵蓋推噓文(comments)，
+    計算每篇候選人相關發文累積的推噓後各自加總，兩者相減後得到候選人被接受度分數。
+    (5)Smoothing: 為捕捉時序效果，本研究以日為單位計算上述三項指標，但因為選舉的特性包含不特定的重大事件，需要進行撫平(smoothing)，
+    又考慮到離選舉近的事件影響更大，故另外進行了N-day exponential weighted moving average (EWMA) on daily observations.
+    實際計算方法請參考論文。
+    (6)Hybrid Election Forecasting: VS = (Volume + Sentiment + Public.Acceptance)^2, VS代表vote share
+    就**實際案例**而言，本研究以台灣2014六都市長選舉為主題，爬了PTT上八卦版與政黑版選前三個月的文章與推噓，進行了時間序列分析與選舉預測:
+    (a)Time-series analysis: 以Z分數正規化前述的三項指標後，執行時間序列分析，發現情緒與公眾接受度的變異(variance)較大，
+    研究認為聲量為較不敏感(sensitive)的指標。計算相關性後發現三者兩兩呈現正相關，聲量與情緒相關性最高，聲量與公眾接受度次之，情緒與公眾接受度最低，
+    研究認為由此可知公眾接受度可以呈現舊有輿情監測未能注意的另一個重要面向。就預測而言，研究認為這三個指標各自都值得監測但不適合單獨用來預測。
+    (b)Prediction model accuracy: 以線性迴歸模型預測選舉結果，再和學界傳統兩種方法比較預測結果。結果顯示本研究的最準確。
+> * techniques: Web Crawling, Chinese Segmentation(結巴斷詞), Sentiment Analysis(情感分析), Time Series Analysis(時間序列分析)
+    利用 Logistic Regression 進行選舉預測
 
 ### week8_01/20
 > * Learned [**tidystringdist**](https://colinfay.me/tidystringdist/reference/tidy_stringdist.html) packge
