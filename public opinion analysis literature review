@@ -182,14 +182,15 @@
     (b)若有特定主題發表後過了一段時間，水軍偏好開新串而非回舊文以增加其影響力並且重新喚起大眾注意力
     > * techniques: multi-agent technology/system(軟體業術語)
 
-### cial Forums
+### Estimating Ideological Scores of Facebook Pages: An Empirical Study in Taiwan
 > * Author: Ming-Hung Wang and Chin-Laung Lei
 > * Keywords: Cyber army; Deception; Opinion spammer
-> * summary: 利用社群網站ptt上的選舉相關文章，以情感分析與peer to peer ratings預測選舉結果與得票率。
-    就**文獻探討**而言，本研究比較了利用社群網站進行事件預測的做法
-    除了傳統民調以外，以社群媒體內容進行選舉預測主要基於: 聲量大小為基礎(volume-based)與情感為基礎(sentiment-based)，
-    但上述方法主要以發文者的發文內容(text body of uauthor-generated content)為關注重點，忽略了非發文者的留言者，
-    此外即使作者發了很多篇文，以發文者為關注重點的方法卻只會計算一次(they can only vote once in the election)，造成誤差，
+> * summary: 利用台灣政治相關及熱門的facebook fan page上與使用者互動，計算。
+    就**文獻探討**而言，本研究列舉了學者以社群網站進行選舉觀察/預測的研究，並提到了學者利用facebook的受歡迎程度及易達性及隱私特性，
+    作為其研究實驗或研究訪談的研究平台; 也有學者研究使用者的社群行為，如觀察使用者與粉絲專頁的互動及與彼此的互動，計算專頁與成員間的結構相似性，
+    利用使用者自我揭露/實際行為計算專頁的意識形態/政治傾向分數。然而作者指出，上述方法多半只是在社群網站這樣的線上平台測試其線下的理論，
+    僅僅佔了網路資源的冰山一角，因此本研究希望延伸online platform的usage，透過調查facebook上政治與非政治的專頁與使用者，
+    理解使用者的線上政治偏好、氛圍與行為。
     本篇即是作者修改前人做法後的調整，作者以三個實體 - 推噓文(comments)、發文(articles)、候選人(candidates)為對象，主要強調兩點，
     第一是利用peer-to-peer ratings計算候選人被接受度用來平衡關注發文者與留言者，
     第二是結合三種指標得出總體分數以建構模型，分別是peer-to-peer ratings, sentiment scores, and candidate mentioning volumes。
