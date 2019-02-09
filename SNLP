@@ -1,11 +1,7 @@
 ## Statistical Natural Language Processing
-p
-https://dictionary.cambridge.org/zht/%E8%A9%9E%E5%85%B8/%E8%8B%B1%E8%AA%9E/
+
 Chinese: file:///Users/dtseng02/Documents/Dennis/R%E8%AE%80%E6%9C%AC/snlp.pdf
 English: file:///Users/dtseng02/Documents/Dennis/R%E8%AE%80%E6%9C%AC/%E7%B5%B1%E8%A8%88%E8%87%AA%E7%84%B6%E8%AA%9E%E8%A8%80%E8%99%95%E7%90%86%E5%9F%BA%E7%A4%8E%E4%B8%AD%E6%96%87%E7%89%88.pdf
-
-### Resource
-[foundations of statistical natural language processing]()   
 
 ### Chapter 1 Introduction     
 原本的語言學會去尋找語言的規則譬如文法，再來會試圖分辨什麼是好的vs.不好的，但嘗試做這件事情面臨到的問題是語言要跟上人類的需求，
@@ -91,22 +87,50 @@ the ratio of tokens to types, which is simply the average frequency with which e
 講了資料來源、程式語言選擇、正規表達式、未/已標註資料、tokenization(判定什麼是詞)的諸多問題e.g.句號不只是句號/怎麼對待縮寫符號/hiphen/同時處理多國語言習慣不同等
 Morphology(詞法/構詞問題, 包含stemming)、判定什麼是句子(e.g.現行方法如偵測句子的邊界)、markup(標註文本型態格式、實際標註標籤)
 
-### Chapter 4 Corpus-Based Work
-> 
+### Chapter 5 Collocations 搭配字詞
+##concept
+> collocations are characterized by limited compositionality複合構詞法:
+  有些collocations可以直接用組成的字義推敲，有些可以得到部分含義，有些則不行
+  collocations和以下三個詞的有些概念重疊: term, technical term, terminological phrase
+> 應用的地方包含產生自然語言(以免太像機器生成)、計算辭典編撰(找出重要的collocations)、parsing句法分析(才能解析出自然的collocations)、詞庫語言學研究、社會現象研究(e.g.歧視性用語)等
+> 傳統結構語言學家不太care這個主題，因為他們想做的事情是歸納句子找出背後的法則，而英國的語言學家就很care這個，他們重視社會與文化的context
+  作者舉strong tea當例子, 他們不會用powerful tea雖然意思上相同
+> 本章會討論選擇collocations 的幾種方式: 
+  selection of collocations based on frequency, mean and variance of the distince between focal word and collocating word, 
+  hypothesis testing, mutual information
 
-### week8_01/20
-> * Learned [**tidystringdist**](https://colinfay.me/tidystringdist/reference/tidy_stringdist.html) packge
-> * Digged deeper into [**purrr**](https://colinfay.me/tidystringdist/reference/tidy_stringdist.html) packge, recommended [**使用purrr package學functional programming的觀念**](https://weitinglin.com/tag/purrr/), a series of articles teaching purrr
-> * prepared for Dr.Hsieh's Public Opinion Analysis class' research proposal, focusing on cyber/water army detection, read 3 research papers related to the topic
-> * finished 50 pages of [*foundations of statistical natural language processing*](http://www.cookbook-r.com/Graphs/)
-> * studied half of **SQL Fundamentals for Business Intelligence** on O'reilly Safiri, installed PSQL und used it for practice
-> * Read at least 5 articles on [R-bloggers](https://www.cjr.org/index.php) daily
-> **Reading**: 不當行為, 活著告訴你
-
-### reflection
-> * behavior-based, content-based, network-based approaches   
-> * social networks with real identities vs. BBS with anonymous identities
-> * paid users in news website/e-commerce review page/micrp-blog platforms/Bulletin Board System/social networks
-> * similarities between intenet water army and review spammers, like purpose, behavior patterns, organization, etc.
-> * 衝熱度不等於帶風向，想想網軍的發文incentive，中國水軍可能是以帖子計價，台灣網軍可能是以帖子以及風向計價，ID切換類似順序
-> **Reading**: 不當行為, 活著告訴你
+##frequecy
+> 純粹算兩個字(bigram)是最快的方法，但會產生一些爛結果e.g. of the, to be
+  修正的方法是filter the patterns of words which are likely to be "phrases"(用引號是因為作者後面要討論phrase ?= collocations)
+  譬如說用part-of-speech filter，就是看組成詞性 e.g. AN, NN, AAN, NPN等等, 
+  這同時結合quantatative technique(頻率+過濾) and linguistics knowledge(詞性)
+  相對應例子是linear regression, regression coefficiennts, Gaussian random variable, degress of freedom
+  還有其他應用是找滿足上述詞性規則的最長序列(longest sequence fits the patterns), 
+  譬如上面的方法會找到new york, york city, 找最長序列就會找到new york city
+> 這邊都是討論fixed phrases, 但上面沒cover到有距離的fixed phrases, 針對這類型的collocations, 
+  我們會把上面計算bigrams的做法略作延伸, 定義所謂collocational window(通常是字前後三到四個字為一個window), 
+  在window之內計算每個bigram的頻率, 然後就可以用一樣的方法找高頻collocations
+  
+##concept
+> frequency可以解決fixed phrases, 但有些collocations的關係更為彈性, 譬如說knock on/at ... a door, door前面可能會有所有格或是形容詞
+  不只是結構不固定(沒有連在一起), 距離也不固定(不只一個詞), 但是模式又夠明顯讓我們知道說knock是正確的動詞而非使用hit
+  mean and variance based methods要處理的是可變距離(varying distance)的collocations
+> 例子:
+  a. she knocked on his door
+  b. they knocked at the door
+  c. 100 women knocked on Donaldson’s door
+  d. a man knocked on the metal front door
+  舉例而言, knocked 與 door的距離等同於計算詞庫中兩個詞的偏移量(offset, 代表有符號的距離), 
+  mean offset = (3+3+5+5)/4 = 4.0 (計算時將Donaldson’s拆成 D, ', s 三個字),
+  若有順序相反的情況(door 出現在 knocked 前面), 距離會被記為負值, 我們將分析限制在中心詞(focal word)前後九個詞的window中
+  variance 就是衡量個別的偏移量offsets 與平均的距離, 標準差 = (((3-4)^2 +(3-4)^2 +(5-4)^2 +(5-4)^2)/3)^1/2 ~= 1.15
+  我們找低標準差的詞對, 代表兩個詞通常已大致相同的距離出現, 若偏移量隨機分佈, 代表兩個詞偶然一起出現, 不存在特定關係, 則標準差值會較大
+  另外需注意有時候會發現找到平均距離為0的高標準差詞對, 這很正常, 代表他們的距離是均勻分布的(+-都有所以平均接近0)
+> 此法感謝學者Smajda, 他的做法還會再過濾掉周遭位置上肥胖的峰值, 也就是周圍位置上沒有較低峰值的柱狀圖, 
+  目的是抽取重要術語(在此目的下knocked door就不重要, 但在生成自然語言時就重要)
+  
+##concept
+> frequency可以解決fixed phrases, 但有些collocations的關係更為彈性, 譬如說knock on/at ... a door, door前面可能會有所有格或是形容詞
+  不只是結構不固定(沒有連在一起), 距離也不固定(不只一個詞), 但是模式又夠明顯讓我們知道說knock是正確的動詞而非使用hit
+  mean and variance based methods要處理的是可變距離(varying distance)的collocations  
+  
