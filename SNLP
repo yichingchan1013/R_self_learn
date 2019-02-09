@@ -1,6 +1,8 @@
 ## Statistical Natural Language Processing
 p
 https://dictionary.cambridge.org/zht/%E8%A9%9E%E5%85%B8/%E8%8B%B1%E8%AA%9E/
+Chinese: file:///Users/dtseng02/Documents/Dennis/R%E8%AE%80%E6%9C%AC/snlp.pdf
+English: file:///Users/dtseng02/Documents/Dennis/R%E8%AE%80%E6%9C%AC/%E7%B5%B1%E8%A8%88%E8%87%AA%E7%84%B6%E8%AA%9E%E8%A8%80%E8%99%95%E7%90%86%E5%9F%BA%E7%A4%8E%E4%B8%AD%E6%96%87%E7%89%88.pdf
 
 ### Resource
 [foundations of statistical natural language processing]()   
@@ -71,78 +73,26 @@ the ratio of tokens to types, which is simply the average frequency with which e
 > 求通俗解释NLP里的perplexity是什么？ https://www.zhihu.com/question/58482430
 上面這連結cover書裡面資訊理論的段落了
 
-### Boosting Election Prediction Accuracy by Crowd Wisdom on Social Forums
-> * Author: Ming-Hung Wang and Chin-Laung Lei
-> * Keywords: Cyber army; Deception; Opinion spammer
-> * summary: 利用社群網站ptt上的選舉相關文章，以情感分析與peer to peer ratings預測選舉結果與得票率。
-    就**文獻探討**而言，本研究比較了利用社群網站進行事件預測的做法
-    除了傳統民調以外，以社群媒體內容進行選舉預測主要基於: 聲量大小為基礎(volume-based)與情感為基礎(sentiment-based)，
-    但上述方法主要以發文者的發文內容(text body of uauthor-generated content)為關注重點，忽略了非發文者的留言者，
-    此外即使作者發了很多篇文，以發文者為關注重點的方法卻只會計算一次(they can only vote once in the election)，造成誤差，
-    本篇即是作者修改前人做法後的調整，作者以三個實體 - 推噓文(comments)、發文(articles)、候選人(candidates)為對象，主要強調兩點，
-    第一是利用peer-to-peer ratings計算候選人被接受度用來平衡關注發文者與留言者，
-    第二是結合三種指標得出總體分數以建構模型，分別是peer-to-peer ratings, sentiment scores, and candidate mentioning volumes。
-    就**研究貢獻**而言，本研究的創新主要有三
-    (a)Peer-to-peer rating: 考慮了留言者，提出peer-to-peer ratings指標
-    (b)Public opinion monitoring: 利用時段分析(temporal analysis)於上述三個指標，發現peer-to-peer ratings有其重要性
-    (c)Election result prediction: 結合三個指標建立了較傳統方法優越的選舉結果與得票率預測模型
-    就**研究方法**而言，本研究的順序如下
-    (1)中文斷詞: 因社群媒體上用字與正式場合用字不同，考慮斷詞效果，本研究首先以結巴對每篇文章斷詞，剔除停止詞後計算文字使用頻率，
-    選取使用頻率最高的2000個字之後手動確認斷詞後的語意是否是否合宜，而後將篩選過後的使用頻率最高的1000個字加入字典，再一次進行斷詞。
-    (2)聲量計算: 對每篇文的每個詞進行確認，若文章有詞包含候選人相關名稱，則判定屬於該候選人相關文章，同篇文可能同時和多位候選人有關。
-    (3)情緒分數計算: 對每篇文的每個詞進行確認，依據詞彙的正負替候選人的正負情緒分數各自加分。
-    (4)候選人被接受度: 前面的聲量與情緒分數計算對象皆為發文(articles)，本指標的計算對象則涵蓋推噓文(comments)，
-    計算每篇候選人相關發文累積的推噓後各自加總，兩者相減後得到候選人被接受度分數。
-    (5)Smoothing: 為捕捉時序效果，本研究以日為單位計算上述三項指標，但因為選舉的特性包含不特定的重大事件，需要進行撫平(smoothing)，
-    又考慮到離選舉近的事件影響更大，故另外進行了N-day exponential weighted moving average (EWMA) on daily observations.
-    實際計算方法請參考論文。
-    (6)Hybrid Election Forecasting: VS = (Volume + Sentiment + Public.Acceptance)^2, VS代表vote share
-    就**實際案例**而言，本研究以台灣2014六都市長選舉為主題，爬了PTT上八卦版與政黑版選前三個月的文章與推噓，進行了時間序列分析與選舉預測:
-    (a)Time-series analysis: 以Z分數正規化前述的三項指標後，執行時間序列分析，發現情緒與公眾接受度的變異(variance)較大，
-    研究認為聲量為較不敏感(sensitive)的指標。計算相關性後發現三者兩兩呈現正相關，聲量與情緒相關性最高，聲量與公眾接受度次之，情緒與公眾接受度最低，
-    研究認為由此可知公眾接受度可以呈現舊有輿情監測未能注意的另一個重要面向。就預測而言，研究認為這三個指標各自都值得監測但不適合單獨用來預測。
-    (b)Prediction model accuracy: 以線性迴歸模型預測選舉結果，再和學界傳統兩種方法比較預測結果。結果顯示本研究的最準確。
-> * techniques: Web Crawling, Chinese Segmentation(結巴斷詞), Sentiment Analysis(情感分析), Time Series Analysis(時間序列分析)
-    利用 Logistic Regression 進行選舉預測
+### Chapter 3 linguistics 
+* 資訊理論相關簡介:
+> syntactic: 語法的; semantic: 語義的; phonological: 音位的
+> morphology: 詞法/構詞學
+  包含變形inflection(e.g.單數變成複數、陰性化陽性化、詞語的"格"), 衍生derivation(e.g.形容詞加上ly變副詞、形容加上en變動詞，改變型態), 複合compounding(結合字，e.g.tea kettle)
+* 標記:
+> 名詞: NN singular nouns 單數名詞, NNP proper nouns 專有名詞, NR adverbial nouns 副詞性名詞(e.g.home, tomorrow), 
+  複數的話在結尾加上S, 所有格的話在結尾加上$
+> 限定詞: Determiners 限定詞, 其中的子類別包含 AT articles 冠詞 以及 DT demonstrutives 指示代詞(this, that), DTX double conjunction 聯合限定詞
+> 數量詞: Quunlifiers, 表達類似於all, some, many的意思, ABN pre-quantifier 前置性數量詞(all, many) and PN nominal pronoun 名詞性代詞(one, something, anything, somebody).
+  The tag for there when used to express existence at the beginning of a sentence is EX
+> 形容詞: JJ Adjectives 形容詞, JJR comparatives 比較級, JJT superlatives 最高級, JJS 語義上的最高級(chief, main, top)
+  CD cardinals 基數, OD ordinals 序數, 修飾名詞用法被稱作attributive屬性 or adnominal修飾詞,
 
-### Uncovering and Characterizing Internet Water Army in Online Forums
-> * Author: Guirong Chen, Wandong Cai, Jiuming Huang and Xianlong Jiao
-> * Keywords: uncovering Internet water army; characterizing Internet water army behavior; user behavior analysis; online forum
-> * summary: 利用被揭露出的2014連柯台北市長選舉Sina新浪網軍帳號資料，研究網軍發文的行為。
-    就**文獻探討**而言，作者提到幾個值得觀察的重點
-    (a)social networks with real identities vs. BBS with anonymous identities
-    (b)paid users in news website/e-commerce review page/micrp-blog platforms/Bulletin Board System/social networks
-    (c)similarities between intenet water army and review spammers, like purpose, behavior patterns, organization, etc.
-    (d)content-based, behavior-based, network-based approaches   
-      -content:  利用NLP, 情緒分析, 文字分類, 公眾意見探勘等技術找出潛在的spam，因時間成本考量網軍習慣產出複製貼上的內容，
-                 因此有學者使用複製偵測法(duplication detection)，其他常見的做法包含考慮長度、熱門字使用比率、評論相似度等指標
-      -behavior: 利用統計分析, 使用者行為建模, 時間序列分析等技術找出潛在的spam posts，因時間成本考量網軍習慣產出複製貼上的內容，
-                 常見重要指標包含ＯＯＯＯＯＯＯ待補     
-      -network:  利用KNN-based model, graph-based classification等技術找出潛在的spammers，關注重點為使用者群以及店家(就電商而言)，
-                 常見重要指標包含ＯＯＯＯＯＯＯ待補  
-    就**研究方法**而言，本研究不採取監督式學習而採取非監督式學習，主要基於以下幾個bbs的特性: bbs上的網軍不希望被認出故內容模仿真實用戶; 
-    bbs沒有評價系統難以分辨網軍行為; bbs的互動不像電商網站有和店家互動式的，也不像社群網站有那麼多連結，只有簡單的回文而已，難以建立網絡。
-    作者認為，網軍採取的發文策略與其按文計價的報酬息息相關: 效率最大化以及避免被抓包(maximize efficiency and avoid being detected)，
-    因此其行為會有兩個特性: 使用不同帳號連續發文(所以網軍帳號會集體出現)、同個帳號總共會發出多篇不連續的文(所以網軍帳號會在時段內大量發文)。
-    考慮上述行為特性，本研究發展一套獨特的辨別網軍步驟，簡述如下: 
-    (1)Data decomposition and preprocessing: 將資料集切成以貼文為單位的多個次資料集，此步驟是考慮了中國水軍的行為特性，
-    較少與自己人互動，但容易集中回單篇貼文以創造熱點(hype)，且以貼文為單位進行分析可以減少時間帶來的干擾。本研究另外設下熱點貼文指標，
-    認為熱門(hot)不壹定要是水軍刻意造出來的熱點(hype)，但熱點卻一定要熱門才行，作者以熱點貼文指標過濾掉回應數量較少的貼文，減少時間浪費。
-    (2)compute the behavior similarity: 計算每則貼文下使用者之間(each pair of users)的行為相似性。
-    主要基於下列幾個指標: Participation degree similarity, Reply time similarity, Reply frequency similarity
-    (3)construct a user similarity network: 依照行為相似性繪製使用者網絡
-    (4)prune the user similarity network: 依照特定門檻篩選掉網軍身份疑慮不夠顯著者 
-    (5)perform a simple clustering algorithm: 利用clustering 以及統計分析技巧得到潛在水軍名單與對應發文
-    
-    以三個實體 - 推噓文(comments)、發文(articles)、個人檔案(users)為對象，
-    (a)divide-and-conquer method for detecting collusive IWA in BBS: 依照貼文ID分拆資料，再來畫social network，
-    接著用篩掉沒過門檻者，而後使用hierarchical clustering 
-    (b)發文時間: 網軍組多半在上班時間發文比較已知網軍組與對照組(treatment group)的行為差別，抓出兩組人於特定時間段的發文紀錄並進行比較。
-    本研究發現主要差別在於
-    (a)發文數量: 網軍組較對照組多出許多
-    (b)發文時間: 網軍組多半在上班時間發文
-    (c)發文內容: 就發文紀錄而言，兩組的市長選舉相關發文比例相似，但網軍組(連陣營)的發文與推噓文以攻擊對方陣營較多
-> * techniques: Web Crawling, Descriptive Statistics
+### Chapter 4 Corpus-Based Work
+講了資料來源、程式語言選擇、正規表達式、未/已標註資料、tokenization(判定什麼是詞)的諸多問題e.g.句號不只是句號/怎麼對待縮寫符號/hiphen/同時處理多國語言習慣不同等
+Morphology(詞法/構詞問題, 包含stemming)、判定什麼是句子(e.g.現行方法如偵測句子的邊界)、markup(標註文本型態格式、實際標註標籤)
+
+### Chapter 4 Corpus-Based Work
+> 
 
 ### week8_01/20
 > * Learned [**tidystringdist**](https://colinfay.me/tidystringdist/reference/tidy_stringdist.html) packge
