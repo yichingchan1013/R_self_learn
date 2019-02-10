@@ -219,6 +219,46 @@
 > * techniques: Web Crawling, Chinese Segmentation(結巴斷詞), Sentiment Analysis(情感分析), Time Series Analysis(時間序列分析)
     利用 Logistic Regression 進行選舉預測
 
+### Detecting Potential Cyber Armies of Election Campaigns Based on Behavioral Analysis
+> * Author: Ming-Hung Wang, Nhut-Lam Nguyen, Chyi-Ren Dow 
+> * Keywords: Cyber army; Deception; User Behavior
+> * summary: 以統計方法分析社群網站ptt上選舉前的使用者行為，試圖找出有意操縱公眾輿論、攻擊/支持特定候選人的網軍
+    就**文獻探討**而言，本研究列舉了學者企圖理解社群網站上使用者行為的諸多嘗試，舉例而言，
+    先前的研究包含針對推文將使用者分群(推文的時序關係、轉推、評論等)，企圖辨識使用者間的關係，預測發文熱門度，尋找有影響力的使用者等，
+    但作者認為上述針對社群網站的研究方法並不適用於政治討論，因為就政治領域而言，使用社群網絡的目的與平常的社交所差異，主要是用來傳播資訊以及交換政治意見，
+    因此本研究也列舉了相關研究，包含研究政治推文情感對使用者行為的影響，用推文推測政治傾向，利用推文預測選舉結果等等，
+    然而"企圖影響公眾輿論的的線上群體政治行為"此領域目前尚未有太多人鑽研，因此本研究希望可以證明有此現象存在，並展示便是這類異常行為與異常使用者的方法。
+    就**研究貢獻**而言，本研究的創新主要有三
+    主要是用來傳播資訊以及交換政治意見，因此本研究也列舉了相關研究，包含研究政治推文情感對使用者行為的影響，用推文推測發文者的政治傾向，利用推文預測選舉結果等等，然而本研究所想著手的領域，也就是企圖影響公眾輿論的的線上群體政治行為，目前尚未有太多人鑽研，因此本研究希望可以證明有此現象存在，並展示便是這類異常行為與異常使用者的方法
+    (a)新指標: 除了意識形態分數(ideological score)之外，提出了政治參與度分數(politicalness score)
+    (b)辨別政治外粉絲專頁意識形態: 辨識出非政治粉絲專頁的立場
+    (c)找出反諷: 找出針對政治人物反諷/對抗性的粉絲專頁
+    
+    就**研究方法**而言，本研究的順序如下
+    
+    本研究希望可以保持線上平台上政治訊息的可信性(retain the trustiness of online platforms about the political messages)，
+    作者認為，相較於正常使用者(normal users)，網軍應該會展現兩個特性: (1)熱切且不懈的支持/攻擊特定候選人以及(2)花費大量時間在站上且回應迅速
+    考慮上述行為特性，本研究發展一套獨特的辨別網軍步驟，簡述如下: 
+    (1)Data decomposition and preprocessing: 將資料集切成以貼文為單位的多個次資料集，此步驟是考慮了中國水軍的行為特性，
+    較少與自己人互動，但容易集中回單篇貼文以創造熱點(hype)，且以貼文為單位進行分析可以減少時間帶來的干擾。本研究另外設下熱點貼文指標，
+    認為熱門(hot)不壹定要是水軍刻意造出來的熱點(hype)，但熱點卻一定要熱門才行，作者以熱點貼文指標過濾掉回應數量較少的貼文，減少時間浪費。
+    (2)compute the behavior similarity: 計算每則貼文下使用者之間(each pair of users)的行為相似性。
+    主要基於下列幾個指標: Participation degree similarity, Reply time similarity, Reply frequency similarity
+    
+    
+    (1)政治粉絲專頁意識形態分數計算: 透過使用者的共同按讚行為關係(co-endorsment relationship)計算政治相關粉絲專頁的意識形態分數，
+    再以奇異值分解singular value decomposition (SVD) 計算出臉書粉絲專頁的意識形態傾向，橫軸為意識形態A縱軸為意識形態B，再分出群組計算分數。
+    (2)使用者意識形態分數計算: 理想上可以仿照上述做法，計算使用者之間共同按讚數量得到每個人的意識形態傾向，在進行分群。
+    但因為使用者人數為1.6M，若要兩兩計算等同要建立1.6M*1.6M的矩陣，運算上難以負擔，所以改成取使用者按過的政治相關粉絲專頁意識形態分數平均，
+    作為使用者意識形態分數，這裡有先篩選過按超過兩個政治相關粉絲專頁讚的使用者。
+    (3)其他粉絲專頁意識形態分數計算: 同上法，取所有按讚使用者的意識形態分數平均，作為粉絲專頁意識形態分數。
+    就**實際案例**而言，本研究以爬蟲抓下台灣的2018六都選舉前PTT上八卦版共七個月的文章與推噓，並以台北市長選舉為主題，
+    將資料細分為三位候選人的次資料集，分別是柯、丁、姚。
+    主要計算兩種指標，並且關心三種粉絲專頁，理解這些粉絲專頁有助於政府與政黨理解政治討論的熱點，
+    以意識形態分數和政治參與分數為橫縱軸畫出不同類別的散佈圖。例如演員與歌手無論是意識形態或者政治參與分數都相對中庸(可能是顧及中國市場的考量所致)。
+> * techniques: Web Crawling, Chinese Segmentation(結巴斷詞), Sentiment Analysis(情感分析), Time Series Analysis(時間序列分析)
+    利用 Logistic Regression 進行選舉預測
+
 ### week8_01/20
 > * Learned [**tidystringdist**](https://colinfay.me/tidystringdist/reference/tidy_stringdist.html) packge
 > * Digged deeper into [**purrr**](https://colinfay.me/tidystringdist/reference/tidy_stringdist.html) packge, recommended [**使用purrr package學functional programming的觀念**](https://weitinglin.com/tag/purrr/), a series of articles teaching purrr
