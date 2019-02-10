@@ -125,19 +125,14 @@
 
 
 ### week10_02/03
-> * 3.7 Save your work finished **Chapter2** of *Data Visualization*  
 > * prepared for Dr.Hsieh's Public Opinion Analysis class' research proposal, focusing on cyber/water army detection
-> * finished 10 pages of [*foundations of statistical natural language processing*](http://www.cookbook-r.com/Graphs/)
+> * finished **Chapter2** and **Chapter4** of [*foundations of statistical natural language processing*](http://www.cookbook-r.com/Graphs/)
 > * Recommended [How the BBC Visual and Data Journalism team works with graphics in R](
-https://medium.com/bbc-visual-and-data-journalism/how-the-bbc-visual-and-data-journalism-team-works-with-graphics-in-r-ed0b35693535?fbclid=IwAR2Z5Mp4FJA7VHkE1V7rrcXTv3AJM-_BFddKSNIwQ9skqUrRl6JqfkU37zU
-)
+https://medium.com/bbc-visual-and-data-journalism/how-the-bbc-visual-and-data-journalism-team-works-with-graphics-in-r-ed0b35693535?fbclid=IwAR2Z5Mp4FJA7VHkE1V7rrcXTv3AJM-BFddKSNIwQ9skqUrRl6JqfkU37zU)
 > * Read at least 5 articles on [R-bloggers](https://www.cjr.org/index.php) daily
-> **Reading**: 昏迷指數3, 犯罪小說家, 希波克拉底的誓言
-> * finished **Chapter1** & **Chapter2** & **Chapter3** of [*R Graphics Cookbook*](http://www.cookbook-r.com/Graphs/)
-有機會讀Speech and Language Processing
-性別力, 優秀的綿羊, 
+> **Reading**: 完美殺機
 
-### week10_02/03
+### week11_02/10
 > * 3.7 Save your work finished **Chapter2** of *Data Visualization*  
 > * prepared for Dr.Hsieh's Public Opinion Analysis class' research proposal, focusing on cyber/water army detection
 > * finished 10 pages of [*foundations of statistical natural language processing*](http://www.cookbook-r.com/Graphs/)
@@ -147,24 +142,25 @@ https://medium.com/bbc-visual-and-data-journalism/how-the-bbc-visual-and-data-jo
 有機會讀Speech and Language Processing
 性別力, 優秀的綿羊, 
 
-### self-introduction
-> * Name: Dennis Tseng
-> * Major: Business Administration
-> * School: National Taiwan University
-> * Goal: keeping R self-learing notes
 
-> "Practice makes perfect."
+### week12_02/17
+> * 3.7 Save your work finished **Chapter2** of *Data Visualization*  
+> * prepared for Dr.Hsieh's Public Opinion Analysis class' research proposal, focusing on cyber/water army detection
+> * finished 10 pages of [*foundations of statistical natural language processing*](http://www.cookbook-r.com/Graphs/)
+> * Read at least 5 articles on [R-bloggers](https://www.cjr.org/index.php) daily
+> **Reading**: 昏迷指數3, 犯罪小說家, 希波克拉底的誓言
+> * finished **Chapter1** & **Chapter2** & **Chapter3** of [*R Graphics Cookbook*](http://www.cookbook-r.com/Graphs/)
+有機會讀Speech and Language Processing
+性別力, 優秀的綿羊, 
 
-### R-related experience
-> * self-studied 16+ courses on [Datacamp](https://www.datacamp.com)
-> * finished first 7 chapters of [The art of R programming](http://diytranscriptomics.com/Reading/files/The%20Art%20of%20R%20Programming.pdf)
-> * finished [Hands-On Programming with R](http://shop.oreilly.com/product/0636920028574.do)
-> * finished [R for Data Science](http://r4ds.had.co.nz)
-> * finished [Text Mining with R](https://www.tidytextmining.com/)
-> * finished first 5 chapters of [Machine Learning with R](https://the-eye.eu/public/Books/Programming/Machine%20Learning%20with%20R%20-%20Second%20Edition%20%5BeBook%5D.pdf)
 
-### Homework & Project links
-> * **Homework**: [`HW2`](https://dennishi0925.github.io/CSX_RProject_Spring_2018/week2/HW2.html), [`HW3`](https://dennishi0925.github.io/CSX_RProject_Spring_2018/week3/HW3.html)
-> * **Project**: [`project1`](
-https://dennishi0925.github.io/CSX_RProject_Spring_2018/project1/project01.html), [`project2`](https://docs.google.com/presentation/d/1VWUVwEL3ItNMLSffdv3-53xGA-xP0vYW7hlBx3MF0u8/edit#slide=id.p)
+### week13_02/24
+> * 3.7 Save your work finished **Chapter2** of *Data Visualization*  
+> * prepared for Dr.Hsieh's Public Opinion Analysis class' research proposal, focusing on cyber/water army detection
+> * finished 10 pages of [*foundations of statistical natural language processing*](http://www.cookbook-r.com/Graphs/)
+> * Read at least 5 articles on [R-bloggers](https://www.cjr.org/index.php) daily
+> **Reading**: 昏迷指數3, 犯罪小說家, 希波克拉底的誓言
+> * finished **Chapter1** & **Chapter2** & **Chapter3** of [*R Graphics Cookbook*](http://www.cookbook-r.com/Graphs/)
+有機會讀Speech and Language Processing
+性別力, 優秀的綿羊, 
 
