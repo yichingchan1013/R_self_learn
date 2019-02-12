@@ -137,10 +137,10 @@ https://medium.com/bbc-visual-and-data-journalism/how-the-bbc-visual-and-data-jo
 > * prepared for Dr.Hsieh's Public Opinion Analysis class' research proposal, focusing on cyber/water army detection
 > * finished 10 pages of [*foundations of statistical natural language processing*](http://www.cookbook-r.com/Graphs/)
 > * Read at least 5 articles on [R-bloggers](https://www.cjr.org/index.php) daily
-> **Reading**: 昏迷指數3, 犯罪小說家, 希波克拉底的誓言
+> **Reading**: 孤身一人, 性別力, 
 > * finished **Chapter1** & **Chapter2** & **Chapter3** of [*R Graphics Cookbook*](http://www.cookbook-r.com/Graphs/)
 有機會讀Speech and Language Processing
-性別力, 優秀的綿羊, 
+優秀的綿羊, 
 
 
 ### week12_02/17
