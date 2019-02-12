@@ -260,7 +260,10 @@
 > * Author: Cheng Chen, Kui Wu, Venkatesh Srinivasan, Xudong Zhang
 > * Keywords: Online Paid Posters; Behavioral Patterns; Detection
 > * summary: 以語義分析與非語義法分析對
-    就**文獻探討**而言，本研究先以兩例中國的重大線上社群事件為例闡述水軍/線上付費寫手(online paid posters)現象，
+    就**文獻探討**而言，本研究列出了學界對垃圾訊息偵測的相關研究，
+    如設計部落格與論壇的垃圾訊息分類器、線上騷擾行為偵測、惡意使用者行為歸納、臉書上的垃圾訊息campaign行為等，
+    執得一提的研究發現是臉書上很多垃圾訊息的來源並非假(fake)帳號，而是遇到危害的(compromised)帳號。
+    此外，本研究也以兩例中國的重大線上社群事件為例闡述水軍/線上付費寫手(online paid posters)現象，
     分別是與魔獸世界有關的"賈君鵬媽媽喊你回家吃飯"事件以及與中國互聯網業巨頭"奇虎360與騰訊QQ互訴事件"，兩者皆有大量水軍出沒的蹤跡，
     因作者之一曾經應徵水軍擁有第一手經驗，因此也在文中說明水軍接案子的工作方式
     (a)接案過程與規範: 作者至水軍網接案，專案經理會說明任務要求(e.g.發文宣傳產品、回答其使用者疑問、廣佈廣告訊息於熱門網站)，
@@ -274,9 +277,10 @@
     (b)真實資料: 搜集重大社會事件的線上評論
     (c)行為分析: 以統計方法分析潛在水軍的行為模式，並辨識出幾項水軍的關鍵特色
     (d)語義分析: 結合語義分析改善水軍偵測準確度
-    就**研究方法**而言，本研究分為(a)非句法分析以及(b)句法分析，前者的目的為辨識水軍的行為模式特徵(feature)，
+    就**研究方法**而言，本研究分別以(a)非語義分析以及(b)句法分析計算指標，最後再(c)以SVM進行分類，
+    前者的目的為辨識水軍的行為模式特徵(feature)，後者的目的則是考慮了水軍的發文特性。
     作者從目標新聞網站爬下留言與留言者資訊，並篩除了留言數四篇以下的使用者。的留言者，因難以判斷低於三篇。
-    (a)非語義分析: 為了找到ground truth，作者以其中一個新聞網站的回覆為測試集，利用其水軍工作經驗，以人工辨識將名單分為兩部分，
+    (a)非語義分析: 為了找到ground truth，作者以其中一個新聞網站的回覆為訓練集，利用其水軍工作經驗，以人工辨識將名單分為兩部分，
     一半為正常使用者，另一半則為潛在(potential)水軍，並以統計方法分析兩群使用者的下列幾項指標是否有差異 -
      (1)開新串/回覆舊串比率(percentage of replies): 作者假定水軍較沒時間回覆舊串(要看完所有評論)，因此以比率50%為分界計算兩群人的分佈
      (2)平均回覆時間長(average interval time of posts): 作者假定水軍有時間壓力，因此以150秒的回覆間隔為分界計算兩群人的分佈
@@ -286,23 +290,20 @@
     矛盾內容或立場變換(沒有檢查純粹亂發)、垃圾內容(為了賺錢所以發無關亂回)
     (b)語義分析: 考慮網軍發文特性，作者將回覆內容斷詞後過濾掉停止詞，計算同使用者的不同發文內容，若共同出現的字彙(common words)超過一定門檻，
     即認定其為相似對(pairs)，另外作者補充了一句that similarity of comments is not transitive in our method.
+    (c)SVM 分類(classifications): 得到非語義分析的四個指標與語義分析的相似指標後，作者接著將另一個網站作為測試集，也以人工辨識出水軍，
+    再以訓練集的結果實作分類器，並將分類器的分類結果比對人工辨識結果。
     因為沒有使用者的上站時長資料，作者決定以文章回應時間(article response time)作為另一個衡量的指標，也就是計算留言者針對每篇文章的平均回覆時間。
-    就**實際案例**而言，本研究以爬蟲抓下台灣的2018六都選舉前PTT上八卦版共七個月的文章與推噓，並以台北市長選舉為主題，
-    將資料細分為三位候選人的次資料集，分別是柯、丁、姚。
-    本研究發現top commenters(top 20%)針對三位候選人的文章表現不同，若以x軸為評論數y軸為極化分數，發現評論越多者對柯正評越高(相關係數為0.4)，
-    對丁與姚負評較多(相關係數在-0.05左右)，這符合選舉結果，本研究在此關心的是在散佈圖當中的異常值(outliers)，
-    作者針對極化分數非常高以及評論數非常多者(有可能很多評論但正評負評剛好抵消，所以兩者要一起考慮)，將候選人兩兩一組拆開，
-    留言者針對A候選人的極化分數放x軸B候選人放y軸，找到針對特定候選人給正評/負評，但給其他候選人給相反評價的使用者，
-    但作者也表示極化分數只是一個面向，可能有對政治議題較為狂熱者堅定的捍衛其支持者故有此行為模式出現，
-    因此本研究另外看了top 100回覆者的x軸回覆數y軸放平均回覆文章時間的散佈圖，從中發現有些使用者回覆數極高平均回覆文章時間極低，
-    再將其與上面的極化分數相比對，發現有極化分數高且平均回覆文章時間低的使用者，這些就是本研究辨識出的異常使用者。
+    就**實際案例**而言，本研究以新浪和搜狐的3Q大戰相關新聞為案例，爬蟲抓下相關留言，計算上述指標後，
+    比較採用純統計分析模型以及結合語義分析指標的模型預測結果，發現後者表現較佳，precision達到95%(寧願多抓不要漏放)，recall則有73%(不要抓錯人)，
+    關注何種指標端看使用者用途為揪出所有可疑份子有錯沒差再過濾(precision)或揪出罪證確鑿的傢伙所以名單不能錯(recall)，前者適合公司後者適合新聞。
     未來作者希望可以設計正規且系統性的方法辨別網軍，並在辨識後以內容分析自動比對潛在名單的評論與文章。
-> * techniques: Web Crawling, Statistical Analysis
+> * techniques: Web Crawling, Statistical Analysis, Support Vector Machine, Classification
 
 ### reflection
 > * behavior-based, content-based, network-based approaches   
 > * social networks with real identities vs. BBS with anonymous identities
 > * paid users in news website/e-commerce review page/micrp-blog platforms/Bulletin Board System/social networks
 > * similarities between intenet water army and review spammers, like purpose, behavior patterns, organization, etc.
+> * compromised accounts vs. fake accounts on social media such as FB (缺錢所以拿去賣、被入侵然後被拿去賣)
 > * 衝熱度不等於帶風向，想想網軍的發文incentive，中國水軍可能是以帖子計價，台灣網軍可能是以帖子以及風向計價，ID切換類似順序
 > **Reading**: 不當行為, 活著告訴你
