@@ -55,8 +55,7 @@
 > * **SQL**: Read [**Anatomy of an Index**](https://www.rdocumentation.org/packages/stringr/versions/1.1.0)   
 > * Reviewed [**blogdown**](https://www.rdocumentation.org/packages/stringr/versions/1.1.0) packge
 > * Recommended [Where in the world can I study data journalism?](https://medium.com/ucd-ischool/where-in-the-world-can-i-study-data-journalism-44c006e55ea5)
-> * Read at least 5 articles on [R-bloggers](https://www.cjr.org/index.php) daily
-> * Read at least 5 articles on R-bloggers per week
+> * Read at least 5 articles on [R-bloggers](https://www.cjr.org/index.php) 
 
 > **Others**   
 > * **Korean**: Korean Number, shopping
@@ -73,7 +72,7 @@
 > **R-related and Basic**   
 > * Reviewed [**tidyr**](https://www.rdocumentation.org/packages/stringr/versions/1.1.0) packge
 > * Learned [**R NLP相關**](https://www.rdocumentation.org/packages/stringr/versions/1.1.0) packge
-> * Read at least 5 articles on [R-bloggers](https://www.cjr.org/index.php) daily
+> * Read at least 5 articles on [R-bloggers](https://www.cjr.org/index.php) 
 
 > **Others**   
 > * **Korean**: Korean verb
@@ -87,7 +86,7 @@
 
 > **R-related and Basic**   
 > * Recommended [Detecting Potential Cyber Armies of Election Campaigns Based on Behavioral Analysis](https://www.slideshare.net/MingHungWang/detecting-potential-cyber-armies-of-election-campaigns-based-on-behavioral-analysis/MingHungWang/detecting-potential-cyber-armies-of-election-campaigns-based-on-behavioral-analysis?fbclid=IwAR3ZsAqyXhlHzVOXzhbIQmlmr4EFBVEllr3n1e3SxpYVX-cmJFvwTbV28eY)
-> * Read at least 5 articles on [R-bloggers](https://www.cjr.org/index.php) daily
+> * Read at least 5 articles on [R-bloggers](https://www.cjr.org/index.php) 
 
 > **Others**   
 > * **Korean**: Korean time related noun
@@ -113,14 +112,14 @@
 > * prepared for Dr.Hsieh's Public Opinion Analysis class' research proposal, focusing on cyber/water army detection, read 3 research papers related to the topic
 > * finished 50 pages of [*foundations of statistical natural language processing*](http://www.cookbook-r.com/Graphs/)
 > * studied half of **SQL Fundamentals for Business Intelligence** on O'reilly Safiri, installed PSQL und used it for practice
-> * Read at least 5 articles on [R-bloggers](https://www.cjr.org/index.php) daily
+> * Read at least 5 articles on [R-bloggers](https://www.cjr.org/index.php) 
 > **Reading**: 不當行為, 活著告訴你
 
 ### week9_01/27
 > * finished **Chapter2** of *Data Visualization*  
 > * prepared for Dr.Hsieh's Public Opinion Analysis class' research proposal, focusing on cyber/water army detection
 > * finished 10 pages of [*foundations of statistical natural language processing*](http://www.cookbook-r.com/Graphs/)
-> * Read at least 5 articles on [R-bloggers](https://www.cjr.org/index.php) daily
+> * Read at least 5 articles on [R-bloggers](https://www.cjr.org/index.php) 
 > **Reading**: 昏迷指數3, 犯罪小說家, 希波克拉底的誓言
 
 
@@ -129,16 +128,16 @@
 > * finished **Chapter2** and **Chapter4** of [*foundations of statistical natural language processing*](http://www.cookbook-r.com/Graphs/)
 > * Recommended [How the BBC Visual and Data Journalism team works with graphics in R](
 https://medium.com/bbc-visual-and-data-journalism/how-the-bbc-visual-and-data-journalism-team-works-with-graphics-in-r-ed0b35693535?fbclid=IwAR2Z5Mp4FJA7VHkE1V7rrcXTv3AJM-BFddKSNIwQ9skqUrRl6JqfkU37zU)
-> * Read at least 5 articles on [R-bloggers](https://www.cjr.org/index.php) daily
+> * Read at least 5 articles on [R-bloggers](https://www.cjr.org/index.php) 
 > **Reading**: 完美殺機
 
 ### week11_02/10
 > * 3.7 Save your work finished **Chapter2** of *Data Visualization*  
-> * prepared for Dr.Hsieh's Public Opinion Analysis class' research proposal, focusing on cyber/water army detection
+> * Finished Dr.Hsieh's Public Opinion Analysis class' research proposal
 > * finished 10 pages of [*foundations of statistical natural language processing*](http://www.cookbook-r.com/Graphs/)
-> * Read at least 5 articles on [R-bloggers](https://www.cjr.org/index.php) daily
-> **Reading**: 孤身一人, 性別力, 
-> * finished **Chapter1** & **Chapter2** & **Chapter3** of [*R Graphics Cookbook*](http://www.cookbook-r.com/Graphs/)
+> * Read at least 5 articles on [R-bloggers](https://www.cjr.org/index.php) 
+> * Recommended [Coordinatized Data: A Fluid Data Specification](http://winvector.github.io/FluidData/RowsAndColumns.html) to better understand the shape/layout of data
+> **Reading**: 孤身一人, 性別力, 黑色辯護人
 有機會讀Speech and Language Processing
 優秀的綿羊, 
 
@@ -151,7 +150,7 @@ https://medium.com/bbc-visual-and-data-journalism/how-the-bbc-visual-and-data-jo
 > **Reading**: 昏迷指數3, 犯罪小說家, 希波克拉底的誓言
 > * finished **Chapter1** & **Chapter2** & **Chapter3** of [*R Graphics Cookbook*](http://www.cookbook-r.com/Graphs/)
 有機會讀Speech and Language Processing
-性別力, 優秀的綿羊, 
+優秀的綿羊, 
 
 
 ### week13_02/24
