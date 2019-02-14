@@ -135,16 +135,17 @@ https://medium.com/bbc-visual-and-data-journalism/how-the-bbc-visual-and-data-jo
 > * 3.7 Save your work finished **Chapter2** of *Data Visualization*  
 > * Finished Dr.Hsieh's Public Opinion Analysis class' research proposal
 > * finished 10 pages of [*foundations of statistical natural language processing*](http://www.cookbook-r.com/Graphs/)
-> * finished 10 pages of [*R Style Guide*](https://style.tidyverse.org/)   
+> * finished half of [*R Style Guide*](https://style.tidyverse.org/)   
 > * Read at least 5 articles on [R-bloggers](https://www.cjr.org/index.php) 
 > * Recommended [Coordinatized Data: A Fluid Data Specification](http://winvector.github.io/FluidData/RowsAndColumns.html) to better understand the shape/layout of data
+> * Recommended [GT](https://gt.rstudio.com/index.html) package, which is really attractive to me in the Valentines Day
+> * Read [Intro to Ensembling in R](https://www.analyticsvidhya.com/blog/2017/02/introduction-to-ensembling-along-with-implementation-in-r/) and applied the concept into work
 > **Reading**: 孤身一人, 性別力, 黑色辯護人
+
 有機會讀Speech and Language Processing
 優秀的綿羊, 
-https://gt.rstudio.com/
 https://jozefhajnala.gitlab.io/r/r909-rmarkdown-tips/
 https://blog.rstudio.com/2019/02/06/rstudio-conf-2019-workshops/
-https://www.analyticsvidhya.com/blog/2017/02/introduction-to-ensembling-along-with-implementation-in-r/
 https://topepo.github.io/caret/pre-processing.html
 https://lucidmanager.org/measuring-consumer-involvement/
 
