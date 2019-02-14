@@ -141,7 +141,12 @@ https://medium.com/bbc-visual-and-data-journalism/how-the-bbc-visual-and-data-jo
 > **Reading**: 孤身一人, 性別力, 黑色辯護人
 有機會讀Speech and Language Processing
 優秀的綿羊, 
-
+https://gt.rstudio.com/
+https://jozefhajnala.gitlab.io/r/r909-rmarkdown-tips/
+https://blog.rstudio.com/2019/02/06/rstudio-conf-2019-workshops/
+https://www.analyticsvidhya.com/blog/2017/02/introduction-to-ensembling-along-with-implementation-in-r/
+https://topepo.github.io/caret/pre-processing.html
+https://lucidmanager.org/measuring-consumer-involvement/
 
 ### week12_02/17
 > * 3.7 Save your work finished **Chapter2** of *Data Visualization*  
