@@ -140,15 +140,8 @@ https://medium.com/bbc-visual-and-data-journalism/how-the-bbc-visual-and-data-jo
 > * Recommended [Coordinatized Data: A Fluid Data Specification](http://winvector.github.io/FluidData/RowsAndColumns.html) to better understand the shape/layout of data
 > * Recommended [GT](https://gt.rstudio.com/index.html) package, which is really attractive to me in the Valentines Day
 > * Read [Intro to Ensembling in R](https://www.analyticsvidhya.com/blog/2017/02/introduction-to-ensembling-along-with-implementation-in-r/) and applied the concept into work
-> * Used [googledrive](https://googledrive.tidyverse.org/) package and google sheet formulas such as ```importrange``` and ```query``` to automate report updating process
+> * Used [googledrive](https://googledrive.tidyverse.org/) package and google sheet formulas such as ```importrange``` and ```query``` to automate report updating process    
 > **Reading**: 孤身一人, 性別力, 黑色辯護人
-
-有機會讀Speech and Language Processing
-優秀的綿羊, 
-https://jozefhajnala.gitlab.io/r/r909-rmarkdown-tips/
-https://blog.rstudio.com/2019/02/06/rstudio-conf-2019-workshops/
-https://topepo.github.io/caret/pre-processing.html
-https://lucidmanager.org/measuring-consumer-involvement/
 
 ### week12_02/17
 > * 3.7 Save your work finished **Chapter2** of *Data Visualization*  
@@ -159,6 +152,13 @@ https://lucidmanager.org/measuring-consumer-involvement/
 > * finished **Chapter1** & **Chapter2** & **Chapter3** of [*R Graphics Cookbook*](http://www.cookbook-r.com/Graphs/)
 有機會讀Speech and Language Processing
 優秀的綿羊, 
+有機會讀Speech and Language Processing
+優秀的綿羊, 
+https://jozefhajnala.gitlab.io/r/r909-rmarkdown-tips/
+https://blog.rstudio.com/2019/02/06/rstudio-conf-2019-workshops/
+https://topepo.github.io/caret/pre-processing.html
+https://lucidmanager.org/measuring-consumer-involvement/
+
 
 
 ### week13_02/24
