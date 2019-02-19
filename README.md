@@ -140,6 +140,7 @@ https://medium.com/bbc-visual-and-data-journalism/how-the-bbc-visual-and-data-jo
 > * Recommended [Coordinatized Data: A Fluid Data Specification](http://winvector.github.io/FluidData/RowsAndColumns.html) to better understand the shape/layout of data
 > * Recommended [GT](https://gt.rstudio.com/index.html) package, which is really attractive to me in the Valentines Day
 > * Read [Intro to Ensembling in R](https://www.analyticsvidhya.com/blog/2017/02/introduction-to-ensembling-along-with-implementation-in-r/) and applied the concept into work
+> * Used [googledrive](https://googledrive.tidyverse.org/) package and google sheet formulas such as ```importrange``` and ```query``` to automate report updating process
 > **Reading**: 孤身一人, 性別力, 黑色辯護人
 
 有機會讀Speech and Language Processing
