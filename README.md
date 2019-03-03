@@ -2,7 +2,7 @@
 
 ### Goal
 > * Applied [Scrum](https://funevo.com/2015/06/27/scrum-ru-men-jie-shao-xin-shou-zhi-nan-introduce/) concept to self-learning path 
-> * Field: Basic and R-related, Statistics, Machine Learning, Text Mining, Data Vis, Data Jounalsim, Others   
+> * Field: Basic and R-related, Statistics, Machine Learning, Text Mining, Data Vis, Data Journalsim, Others   
 > * week = sprint, month = scrum, weekly review on Sunday, monthly review on 2nd day of the month
 
 ### Schedule
