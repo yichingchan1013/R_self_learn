@@ -122,7 +122,6 @@
 > * Read at least 5 articles on [R-bloggers](https://www.cjr.org/index.php) 
 > **Reading**: 昏迷指數3, 犯罪小說家, 希波克拉底的誓言
 
-
 ### week10_02/03
 > * prepared for Dr.Hsieh's Public Opinion Analysis class' research proposal, focusing on cyber/water army detection
 > * finished **Chapter2** and **Chapter4** of [*foundations of statistical natural language processing*](http://www.cookbook-r.com/Graphs/)
@@ -144,30 +143,33 @@ https://medium.com/bbc-visual-and-data-journalism/how-the-bbc-visual-and-data-jo
 > **Reading**: 孤身一人, 性別力, 黑色辯護人
 
 ### week12_02/17
-> * 3.7 Save your work finished **Chapter2** of *Data Visualization*  
-> * prepared for Dr.Hsieh's Public Opinion Analysis class' research proposal, focusing on cyber/water army detection
-> * finished 10 pages of [*foundations of statistical natural language processing*](http://www.cookbook-r.com/Graphs/)
+> * 開學超忙忙選課
+> * Researched for new idea on Dr.Hsieh's Public Opinion Analysis class' research proposal
 > * Read at least 5 articles on [R-bloggers](https://www.cjr.org/index.php) daily
-> **Reading**: 昏迷指數3, 犯罪小說家, 希波克拉底的誓言
-> * finished **Chapter1** & **Chapter2** & **Chapter3** of [*R Graphics Cookbook*](http://www.cookbook-r.com/Graphs/)
-有機會讀Speech and Language Processing
-優秀的綿羊, 
-有機會讀Speech and Language Processing
-優秀的綿羊, 
-https://jozefhajnala.gitlab.io/r/r909-rmarkdown-tips/
-https://blog.rstudio.com/2019/02/06/rstudio-conf-2019-workshops/
-https://topepo.github.io/caret/pre-processing.html
-https://lucidmanager.org/measuring-consumer-involvement/
-
-
+> * Spent time on News Writing like read news a lot, read Harvard Writing books a chapter weekly, and finished writing homework
+> **Reading**: 飄離的伊甸
+公平與效率沒空看完
 
 ### week13_02/24
-> * 3.7 Save your work finished **Chapter2** of *Data Visualization*  
+> * Finished **Chapter1** and half of **Chapter2** [*Social and Economics Network*]()
+> * Read at least 5 articles on [R-bloggers](https://www.cjr.org/index.php) daily
+> * Spent time on News Writing like read news a lot, read Harvard Writing books a chapter weekly, and finished writing homework
+> **Reading**: 優秀的綿羊, 貝納德的墮落, 莫拉的雙生, 里約熱內盧
+
+### week14_03/03
+> * Reviewed linear algebra 
 > * prepared for Dr.Hsieh's Public Opinion Analysis class' research proposal, focusing on cyber/water army detection
 > * finished 10 pages of [*foundations of statistical natural language processing*](http://www.cookbook-r.com/Graphs/)
 > * Read at least 5 articles on [R-bloggers](https://www.cjr.org/index.php) daily
-> **Reading**: 昏迷指數3, 犯罪小說家, 希波克拉底的誓言
+> **Reading**: 
 > * finished **Chapter1** & **Chapter2** & **Chapter3** of [*R Graphics Cookbook*](http://www.cookbook-r.com/Graphs/)
 有機會讀Speech and Language Processing
-性別力, 優秀的綿羊, 
 
+### week15_03/10
+> * Reviewed linear algebra 
+> * prepared for Dr.Hsieh's Public Opinion Analysis class' research proposal, focusing on cyber/water army detection
+> * finished 10 pages of [*foundations of statistical natural language processing*](http://www.cookbook-r.com/Graphs/)
+> * Read at least 5 articles on [R-bloggers](https://www.cjr.org/index.php) daily
+> **Reading**: 
+> * finished **Chapter1** & **Chapter2** & **Chapter3** of [*R Graphics Cookbook*](http://www.cookbook-r.com/Graphs/)
+有機會讀Speech and Language Processing
