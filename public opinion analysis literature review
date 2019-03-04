@@ -10,9 +10,7 @@
 初步計畫書內容須包含，研究主題、研究前沿（網路上別人做到哪裡，請找英文）、所欲處理的資料、個人的程式學習狀況概述、個人修課的需求、本學期其他修課概況。
 
 ### Resource
-[foundations of statistical natural language processing]()   
-[MPA 635](https://datavizf18.classes.andrewheiss.com/)   
-[Datand](https://jouryllabus)   
+[foundations of statistical natural language processing]()
 
 ### Opinion Spam Detection in Web Forum: A Real Case Study 
 > * Author: Yu-Ren Chen and Hsin-Hsi Chen
@@ -332,3 +330,13 @@ which make event life-cycle tracking more adaptive.
 > * compromised accounts vs. fake accounts on social media such as FB (缺錢所以拿去賣、被入侵然後被拿去賣)
 > * 衝熱度不等於帶風向，想想網軍的發文incentive，中國水軍可能是以帖子計價，台灣網軍可能是以帖子以及風向計價，ID切換類似順序
 > **Reading**: 不當行為, 活著告訴你
+
+Chen C.C., Chen YT., Sun Y., Chen M.C. (2003) Life Cycle Modeling of News Events Using Aging Theory. In: Lavrač N., Gamberger D., Blockeel H., Todorovski L. (eds) Machine Learning: ECML 2003. ECML 2003. Lecture Notes in Computer Science, vol 2837. Springer, Berlin, Heidelberg
+
+Sheng-chen Yang, Lei-lei Shi, Lu Liu, "Community Detection Method Based on User Influence Probability and Similarity", Advanced Cloud and Big Data (CBD) 2018 Sixth International Conference on, pp. 183-190, 2018.
+
+Tsugawa, Sho & Kimura, Kazuma, 2018. "Identifying influencers from sampled social networks," Physica A: Statistical Mechanics and its Applications, Elsevier, vol. 507(C), pages 294-303.
+
+WANG, Xun; ZHU, Feida; JIANG, Jing; and LI, Sujian. Real Time Event Detection in Twitter. (2013). Web-age information
+management: 14th International Conference, WAIM 2013, Beidaihe, China, June 14-16: Proceedings. 7932, 502-513. Research Collection
+School Of Information Systems.
