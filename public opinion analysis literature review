@@ -299,6 +299,31 @@
     未來作者希望可以設計正規且系統性的方法辨別網軍，並在辨識後以內容分析自動比對潛在名單的評論與文章。
 > * techniques: Web Crawling, Statistical Analysis, Support Vector Machine, Classification
 
+### Battling the Internet Water Army: Detection of Hidden Paid Posters
+> * Author: Chien Chin Chen, Yao-Tsung Chen, and Meng Chang Chen
+> * Keywords: Clustering; knowledge life cycle; web mining
+> * summary: 利用aging theory針對事件建立時序模型，
+present an aging theory to model the life cycles of sequential
+events. This theory deals with the context-shifting problem as
+well as the number and distribution of supporting documents,
+which make event life-cycle tracking more adaptive.
+    就**文獻探討**而言，本研究指出自動分類(autoclassification)與內容的個人化(personalization)以及廣為應用，
+    但就線上事件監測與追蹤而言，因為時間與內容可能變化快速進而衍伸出訓練集資料不足問題，此外讀者習慣依照時序閱讀而非事件分類(categories)，
+    都使得線上事件監測與應用在推薦上有其困難，作者也補充了前述的個人化是一個解決辦法，利用歷史資料得知讀者興趣，便可以推薦對方相符的線上事件內容，
+    然而，此法的問題在於若僅基於讀者閱讀的歷史資料，則某些事件如天災或重大社會新聞會被忽略，但讀者其實願意閱讀，另外也無法解決讀者興趣時常變動的問題。
+    本篇論文希望可以設計出有效率的事件偵測演算法。作者引述了先前的一個專案: TDT，主要由五個任務所組成:
+    story segmentation, topic tracking, topic detection, first story detection (FSD), and story link detection(SLD)
+    第一項任務是在切每個新聞來源(streams)的故事界線，譬如說聯合電子報最近一百篇報導，切成幾個故事，這可能跟時間是否相鄰(adjacency)有關，
+    第二項任務是在分類不同新聞來源的文件，作者略過了第三項任務的意思，
+    第四項任務則是辨識一則新報導是否應歸類於舊事件還是要開創新主題，第五項任務則是要決定隨機選取的兩則新聞是否為同個主題。
+    作者列舉了幾項線上事件偵測的演算法，其中有個重點是分類不能僅用內容相似度作為標準，因為報導酒駕車禍的用詞可能相近，但時間上差了一年。
+    因為過往研究利用時間作為門檻無法很好的處理長時間(long-running)事件，因此作者提出了self-adaptive event life-cycle management mechanism。
+    作者援引了aging theory描述sequential event的老化行為，將事件當作內生的(endogenous)健康人工代理人(artificial agent)，
+    其所擁有的energy value若沒有得到新的document作為養分便會下降，而新document所能貢獻的分數取決於內容相似度，就像食物也有不同營養一般。
+    time slot t 當中每篇文章當作x，經過函數g()運作得到y，其中函數g()當中有兩個parameter，分別是決定文章影響能量值的afa與決定老化步調的beta。
+    接下來作者提了幾種可能的scenario，非常數學，包含怎麼train參數、參數值的實際意義等等。後面都數學就先skip。
+> * techniques: Web Crawling, Statistical Analysis, Support Vector Machine, Classification
+
 ### reflection
 > * behavior-based, content-based, network-based approaches   
 > * social networks with real identities vs. BBS with anonymous identities
