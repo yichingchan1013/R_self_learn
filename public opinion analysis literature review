@@ -297,14 +297,10 @@
     未來作者希望可以設計正規且系統性的方法辨別網軍，並在辨識後以內容分析自動比對潛在名單的評論與文章。
 > * techniques: Web Crawling, Statistical Analysis, Support Vector Machine, Classification
 
-### Battling the Internet Water Army: Detection of Hidden Paid Posters
+### An Aging Theory for Event Life-Cycle Modeling
 > * Author: Chien Chin Chen, Yao-Tsung Chen, and Meng Chang Chen
 > * Keywords: Clustering; knowledge life cycle; web mining
-> * summary: 利用aging theory針對事件建立時序模型，
-present an aging theory to model the life cycles of sequential
-events. This theory deals with the context-shifting problem as
-well as the number and distribution of supporting documents,
-which make event life-cycle tracking more adaptive.
+> * summary: 利用aging theory針對事件建立時序模型改善以往的事件偵測模型。
     就**文獻探討**而言，本研究指出自動分類(autoclassification)與內容的個人化(personalization)以及廣為應用，
     但就線上事件監測與追蹤而言，因為時間與內容可能變化快速進而衍伸出訓練集資料不足問題，此外讀者習慣依照時序閱讀而非事件分類(categories)，
     都使得線上事件監測與應用在推薦上有其困難，作者也補充了前述的個人化是一個解決辦法，利用歷史資料得知讀者興趣，便可以推薦對方相符的線上事件內容，
@@ -321,6 +317,27 @@ which make event life-cycle tracking more adaptive.
     time slot t 當中每篇文章當作x，經過函數g()運作得到y，其中函數g()當中有兩個parameter，分別是決定文章影響能量值的afa與決定老化步調的beta。
     接下來作者提了幾種可能的scenario，非常數學，包含怎麼train參數、參數值的實際意義等等。後面都數學就先skip。
 > * techniques: Web Crawling, Statistical Analysis, Support Vector Machine, Classification
+
+### The Diffusion of Misinformation on Social Media: Temporal Pattern, Message, and Source
+> * Author: Jieun Shin, Lian Jian, Kevin Driscoll, Francois Bar
+> * Keywords: misinformation; rumor; social media; diffusion; partisan; election; fake news;
+> * summary: 分析twitter上的政治不實訊息(misinformation)擴散與演化的流程。
+    就**文獻探討**而言，本研究指出其不同於以往工程或電腦科學類的研究將訊息擴散的過程看作固定的物體，而是採許另一種觀點，
+    將訊息當作可變動的與可塑造的，並且更加重視訊息擴散的社會心理學脈絡。因此本研究注重每則謠言各自的獨特性，
+    將訊息擴散的流程分為三大部分：時序模式(temporal pattern)、謠言敘事(rumor narrative)、謠言來源(rumor sources)。
+    本研究提出幾個核心問題
+    Temporal Patterns of Diffusion
+    R1a: Do political rumors recur?
+    R1b: Is there any difference in the diffusion patterns between true and false rumors?
+    Evolution of Rumor Content
+    RQ2: Do comeback rumors show content changes between peaks?
+    Rumor Sources
+    RQ3: Do persistent rumors depend on external sources that keep refreshing the rumor?
+    另外，本研究也關注了misinformation隨時間改變演化的過程，因為現在的misinformation要重新奪得關注，多半是內容有所增添，
+    過往有學者指出訊息的重新出現(recurrence)會有三種現象(1) leveling 捨棄不有趣的細節, (2) sharpening 著重特定角度, and (3) assimilation 增添新事件或內容.
+        
+> * techniques: Web Crawling, Statistical Analysis, Support Vector Machine, Classification
+
 
 ### reflection
 > * behavior-based, content-based, network-based approaches   
