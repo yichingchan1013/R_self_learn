@@ -354,6 +354,59 @@
     針對謠言來源分析，假傳言有70%的傳言會轉貼外部URL，此外每次傳言重新出現時會引用的URL會變動，因為略作內容更動加上不同網站看起來就像新的消息來源。
 > * techniques: Web Crawling, Statistical Analysis, Text Similarity, Social Network
 
+### Mining Misinformation in Social Media
+> * Author: Liang Wu, Fred Morstatter, Xia Hu, Huan Liu
+> * Keywords: misinformation; rumor; social media; diffusion; partisan; election; fake news;
+> * summary: 介紹misinformation的Diffusion、Detection、Intervention。
+    就**文獻探討**而言，
+    -Information Diffusion in Social Networks有以下四種model
+    SIR Model, Tipping Model, Independent Cascade Model, Linear Threshold Model
+    Senders, Spreaders, Receivers
+    上述的model主要有兩個差異，分別是method of information being diffused between senders, spreaders and receivers;
+    and evolution of individual roles during the process of diffusion.
+    SIR: describes the information diffusion process in network as an infectious disease spread in a community.
+    So the nodes are generally classified into three categories: S - the susceptible to be infected,
+    I - the infected individuals who are active to infect others, R the recovered individuals who recovered and are vaccinated against the disease.
+    -MISINFORMATION IDENTIFICATION
+    Traditionally, the content and network structure are two key factors of telling spam from regular information.    
+> * techniques: Web Crawling, Statistical Analysis, Text Similarity, Social Network
+
+### The Diffusion of Misinformation on Social Media: Temporal Pattern, Message, and Source
+> * Author: Jieun Shin, Lian Jian, Kevin Driscoll, Francois Bar
+> * Keywords: misinformation; rumor; social media; diffusion; partisan; election; fake news;
+> * summary: 分析twitter上的政治不實訊息(misinformation)擴散與演化的流程。
+    就**文獻探討**而言，本研究指出其不同於以往工程或電腦科學類的研究將訊息擴散的過程看作固定的物體，而是採許另一種觀點，
+    將訊息當作可變動的與可塑造的，並且更加重視訊息擴散的社會心理學脈絡。因此本研究注重每則謠言各自的獨特性，
+    將訊息擴散的流程分為三大部分：時序模式(temporal pattern)、謠言敘事(rumor narrative)、謠言來源(rumor sources)。
+    本研究提出幾個核心問題
+    Temporal Patterns of Diffusion
+    R1a: Do political rumors recur?
+    R1b: Is there any difference in the diffusion patterns between true and false rumors?
+    Evolution of Rumor Content
+    RQ2: Do comeback rumors show content changes between peaks?
+    Rumor Sources
+    RQ3: Do persistent rumors depend on external sources that keep refreshing the rumor?
+    另外，本研究也關注了misinformation隨時間改變演化的過程，因為現在的misinformation要重新奪得關注，多半是內容有所增添，
+    過往有學者指出訊息的重新出現(recurrence)會有三種現象(1) leveling 捨棄不有趣的細節, (2) sharpening 著重特定角度, and (3) assimilation 增添新事件或內容.
+    就**研究方法**而言，本研究依照前述的三大部分，分別探討時序模式、謠言敘事、謠言來源分析。
+    時序面主要看 Recurrence， Repetitive Temporal Pattern ，內容面從 Text Similarity 著手，謠言來院則是看外部連結的URL。
+    就時序面而言，作者使用兩個指標觀察傳言擴散的特徵(signatrue)，
+    分別是(a)熱點數(the number of spikes)以及(b)時間集中性(the extent to which rumor tweets concentrated on the most active day)
+    前者作者用R package ```pracma```裡面的 findpeaks function，後者則是計算傳言密集討論貼文數占總體貼文數的比例，
+    就內容面而言，作者想得到每一波留言的代表性訊息，因此先進行了預處理包含斷詞、篩掉最稀疏的10%詞彙、word stemming，最後得出document-term matrix，
+    接著作者計算不同document之間的餘弦相似度(cosine similarities)，在計算之前作者有先標準化以免結果受corpus中詞彙量多寡所影響。
+    本研究也繪製出了不同傳言在不同高峰的文字網絡，網絡的節點(nodes)代表該時間該傳言經常使用的詞彙，(edges)則代表co-occuring relations。
+    就謠言來源而言，作者看External Rumor Sources最主要來自哪幾個網站，再進行分析。
+    就**實際案例**而言，本研究分析twitter上2012年美國選舉的17個政治傳言(rumors, 傳播時尚未被證實，故可能為真可能為假)，
+    使用輿情分析工具將推文爬下後，過濾出與政治傳言相關的推文內容，再以人工方式判斷轉推文立場是認同(endorsing)還是反對(rejecting)，
+    無法分類則用不明(unclear)歸結，接下來查看了傳言來源與傳言轉推者的特色，譬如說轉推歐巴馬相關傳言者當中共和黨支持者較多，以及傳言多數來自非傳媒。
+    針對時序模式分析，發現經證實為假的傳言之高峰(peak)會比經證實為真的傳言之高峰還多，前者有大於一的高峰而後者只有一個高峰，此結果達到統計上顯著，
+    另外也發現真實傳言的討論有集中現象，不像假傳言之高峰貼文會散布，並且傳言在選舉後就停止散佈了。
+    針對內容分析，如前所述本研究使用量化(相似度)與質化(句法網絡)方法並行，作者發現假傳言(真傳言都只有一個peak所以沒辦法看演化)之中，
+    有超過半數的傳言在不同波段之間的餘弦相似度低於0.5，代表其會時間演化。觀察句法網絡也發現，假傳言會越變越極端。
+    針對謠言來源分析，假傳言有70%的傳言會轉貼外部URL，此外每次傳言重新出現時會引用的URL會變動，因為略作內容更動加上不同網站看起來就像新的消息來源。
+> * techniques: Web Crawling, Statistical Analysis, Text Similarity, Social Network
+
 ### reflection
 > * behavior-based, content-based, network-based approaches   
 > * social networks with real identities vs. BBS with anonymous identities
