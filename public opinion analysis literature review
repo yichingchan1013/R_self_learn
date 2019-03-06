@@ -335,7 +335,23 @@
     RQ3: Do persistent rumors depend on external sources that keep refreshing the rumor?
     另外，本研究也關注了misinformation隨時間改變演化的過程，因為現在的misinformation要重新奪得關注，多半是內容有所增添，
     過往有學者指出訊息的重新出現(recurrence)會有三種現象(1) leveling 捨棄不有趣的細節, (2) sharpening 著重特定角度, and (3) assimilation 增添新事件或內容.
-        
+    就**研究方法**而言，本研究依照前述的三大部分，分別探討時序模式、謠言敘事、謠言來源分析。
+    時序面主要看 Recurrence， Repetitive Temporal Pattern ，內容面從 Text Similarity 著手，謠言來院則是看外部連結的URL。
+    就時序面而言，作者使用兩個指標觀察傳言擴散的特徵(signatrue)，
+    分別是(a)熱點數(the number of spikes)以及(b)時間集中性(the extent to which rumor tweets concentrated on the most active day)
+    前者作者用R package ```pracma```裡面的 findpeaks function，後者則是計算傳言密集討論貼文數占總體貼文數的比例，
+    就內容面而言，作者想得到每一波留言的代表性訊息，因此先進行了預處理包含斷詞、篩掉最稀疏的10%詞彙、word stemming，最後得出document-term matrix，
+    接著作者計算不同document之間的餘弦相似度(cosine similarities)，在計算之前作者有先標準化以免結果受corpus中詞彙量多寡所影響。
+    本研究也繪製出了不同傳言在不同高峰的文字網絡，網絡的節點(nodes)代表該時間該傳言經常使用的詞彙，(edges)則代表co-occuring relations。
+    就謠言來源而言，作者看External Rumor Sources最主要來自哪幾個網站，再進行分析。
+    就**實際案例**而言，本研究分析twitter上2012年美國選舉的17個政治傳言(rumors, 傳播時尚未被證實，故可能為真可能為假)，
+    使用輿情分析工具將推文爬下後，過濾出與政治傳言相關的推文內容，再以人工方式判斷轉推文立場是認同(endorsing)還是反對(rejecting)，
+    無法分類則用不明(unclear)歸結，
+    
+    主要計算兩種指標，並且關心三種粉絲專頁，理解這些粉絲專頁有助於政府與政黨理解政治討論的熱點，
+    兩種指標為: 上述的(1)意識形態分數，設定按讚數門檻1000，意識形態按讚數10，另外建立(2)政治參與分數，計算方式是以意識形態按讚數/總按讚數。
+    三種粉絲專頁: 以兩種指標為標準，篩選出(a)意識形態極化(意識形態分數高);(b)高度政治參與(政治參與分數高);
+    (    
 > * techniques: Web Crawling, Statistical Analysis, Support Vector Machine, Classification
 
 
