@@ -151,19 +151,17 @@ https://medium.com/bbc-visual-and-data-journalism/how-the-bbc-visual-and-data-jo
 公平與效率沒空看完
 
 ### week13_02/24
-> * Finished **Chapter1** and half of **Chapter2** [*Social and Economics Network*]()
+> * Finished **Chapter1** and half of **Chapter2** of [*Social and Economics Network*]()
 > * Read at least 5 articles on [R-bloggers](https://www.cjr.org/index.php) daily
 > * Spent time on News Writing like read news a lot, read Harvard Writing books a chapter weekly, and finished writing homework
 > **Reading**: 優秀的綿羊, 貝納德的墮落, 莫拉的雙生, 里約熱內盧
 
 ### week14_03/03
+> * Finished a section of **Chapter2** of [*Social and Economics Network*]()
 > * Reviewed linear algebra 
-> * prepared for Dr.Hsieh's Public Opinion Analysis class' research proposal, focusing on cyber/water army detection
-> * finished 10 pages of [*foundations of statistical natural language processing*](http://www.cookbook-r.com/Graphs/)
+> * prepared for Dr.Hsieh's Public Opinion Analysis class' research proposal, read a few research papers
 > * Read at least 5 articles on [R-bloggers](https://www.cjr.org/index.php) daily
-> **Reading**: 
-> * finished **Chapter1** & **Chapter2** & **Chapter3** of [*R Graphics Cookbook*](http://www.cookbook-r.com/Graphs/)
-有機會讀Speech and Language Processing
+> **Reading**: nope
 
 ### week15_03/10
 > * Reviewed linear algebra 
