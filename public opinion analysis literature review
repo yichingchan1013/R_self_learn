@@ -388,6 +388,12 @@
     針對謠言來源分析，假傳言有70%的傳言會轉貼外部URL，此外每次傳言重新出現時會引用的URL會變動，因為略作內容更動加上不同網站看起來就像新的消息來源。
 > * techniques: Web Crawling, Statistical Analysis, Text Similarity, Social Network
 
+### Patterns of Temporal Variation in Online Media
+> * Author: Adam Badawy, Emilio Ferrara, and Kristina Lerman
+> * Keywords: Social media manipulation; Russian trolls; Bots; Misinformation
+> * summary: 利用twitter 和部落格與新聞文章建立online content的temporal pattern clustering algorithm。    
+> * techniques: Web Crawling, Statistical Analysis, Text Similarity, Social Network
+
 ### reflection
 > * behavior-based, content-based, network-based approaches   
 > * social networks with real identities vs. BBS with anonymous identities
