@@ -423,6 +423,13 @@
     This variable threshold changes with the activity. We also add a time window to determine when a news event should be dropped out of the system memory. 
     This time window changes with the activity of the news event, too.
     
+    Tracking new event: Topic Detection and Tracking(TDT)
+    
+    First, we clearly defined an energy function to evaluate the activity of a news event and give a iterative algorithm to solve the parameters. 
+    Second, we use the activity of a news event to determine the threshold of the single-pass clustering algorithm, 
+    and how long a news event should stay in the system memory. Third, [7] divides the news events into short-term and long-term events, 
+    while we treat all news events the same way. Finally, our work focuses on the stream of tweets instead of traditional news reports or stories.
+    
     作者援引了aging theory描述sequential event的老化行為，將事件當作內生的(endogenous)健康人工代理人(artificial agent)，
     其所擁有的energy value若沒有得到新的document作為養分便會下降，而新document所能貢獻的分數取決於內容相似度，就像食物也有不同營養一般。
     time slot t 當中每篇文章當作x，經過函數g()運作得到y，其中函數g()當中有兩個parameter，分別是決定文章影響能量值的afa與決定老化步調的beta。
@@ -439,10 +446,13 @@
 > * 衝熱度不等於帶風向，想想網軍的發文incentive，中國水軍可能是以帖子計價，台灣網軍可能是以帖子以及風向計價，ID切換類似順序
 > **Reading**: 不當行為, 活著告訴你
 
-#新指標: half-life 
-多想想王明宏那邊預測文章popularity
-正常的popularity跟不正常的popularity
-突發事件正常
+#新指標: half-life of a post(取得一半點擊數需要多少時間)(譬如說total回文數是40，取得20篇回文要多久時間)
+https://searchenginewatch.com/sew/study/2108186/bitly-links-hour-half-life-study
+多想想王明宏那邊預測文章popularity, 正常的popularity跟不正常的popularity
+突發事件-算正常？一般帶風向比較不正常
+aging theory提到說兩個parameter一個是afa, 文章帶來的nutrition 一個是beta, 時間帶來的老化
+不同的user會帶來不一樣的nutrition, 不同的source也可以是, 譬如說網友直接轉貼跟
+
 
 Chen C.C., Chen YT., Sun Y., Chen M.C. (2003) Life Cycle Modeling of News Events Using Aging Theory. In: Lavrač N., Gamberger D., Blockeel H., Todorovski L. (eds) Machine Learning: ECML 2003. ECML 2003. Lecture Notes in Computer Science, vol 2837. Springer, Berlin, Heidelberg
 
