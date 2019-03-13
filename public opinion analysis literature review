@@ -436,6 +436,30 @@
     接下來作者提了幾種可能的scenario，非常數學，包含怎麼train參數、參數值的實際意義等等。後面都數學就先skip。
 > * techniques: Web Crawling, Statistical Analysis, Support Vector Machine, Classification
 
+Viewers on the Nicovideo site are able to post their comments using a maximum of 75
+characters at any one time. To find basis for judging whether a video has been unfairly
+evaluated, we analysed videos that received a large number of comments, calculating the
+length of the character string of the comments posted for both the popular and the unfair
+videos. The results are shown in Table 1.
+unfair videos, over 98% of the comments were written in under 15 characters. Table 2 shows
+the breakdown of these under-15-character comments.
+As the analysis target, we manually prepared 100 popular and unfair videos, and calculated
+the entropy of character/word/part of speech/primitive semantics. The average/maximum/
+minimum entropy values are shown in Table 3.
+
+Similarity of the comment numbers posted on the videos.
+(a)time/comments distribution aging theory/energy function
+其他像是bit ly
+(b)life cycle: misinformation 那篇
+(c)text similarity/text metric e.g.文字長度; entrophy
+
+#新指標: half-life of a post(取得一半點擊數需要多少時間)(譬如說total回文數是40，取得20篇回文要多久時間)
+https://searchenginewatch.com/sew/study/2108186/bitly-links-hour-half-life-study
+多想想王明宏那邊預測文章popularity, 正常的popularity跟不正常的popularity
+突發事件-算正常？一般帶風向比較不正常
+aging theory提到說兩個parameter一個是afa, 文章帶來的nutrition 一個是beta, 時間帶來的老化
+不同的user會帶來不一樣的nutrition, 不同的source也可以是, 譬如說網友直接轉貼跟
+rate of comment 
 
 ### reflection
 > * behavior-based, content-based, network-based approaches   
@@ -446,12 +470,7 @@
 > * 衝熱度不等於帶風向，想想網軍的發文incentive，中國水軍可能是以帖子計價，台灣網軍可能是以帖子以及風向計價，ID切換類似順序
 > **Reading**: 不當行為, 活著告訴你
 
-#新指標: half-life of a post(取得一半點擊數需要多少時間)(譬如說total回文數是40，取得20篇回文要多久時間)
-https://searchenginewatch.com/sew/study/2108186/bitly-links-hour-half-life-study
-多想想王明宏那邊預測文章popularity, 正常的popularity跟不正常的popularity
-突發事件-算正常？一般帶風向比較不正常
-aging theory提到說兩個parameter一個是afa, 文章帶來的nutrition 一個是beta, 時間帶來的老化
-不同的user會帶來不一樣的nutrition, 不同的source也可以是, 譬如說網友直接轉貼跟
+
 
 
 Chen C.C., Chen YT., Sun Y., Chen M.C. (2003) Life Cycle Modeling of News Events Using Aging Theory. In: Lavrač N., Gamberger D., Blockeel H., Todorovski L. (eds) Machine Learning: ECML 2003. ECML 2003. Lecture Notes in Computer Science, vol 2837. Springer, Berlin, Heidelberg
