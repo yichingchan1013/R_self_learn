@@ -441,6 +441,26 @@
 > * Keywords: video comments; shared videos; comment analysis; time-series analysis
 > * summary: 利用aging theory針對事件建立時序模型改善以往的事件偵測模型。
     就**文獻探討**而言，本研究指出自動分類(autoclassification)與內容的個人化(personalization)以及廣為應用，
+    
+    Transition of the comment numbers after the video was uploaded: 每天的回應數占比
+    Character string analysis of the video comments: 留言平均長度
+    Entropy analysis of the comments: 
+    Relation between the comment posted date and the comment posting scene: 發文時間與數量 *chronological fluctuation feature of the comments
+    Entropy analysis of the comments: 
+    
+    1. We prepared training data for unfair/popular videos that received a large number of comments.
+    2. We prepared comment data from the training data and extracted the dates when the comments were posted and the scenes where the comments were posted.
+    3. We sought to find a basis to judge unfair/popular videos based on the posting dates and posting position.
+
+Using the comment data, we calculated the correlation coefficient rx,x+1, for x = 1, 2, 3,.., 6, where x is the number of days since the video was uploaded, as detailed below (see Figure 7)
+1. The comment data obtained x days from the date that the video was uploaded was divided into N equal segments according to the length of the video, as shown in Figure 8.
+2. The number of comments, Cx,n, was calculated for each segment (x, n).
+3. The average of Cx,n (n = 1, 2, 3,..., N) is defined as Cx ; the correlation coefficient rx,x+1 was
+calculated from Eq. (3).
+4. A threshold value to judge whether the video is popular or unfair was determined for the correlation coefficient for each neighbouring date, up to 7 days from the date the video was uploaded. A threshold is the value of the boundary line between two categories. In this study, we classify videos as either over-threshold or under-threshold by establishing the threshold of the coefficient of correlation.
+
+
+    
     In this study, we propose a method to detect ratings of cheating caused by dishonest multiple comment postings, 
     focusing on a time-series analysis of the number of comments accumulated by the video. 
     We define videos that receive a substantial number of comments as a result of unfair cheating as unfair videos; 
