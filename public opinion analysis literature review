@@ -436,6 +436,26 @@
     接下來作者提了幾種可能的scenario，非常數學，包含怎麼train參數、參數值的實際意義等等。後面都數學就先skip。
 > * techniques: Web Crawling, Statistical Analysis, Support Vector Machine, Classification
 
+### Time-Series Analysis of Video Comments on Social Media
+> * Author: Kazuyuki Matsumoto, Hayato Shimizu, Minoru Yoshida, Kenji Kita
+> * Keywords: Clustering; knowledge life cycle; web mining
+> * summary: 利用aging theory針對事件建立時序模型改善以往的事件偵測模型。
+    就**文獻探討**而言，本研究指出自動分類(autoclassification)與內容的個人化(personalization)以及廣為應用，
+    In this study, we propose a method to detect ratings of cheating caused by dishonest multiple comment postings, 
+    focusing on a time-series analysis of the number of comments accumulated by the video. 
+    We define videos that receive a substantial number of comments as a result of unfair cheating as unfair videos; 
+    videos that appear to be relatively free of such manufactured comments are defined as popular videos. 
+    Our proposed detection method focuses on differences in the chronological distributions of comments for the two video classifications—popular videos versus unfair videos.
+    
+    We proposed a method to detect unfair videos whose rankings were falsely influenced among the videos uploaded to a video sharing site. 
+    We focused on differences in the comment distribution tendencies between the unfair videos and what we termed popular videos (videos whose rankings were not falsely influenced). 
+    The play time of the video was divided into N segments, and the number of comments extracted from each segment was used as a feature. 
+    The correlation coefficient between neighbouring elapsed dates was calculated, 
+    and the unfair videos were detected by applying a judgment threshold for the minimum correlation coefficient value.
+    
+    
+> * techniques: Web Crawling, Statistical Analysis, Support Vector Machine, Classification
+
 Viewers on the Nicovideo site are able to post their comments using a maximum of 75
 characters at any one time. To find basis for judging whether a video has been unfairly
 evaluated, we analysed videos that received a large number of comments, calculating the
