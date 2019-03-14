@@ -438,7 +438,7 @@
 
 ### Time-Series Analysis of Video Comments on Social Media
 > * Author: Kazuyuki Matsumoto, Hayato Shimizu, Minoru Yoshida, Kenji Kita
-> * Keywords: Clustering; knowledge life cycle; web mining
+> * Keywords: video comments; shared videos; comment analysis; time-series analysis
 > * summary: 利用aging theory針對事件建立時序模型改善以往的事件偵測模型。
     就**文獻探討**而言，本研究指出自動分類(autoclassification)與內容的個人化(personalization)以及廣為應用，
     In this study, we propose a method to detect ratings of cheating caused by dishonest multiple comment postings, 
