@@ -508,17 +508,14 @@ rate of comment
 > * similarities between intenet water army and review spammers, like purpose, behavior patterns, organization, etc.
 > * compromised accounts vs. fake accounts on social media such as FB (缺錢所以拿去賣、被入侵然後被拿去賣)
 > * 衝熱度不等於帶風向，想想網軍的發文incentive，中國水軍可能是以帖子計價，台灣網軍可能是以帖子以及風向計價，ID切換類似順序
-> **Reading**: 不當行為, 活著告訴你
 
+假新聞傳播在ｌｉｎｅ群組裡面可以用cascading effects來解釋，接近的network彼此傳播，另外maybe也跟closed community的相關理論有關
+有個理論是說新科技（比較好的）可以取代普遍使用的舊科技（爛的），但前提是community 是open的，closed就不行
+social contagion
 
-
-
-Chen C.C., Chen YT., Sun Y., Chen M.C. (2003) Life Cycle Modeling of News Events Using Aging Theory. In: Lavrač N., Gamberger D., Blockeel H., Todorovski L. (eds) Machine Learning: ECML 2003. ECML 2003. Lecture Notes in Computer Science, vol 2837. Springer, Berlin, Heidelberg
 
 Sheng-chen Yang, Lei-lei Shi, Lu Liu, "Community Detection Method Based on User Influence Probability and Similarity", Advanced Cloud and Big Data (CBD) 2018 Sixth International Conference on, pp. 183-190, 2018.
-
 Tsugawa, Sho & Kimura, Kazuma, 2018. "Identifying influencers from sampled social networks," Physica A: Statistical Mechanics and its Applications, Elsevier, vol. 507(C), pages 294-303.
-
 WANG, Xun; ZHU, Feida; JIANG, Jing; and LI, Sujian. Real Time Event Detection in Twitter. (2013). Web-age information
 management: 14th International Conference, WAIM 2013, Beidaihe, China, June 14-16: Proceedings. 7932, 502-513. Research Collection
 School Of Information Systems.
