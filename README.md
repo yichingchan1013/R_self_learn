@@ -153,7 +153,7 @@ https://medium.com/bbc-visual-and-data-journalism/how-the-bbc-visual-and-data-jo
 ### week13_02/24
 > * Finished **Chapter1** and half of **Chapter2** of [*Social and Economics Network*]()
 > * Read at least 5 articles on [R-bloggers](https://www.cjr.org/index.php) daily
-> * Spent time on News Writing like read news a lot, read Harvard Writing books a chapter weekly, and finished writing homework
+> * Spent time on News Writing, read news a lot, read Harvard Writing books a chapter weekly, and finished writing homework
 > **Reading**: 優秀的綿羊, 貝納德的墮落, 莫拉的雙生, 里約熱內盧
 
 ### week14_03/03
@@ -161,13 +161,21 @@ https://medium.com/bbc-visual-and-data-journalism/how-the-bbc-visual-and-data-jo
 > * Reviewed linear algebra 
 > * prepared for Dr.Hsieh's Public Opinion Analysis class' research proposal, read a few research papers
 > * Read at least 5 articles on [R-bloggers](https://www.cjr.org/index.php) daily
+> * Spent time on News Writing, read news a lot, read Harvard Writing books a chapter weekly, and finished writing homework
 > **Reading**: nope
 
 ### week15_03/10
-> * Reviewed linear algebra 
-> * prepared for Dr.Hsieh's Public Opinion Analysis class' research proposal, focusing on cyber/water army detection
-> * finished 10 pages of [*foundations of statistical natural language processing*](http://www.cookbook-r.com/Graphs/)
+> * Finished **Chapter2** and **Chapter3** of [*Social and Economics Network*]()
+> * prepared for Dr.Hsieh's Public Opinion Analysis class' research proposal, reviewed papers related to energy function, news life cycle, and information diffusion
+> * Spent time on News Writing, read news a lot, and finished writing homework
+> * Read at least 5 articles on [R-bloggers](https://www.cjr.org/index.php) daily
+> **Reading**: NETFLIX：全球線上影音服務龍頭網飛大崛起
+
+
+### week16_03/17
+> * Finished **Chapter1** and **Chapter** of [*Networks, Crowds, and Markets*]()
+> * prepared for Dr.Hsieh's Public Opinion Analysis class' research proposal, reviewed papers related to energy function, news life cycle, and information diffusion
 > * Read at least 5 articles on [R-bloggers](https://www.cjr.org/index.php) daily
 > **Reading**: 
-> * finished **Chapter1** & **Chapter2** & **Chapter3** of [*R Graphics Cookbook*](http://www.cookbook-r.com/Graphs/)
+
 有機會讀Speech and Language Processing
