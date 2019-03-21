@@ -175,6 +175,7 @@ https://medium.com/bbc-visual-and-data-journalism/how-the-bbc-visual-and-data-jo
 ### week16_03/17
 > * Finished **Chapter1** and **Chapter** of [*Networks, Crowds, and Markets*]()
 > * prepared for Dr.Hsieh's Public Opinion Analysis class' research proposal, reviewed papers related to energy function, news life cycle, and information diffusion
+> * Recommended [Automated Data Reports with R](https://www.cultureofinsight.com/blog/2018/10/22/2018-08-20-automated-data-reports-with-r/)
 > * Read at least 5 articles on [R-bloggers](https://www.cjr.org/index.php) daily
 > **Reading**: 
 
