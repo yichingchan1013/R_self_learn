@@ -186,6 +186,6 @@ https://medium.com/bbc-visual-and-data-journalism/how-the-bbc-visual-and-data-jo
 https://github.com/jennybc/row-oriented-workflows/blob/master/ex01_leave-it-in-the-data-frame.md
 > * Read at least 5 articles on [R-bloggers](https://www.cjr.org/index.php) daily
 > **Reading**: Reading**: 
-
+http://colinfay.me/purrr-cookbook/
 
 有機會讀Speech and Language Processing
