@@ -104,7 +104,7 @@
 > * practiced logistic regression to predict response rate, taking [how to make a churn model in R](https://lukesingham.com/how-to-make-a-churn-model-in-r/) as the reference
 > * read several studies related to applications of text mining in political science and social media analysis
 > * completed my final essay titled **nature of playing sports-themed video games**, assigned by philosophical approaches to games' professor
-> **Reading**: 失控的謊言
+> * **Reading**: 失控的謊言
 
 ### week8_01/20
 > * Learned [**tidystringdist**](https://colinfay.me/tidystringdist/reference/tidy_stringdist.html) packge
@@ -113,14 +113,14 @@
 > * finished 50 pages of [*foundations of statistical natural language processing*](http://www.cookbook-r.com/Graphs/)
 > * studied half of **SQL Fundamentals for Business Intelligence** on O'reilly Safiri, installed PSQL und used it for practice
 > * Read at least 5 articles on [R-bloggers](https://www.cjr.org/index.php) 
-> **Reading**: 不當行為, 活著告訴你
+> * **Reading**: 不當行為, 活著告訴你
 
 ### week9_01/27
 > * finished **Chapter2** of *Data Visualization*  
 > * prepared for Dr.Hsieh's Public Opinion Analysis class' research proposal, focusing on cyber/water army detection
 > * finished 10 pages of [*foundations of statistical natural language processing*](http://www.cookbook-r.com/Graphs/)
 > * Read at least 5 articles on [R-bloggers](https://www.cjr.org/index.php) 
-> **Reading**: 昏迷指數3, 犯罪小說家, 希波克拉底的誓言
+> * **Reading**: 昏迷指數3, 犯罪小說家, 希波克拉底的誓言
 
 ### week10_02/03
 > * prepared for Dr.Hsieh's Public Opinion Analysis class' research proposal, focusing on cyber/water army detection
@@ -128,7 +128,7 @@
 > * Recommended [How the BBC Visual and Data Journalism team works with graphics in R](
 https://medium.com/bbc-visual-and-data-journalism/how-the-bbc-visual-and-data-journalism-team-works-with-graphics-in-r-ed0b35693535?fbclid=IwAR2Z5Mp4FJA7VHkE1V7rrcXTv3AJM-BFddKSNIwQ9skqUrRl6JqfkU37zU)
 > * Read at least 5 articles on [R-bloggers](https://www.cjr.org/index.php) 
-> **Reading**: 完美殺機
+> * **Reading**: 完美殺機
 
 ### week11_02/10
 > * 3.7 Save your work finished **Chapter2** of *Data Visualization*  
@@ -140,21 +140,21 @@ https://medium.com/bbc-visual-and-data-journalism/how-the-bbc-visual-and-data-jo
 > * Recommended [GT](https://gt.rstudio.com/index.html) package, which is really attractive to me in the Valentines Day
 > * Read [Intro to Ensembling in R](https://www.analyticsvidhya.com/blog/2017/02/introduction-to-ensembling-along-with-implementation-in-r/) and applied the concept into work
 > * Used [googledrive](https://googledrive.tidyverse.org/) package and google sheet formulas such as ```importrange``` and ```query``` to automate report updating process    
-> **Reading**: 孤身一人, 性別力, 黑色辯護人
+> * **Reading**: 孤身一人, 性別力, 黑色辯護人
 
 ### week12_02/17
 > * 開學超忙忙選課
 > * Researched for new idea on Dr.Hsieh's Public Opinion Analysis class' research proposal
 > * Read at least 5 articles on [R-bloggers](https://www.cjr.org/index.php) daily
 > * Spent time on News Writing like read news a lot, read Harvard Writing books a chapter weekly, and finished writing homework
-> **Reading**: 飄離的伊甸
+> * **Reading**: 飄離的伊甸
 公平與效率沒空看完
 
 ### week13_02/24
 > * Finished **Chapter1** and half of **Chapter2** of [*Social and Economics Network*]()
 > * Read at least 5 articles on [R-bloggers](https://www.cjr.org/index.php) daily
 > * Spent time on News Writing, read news a lot, read Harvard Writing books a chapter weekly, and finished writing homework
-> **Reading**: 優秀的綿羊, 貝納德的墮落, 莫拉的雙生, 里約熱內盧
+> * **Reading**: 優秀的綿羊, 貝納德的墮落, 莫拉的雙生, 里約熱內盧
 
 ### week14_03/03
 > * Finished a section of **Chapter2** of [*Social and Economics Network*]()
@@ -162,14 +162,14 @@ https://medium.com/bbc-visual-and-data-journalism/how-the-bbc-visual-and-data-jo
 > * prepared for Dr.Hsieh's Public Opinion Analysis class' research proposal, read a few research papers
 > * Read at least 5 articles on [R-bloggers](https://www.cjr.org/index.php) daily
 > * Spent time on News Writing, read news a lot, read Harvard Writing books a chapter weekly, and finished writing homework
-> **Reading**: nope
+> * **Reading**: nope
 
 ### week15_03/10
 > * Finished **Chapter2** and **Chapter3** of [*Social and Economics Network*]()
 > * prepared for Dr.Hsieh's Public Opinion Analysis class' research proposal, reviewed papers related to energy function, news life cycle, and information diffusion
 > * Spent time on News Writing, read news a lot, and finished writing homework
 > * Read at least 5 articles on [R-bloggers](https://www.cjr.org/index.php) daily
-> **Reading**: NETFLIX：全球線上影音服務龍頭網飛大崛起
+> * **Reading**: NETFLIX：全球線上影音服務龍頭網飛大崛起
 
 
 ### week16_03/17
@@ -177,7 +177,7 @@ https://medium.com/bbc-visual-and-data-journalism/how-the-bbc-visual-and-data-jo
 > * prepared for Dr.Hsieh's Public Opinion Analysis class' research proposal, used purrr's functions and rvest to crawl pttweb data; used concept of modularization to split the workflow into module and test from the MVP
 > * Recommended [Automated Data Reports with R](https://www.cultureofinsight.com/blog/2018/10/22/2018-08-20-automated-data-reports-with-r/)
 > * Read at least 5 articles on [R-bloggers](https://www.cjr.org/index.php) daily
-> **Reading**: nope
+> * **Reading**: nope
 
 ### week17_03/24
 > * Finished **Chapter1** and **Chapter** of [*Networks, Crowds, and Markets*]()
@@ -185,7 +185,7 @@ https://medium.com/bbc-visual-and-data-journalism/how-the-bbc-visual-and-data-jo
 > * Recommended [Code and Data in a large Machine Learning project](https://edwinth.github.io/multiperson-project/)
 https://github.com/jennybc/row-oriented-workflows/blob/master/ex01_leave-it-in-the-data-frame.md
 > * Read at least 5 articles on [R-bloggers](https://www.cjr.org/index.php) daily
-> **Reading**: Reading**: 
+> * **Reading**: Reading**: 
 http://colinfay.me/purrr-cookbook/
 
 有機會讀Speech and Language Processing
