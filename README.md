@@ -187,5 +187,5 @@ https://github.com/jennybc/row-oriented-workflows/blob/master/ex01_leave-it-in-t
 > * Read at least 5 articles on [R-bloggers](https://www.cjr.org/index.php) daily
 > * **Reading**: Reading**: 
 http://colinfay.me/purrr-cookbook/
-
+http://d4sg.org/
 有機會讀Speech and Language Processing
