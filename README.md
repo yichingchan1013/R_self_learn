@@ -145,14 +145,14 @@ https://medium.com/bbc-visual-and-data-journalism/how-the-bbc-visual-and-data-jo
 ### week12_02/17
 > * 開學超忙忙選課
 > * Researched for new idea on Dr.Hsieh's Public Opinion Analysis class' research proposal
-> * Read at least 5 articles on [R-bloggers](https://www.cjr.org/index.php) daily
+> * Read at least 5 articles on [R-bloggers](https://www.cjr.org/index.php) weekly
 > * Spent time on News Writing like read news a lot, read Harvard Writing books a chapter weekly, and finished writing homework
 > * **Reading**: 飄離的伊甸
 公平與效率沒空看完
 
 ### week13_02/24
 > * Finished **Chapter1** and half of **Chapter2** of [*Social and Economics Network*]()
-> * Read at least 5 articles on [R-bloggers](https://www.cjr.org/index.php) daily
+> * Read at least 5 articles on [R-bloggers](https://www.cjr.org/index.php) weekly
 > * Spent time on News Writing, read news a lot, read Harvard Writing books a chapter weekly, and finished writing homework
 > * **Reading**: 優秀的綿羊, 貝納德的墮落, 莫拉的雙生, 里約熱內盧
 
@@ -160,7 +160,7 @@ https://medium.com/bbc-visual-and-data-journalism/how-the-bbc-visual-and-data-jo
 > * Finished a section of **Chapter2** of [*Social and Economics Network*]()
 > * Reviewed linear algebra 
 > * prepared for Dr.Hsieh's Public Opinion Analysis class' research proposal, read a few research papers
-> * Read at least 5 articles on [R-bloggers](https://www.cjr.org/index.php) daily
+> * Read at least 5 articles on [R-bloggers](https://www.cjr.org/index.php) weekly
 > * Spent time on News Writing, read news a lot, read Harvard Writing books a chapter weekly, and finished writing homework
 > * **Reading**: nope
 
@@ -168,7 +168,7 @@ https://medium.com/bbc-visual-and-data-journalism/how-the-bbc-visual-and-data-jo
 > * Finished **Chapter2** and **Chapter3** of [*Social and Economics Network*]()
 > * prepared for Dr.Hsieh's Public Opinion Analysis class' research proposal, reviewed papers related to energy function, news life cycle, and information diffusion
 > * Spent time on News Writing, read news a lot, and finished writing homework
-> * Read at least 5 articles on [R-bloggers](https://www.cjr.org/index.php) daily
+> * Read at least 5 articles on [R-bloggers](https://www.cjr.org/index.php) weekly
 > * **Reading**: NETFLIX：全球線上影音服務龍頭網飛大崛起
 
 
@@ -176,16 +176,18 @@ https://medium.com/bbc-visual-and-data-journalism/how-the-bbc-visual-and-data-jo
 > * Finished **Chapter1** and **Chapter2** of [*Networks, Crowds, and Markets*]()
 > * prepared for Dr.Hsieh's Public Opinion Analysis class' research proposal, used purrr's functions and rvest to crawl pttweb data; used concept of modularization to split the workflow into module and test from the MVP
 > * Recommended [Automated Data Reports with R](https://www.cultureofinsight.com/blog/2018/10/22/2018-08-20-automated-data-reports-with-r/)
-> * Read at least 5 articles on [R-bloggers](https://www.cjr.org/index.php) daily
+> * Read at least 5 articles on [R-bloggers](https://www.cjr.org/index.php) weekly
+
 > * **Reading**: nope
 
 ### week17_03/24
 > * Finished **Chapter1** and **Chapter** of [*Networks, Crowds, and Markets*]()
 > * prepared for Dr.Hsieh's Public Opinion Analysis class' research proposal, reviewed papers related to energy function, news life cycle, and information diffusion
+> * Completed [purrr](https://www.cjr.org/index.php) on datacamp
 > * Recommended [Code and Data in a large Machine Learning project](https://edwinth.github.io/multiperson-project/)
 https://github.com/jennybc/row-oriented-workflows/blob/master/ex01_leave-it-in-the-data-frame.md
-> * Read at least 5 articles on [R-bloggers](https://www.cjr.org/index.php) daily
-> * **Reading**: Reading**: 
+> * Read at least 5 articles on [R-bloggers](https://www.cjr.org/index.php) weekly
+> * **Reading**: 
 http://colinfay.me/purrr-cookbook/
 http://d4sg.org/
 有機會讀Speech and Language Processing
