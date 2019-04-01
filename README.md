@@ -174,14 +174,22 @@ https://medium.com/bbc-visual-and-data-journalism/how-the-bbc-visual-and-data-jo
 
 ### week16_03/17
 > * Finished **Chapter1** and **Chapter2** of [*Networks, Crowds, and Markets*]()
-> * prepared for Dr.Hsieh's Public Opinion Analysis class' research proposal, used purrr's functions and rvest to crawl pttweb data; used concept of modularization to split the workflow into module and test from the MVP
+> * Used purrr's functions and rvest to crawl certain social forum data; used concept of modularization to split the workflow into module and test from the MVP
 > * Recommended [Automated Data Reports with R](https://www.cultureofinsight.com/blog/2018/10/22/2018-08-20-automated-data-reports-with-r/)
 > * Read at least 5 articles on [R-bloggers](https://www.cjr.org/index.php) weekly
 
 > * **Reading**: nope
 
 ### week17_03/24
-> * Finished **Chapter1** and **Chapter** of [*Networks, Crowds, and Markets*]()
+> * Used purrr's functions and rvest to crawl certain social forum data and certain university course data 
+> * Completed [Foundations of Functional Programming with purrr](https://www.cjr.org/index.php) on DataCamp
+> * Recommended [Code and Data in a large Machine Learning project](https://edwinth.github.io/multiperson-project/)
+https://github.com/jennybc/row-oriented-workflows/blob/master/ex01_leave-it-in-the-data-frame.md
+> * Read at least 5 articles on [R-bloggers](https://www.cjr.org/index.php) weekly
+> * **Reading**: 中國悄悄佔領全世界, 松林鎮2, 松林鎮3
+
+### week18_03/31
+> * Finished **Chapter1** of [*Networks, Crowds, and Markets*]()
 > * prepared for Dr.Hsieh's Public Opinion Analysis class' research proposal, reviewed papers related to energy function, news life cycle, and information diffusion
 > * Completed [purrr](https://www.cjr.org/index.php) on datacamp
 > * Recommended [Code and Data in a large Machine Learning project](https://edwinth.github.io/multiperson-project/)
