@@ -184,7 +184,6 @@ https://medium.com/bbc-visual-and-data-journalism/how-the-bbc-visual-and-data-jo
 > * Used purrr's functions and rvest to crawl certain social forum data and certain university course data 
 > * Completed [Foundations of Functional Programming with purrr](https://www.cjr.org/index.php) on DataCamp
 > * Recommended [Code and Data in a large Machine Learning project](https://edwinth.github.io/multiperson-project/)
-https://github.com/jennybc/row-oriented-workflows/blob/master/ex01_leave-it-in-the-data-frame.md
 > * Read at least 5 articles on [R-bloggers](https://www.cjr.org/index.php) weekly
 > * **Reading**: 中國悄悄佔領全世界, 松林鎮2, 松林鎮3
 
@@ -192,10 +191,10 @@ https://github.com/jennybc/row-oriented-workflows/blob/master/ex01_leave-it-in-t
 > * Finished **Chapter1** of [*Networks, Crowds, and Markets*]()
 > * prepared for Dr.Hsieh's Public Opinion Analysis class' research proposal, reviewed papers related to energy function, news life cycle, and information diffusion
 > * Completed [purrr](https://www.cjr.org/index.php) on datacamp
-> * Recommended [Code and Data in a large Machine Learning project](https://edwinth.github.io/multiperson-project/)
-https://github.com/jennybc/row-oriented-workflows/blob/master/ex01_leave-it-in-the-data-frame.md
+> * Recommended [arrival-rate-bias-ab-testing-1](https://towardsdatascience.com/arrival-rate-bias-ab-testing-1-d291ae9d0cab)
 > * Read at least 5 articles on [R-bloggers](https://www.cjr.org/index.php) weekly
-> * **Reading**: 
+> * **Reading**: 潛水艇
 http://colinfay.me/purrr-cookbook/
 http://d4sg.org/
+https://github.com/jennybc/row-oriented-workflows/blob/master/ex01_leave-it-in-the-data-frame.md
 有機會讀Speech and Language Processing
