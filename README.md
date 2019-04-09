@@ -188,12 +188,23 @@ https://medium.com/bbc-visual-and-data-journalism/how-the-bbc-visual-and-data-jo
 > * **Reading**: 中國悄悄佔領全世界, 松林鎮2, 松林鎮3
 
 ### week18_03/31
-> * Finished **Chapter1** of [*Networks, Crowds, and Markets*]()
+> * Kept crawling and used `beepr` to remind myself when there is an error
+> * Completed [purrr](https://www.cjr.org/index.php) on datacamp
+> * Studied Financial Management
+> * Recommended [arrival-rate-bias-ab-testing-1](https://towardsdatascience.com/arrival-rate-bias-ab-testing-1-d291ae9d0cab)
+> * Read at least 5 articles on [R-bloggers](https://www.cjr.org/index.php) weekly
+> * Read at least 5 articles on medium related to R, A/B testing, E-commerce weekly
+> * Kept testing GLM model for forecasting
+> * **Reading**: 潛水艇, 祭念品, 外科醫生, 喀麥隆空間, 集眼者
+
+### week19_04/07
 > * prepared for Dr.Hsieh's Public Opinion Analysis class' research proposal, reviewed papers related to energy function, news life cycle, and information diffusion
 > * Completed [purrr](https://www.cjr.org/index.php) on datacamp
 > * Recommended [arrival-rate-bias-ab-testing-1](https://towardsdatascience.com/arrival-rate-bias-ab-testing-1-d291ae9d0cab)
 > * Read at least 5 articles on [R-bloggers](https://www.cjr.org/index.php) weekly
-> * **Reading**: 潛水艇, 祭念品, 外科醫師
+> * **Reading**: 
+
+
 http://colinfay.me/purrr-cookbook/
 http://d4sg.org/
 https://github.com/jennybc/row-oriented-workflows/blob/master/ex01_leave-it-in-the-data-frame.md
