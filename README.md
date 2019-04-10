@@ -199,7 +199,7 @@ https://medium.com/bbc-visual-and-data-journalism/how-the-bbc-visual-and-data-jo
 
 ### week19_04/07
 > * prepared for Dr.Hsieh's Public Opinion Analysis class' research proposal, reviewed papers related to energy function, news life cycle, and information diffusion
-> * Completed [purrr](https://www.cjr.org/index.php) on datacamp
+> * Completed [purrr funciontal programming](https://www.cjr.org/index.php) on datacamp
 > * Recommended [arrival-rate-bias-ab-testing-1](https://towardsdatascience.com/arrival-rate-bias-ab-testing-1-d291ae9d0cab)
 > * Read at least 5 articles on [R-bloggers](https://www.cjr.org/index.php) weekly
 > * **Reading**: 
