@@ -458,8 +458,6 @@ Using the comment data, we calculated the correlation coefficient rx,x+1, for x 
 3. The average of Cx,n (n = 1, 2, 3,..., N) is defined as Cx ; the correlation coefficient rx,x+1 was
 calculated from Eq. (3).
 4. A threshold value to judge whether the video is popular or unfair was determined for the correlation coefficient for each neighbouring date, up to 7 days from the date the video was uploaded. A threshold is the value of the boundary line between two categories. In this study, we classify videos as either over-threshold or under-threshold by establishing the threshold of the coefficient of correlation.
-
-
     
     In this study, we propose a method to detect ratings of cheating caused by dishonest multiple comment postings, 
     focusing on a time-series analysis of the number of comments accumulated by the video. 
@@ -473,8 +471,9 @@ calculated from Eq. (3).
     The correlation coefficient between neighbouring elapsed dates was calculated, 
     and the unfair videos were detected by applying a judgment threshold for the minimum correlation coefficient value.
     
-    
 > * techniques: Web Crawling, Statistical Analysis, Support Vector Machine, Classification
+
+
 
 Viewers on the Nicovideo site are able to post their comments using a maximum of 75
 characters at any one time. To find basis for judging whether a video has been unfairly
@@ -492,6 +491,16 @@ Similarity of the comment numbers posted on the videos.
 其他像是bit ly
 (b)life cycle: misinformation 那篇
 (c)text similarity/text metric e.g.文字長度; entrophy
+
+### Word embeddings quantify 100 years of gender and ethnic stereotypes
+> * Author: Nikhil Garga, Londa Schiebingerb, Dan Jurafskyc, James Zou
+> * Keywords: word embedding; gender stereotypes; ethnic stereotypes
+> * summary: 本研究透過以詞嵌入處理過後的時間縱斷面文字資料，以形容詞與職業為例證，量化美國人對女性與少數種族的刻板印象與態度。
+  we propose using word embeddings, a commonly used tool in natural language processing (NLP) 
+  and machine learning, as a framework to measure, quantify, and compare beliefs over time.
+    就**文獻探討**而言，本研究指出自動分類(autoclassification)與內容的個人化(personalization)以及廣為應用，
+
+
 
 #新指標: half-life of a post(取得一半點擊數需要多少時間)(譬如說total回文數是40，取得20篇回文要多久時間)
 https://searchenginewatch.com/sew/study/2108186/bitly-links-hour-half-life-study
