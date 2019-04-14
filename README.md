@@ -182,6 +182,7 @@ https://medium.com/bbc-visual-and-data-journalism/how-the-bbc-visual-and-data-jo
 
 ### week17_03/24
 > * Used purrr's functions and rvest to crawl certain social forum data and certain university course data 
+> * Completed crawling part for ntu course open source project
 > * Completed [Foundations of Functional Programming with purrr](https://www.cjr.org/index.php) on DataCamp
 > * Recommended [Code and Data in a large Machine Learning project](https://edwinth.github.io/multiperson-project/)
 > * Read at least 5 articles on [R-bloggers](https://www.cjr.org/index.php) weekly
@@ -189,6 +190,7 @@ https://medium.com/bbc-visual-and-data-journalism/how-the-bbc-visual-and-data-jo
 
 ### week18_03/31
 > * Kept crawling and used `beepr` to remind myself when there is an error
+> * completed data joining and tidying part for ntu course open source project
 > * Completed [purrr](https://www.cjr.org/index.php) on datacamp
 > * Studied Financial Management
 > * Recommended [arrival-rate-bias-ab-testing-1](https://towardsdatascience.com/arrival-rate-bias-ab-testing-1-d291ae9d0cab)
@@ -198,15 +200,16 @@ https://medium.com/bbc-visual-and-data-journalism/how-the-bbc-visual-and-data-jo
 > * **Reading**: 潛水艇, 祭念品, 外科醫生, 喀麥隆空間, 集眼者
 
 ### week19_04/07
-> * prepared for Dr.Hsieh's Public Opinion Analysis class' research proposal, reviewed papers related to energy function, news life cycle, and information diffusion
-> * Completed [purrr funciontal programming](https://www.cjr.org/index.php) on datacamp
-> * Recommended [arrival-rate-bias-ab-testing-1](https://towardsdatascience.com/arrival-rate-bias-ab-testing-1-d291ae9d0cab)
+> * Completed [intermediate purrr funciontal programming]() on datacamp
+> * Completed data cleansing part for ntu course open source project
+> * Recommended [A Data-Driven Description of Churn in SNAP](https://medium.com/massgovdigital/a-data-driven-description-of-churn-in-snap-aa541b9f67f4)
+> * Read at least 5 articles on medium related to R, A/B testing, E-commerce weekly
 > * Read at least 5 articles on [R-bloggers](https://www.cjr.org/index.php) weekly
-> * **Reading**: 
-
+> * Prepared midterm, studied financial management
+> * **Reading**: 與鯊魚游泳
 
 ### week20_04/14
-> * prepared for Dr.Hsieh's Public Opinion Analysis class' research proposal, reviewed papers related to energy function, news life cycle, and information diffusion
+> * 
 > * Completed [purrr funciontal programming](https://www.cjr.org/index.php) on datacamp
 > * Recommended [arrival-rate-bias-ab-testing-1](https://towardsdatascience.com/arrival-rate-bias-ab-testing-1-d291ae9d0cab)
 > * Read at least 5 articles on [R-bloggers](https://www.cjr.org/index.php) weekly
