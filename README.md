@@ -209,11 +209,10 @@ https://medium.com/bbc-visual-and-data-journalism/how-the-bbc-visual-and-data-jo
 > * **Reading**: 與鯊魚游泳
 
 ### week20_04/14
-> * 
-> * Completed [purrr funciontal programming](https://www.cjr.org/index.php) on datacamp
-> * Recommended [arrival-rate-bias-ab-testing-1](https://towardsdatascience.com/arrival-rate-bias-ab-testing-1-d291ae9d0cab)
+> * Prepared midterm test and news writing interview
+> * Read at least 5 articles on medium related to R, A/B testing, E-commerce weekly
 > * Read at least 5 articles on [R-bloggers](https://www.cjr.org/index.php) weekly
-> * **Reading**: 
+> * **Reading**: 左撇子的殺意
 
 http://colinfay.me/purrr-cookbook/
 http://d4sg.org/
