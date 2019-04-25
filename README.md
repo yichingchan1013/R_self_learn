@@ -219,7 +219,8 @@ https://medium.com/bbc-visual-and-data-journalism/how-the-bbc-visual-and-data-jo
 > * Prepared midterm test and news writing interview
 > * Read at least 5 articles on medium related to R, A/B testing, E-commerce weekly
 > * Read at least 5 articles on [R-bloggers](https://www.cjr.org/index.php) weekly
-> * **Reading**: 
+> * **Reading**: 梅菲斯特俱樂部, 
+
 http://colinfay.me/purrr-cookbook/
 http://d4sg.org/
 有機會讀Speech and Language Processing
