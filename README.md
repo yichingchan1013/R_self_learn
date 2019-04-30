@@ -210,16 +210,27 @@ https://medium.com/bbc-visual-and-data-journalism/how-the-bbc-visual-and-data-jo
 
 ### week20_04/14
 > * Prepared midterm test and news writing interview
-> * Finished **Chapter3** of [*Networks, Crowds, and Markets*]()
+> * Finished **Chapter3** of [*Networks, Crowds, and Markets*]
 > * Read at least 5 articles on medium related to R, A/B testing, E-commerce weekly
 > * Read at least 5 articles on [R-bloggers](https://www.cjr.org/index.php) weekly
 > * **Reading**: 左撇子的殺意
 
 ### week21_04/21
-> * Prepared midterm test and news writing interview
+> * Prepared news writing interview
+> * Finished one-third of **Chapter7** of [*Networks An Introduction*]
+> * Built the first version Shiny APP for Open NTU Course
+> * Munged data after finishing crawling data from PTT Gossiping, which is for Public Opinion Analysis class
 > * Read at least 5 articles on medium related to R, A/B testing, E-commerce weekly
 > * Read at least 5 articles on [R-bloggers](https://www.cjr.org/index.php) weekly
-> * **Reading**: 梅菲斯特俱樂部, 
+> * **Reading**: 梅菲斯特俱樂部, 催魂者 
+
+### week21_04/28
+> * Prepared midterm test and news writing interview
+> * Finished one-third of **Chapter7** of [*Networks An Introduction*]
+> * Built the first version Shiny APP for Open NTU Course
+> * Read at least 5 articles on medium related to R, A/B testing, E-commerce weekly
+> * Read at least 5 articles on [R-bloggers](https://www.cjr.org/index.php) weekly
+> * **Reading**: 催魂者
 
 http://colinfay.me/purrr-cookbook/
 http://d4sg.org/
