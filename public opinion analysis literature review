@@ -522,6 +522,66 @@ rate of comment
 有個理論是說新科技（比較好的）可以取代普遍使用的舊科技（爛的），但前提是community 是open的，closed就不行
 social contagion
 
+argument mining 論述探勘：
+-類型
+    opinion mining
+    stance detection
+    argument mining
+    debating
+-opinion mining
+    輿情追蹤像是意藍，做意見判讀、情緒貼標、整篇文章的立場分析，
+    NTU sentiment dictionary
+    以前做法是整篇計算正面負面詞全部加總
+    新方法是用機器學習跟深度學習
+    implicit opinion(e.g."這旅館從地鐵站走路要二十分鐘" 沒有直接罵，這種就比較有挑戰性)
+    irony detection(反諷)
+    pun identification(雙關語)
+    反串怎辦
+-differences
+    opinion:  target, sentiment, holder, time
+    argument: target, sentiment, reason, holder, time
+    stance: the target(主題 e.g.廢死) is pre-defined, and it is often not a specific entity but an  issue or a topic under debate
+    e.g."我從來都無法享受華格納的歌劇，因為他的作品承載過多的情緒"
+-discourse mode(寫作模式，有好幾種)
+    narrative: 有時序的介紹事件(temporally related events are introduced, the progression of narrative time)
+    distcription: 按照空間上的關係鋪陳東西(text progression is driven by spatial rather than by temporal patterns, time is static)
+    report:(events and states that are not related relative to each other are introduced)
+    information:(fact propositions and states are introduced, not be anchored in time and space)
+    argument;(states of affairs facts and propoostions are introduce and related to each other)
+-argumentative discourse units
+拆解以下文章
+    我們需要拆掉那間工廠 claim
+    的確他可能非常貴 counter consideration
+    但因為他的污染太多所以令人無法忍受 refutations
+    但那並非一個好理由 evidence
+-substastks of argument mining
+    大段落在哪裡()
+    找出切分的單位(segmentation of argumentative discourse units ADU)
+    找出核心的claim
+    辨識每個adu的角色和功能
+    辨識adu之間的關係
+    建構整體結構的representation
+    現在可以判斷每個詞對這篇文被分辨為OOXX立場的貢獻以多少(interpretable model with deep learning)
+-claim extraction
+    document level: newspaper, web text
+    sub-document level: sentences(classification), sub sentences(sequence labeling)
+-supporting and objecting statements
+    例句 你應該買那相機 因為那有個全新的sensor 雖然她很貴 但值錢啦
+    claim support objection support
+-indicator of coherence relations
+    analogy cause concession consequence evidence example antithesis reason result purpose explanation-arqumentative contrast antithesis
+-stance detection
+    momotarget: e.g.兩則推文都在講女性主義
+    moutitarget: e.g.兩則推文都在講美國大選一則講希拉蕊一則講川普
+-unsupervied stance detection
+    問題: 很難收集pre-trained dataset，要先標記好的
+    改用unsupervised learning: 先辨識文章講誰，再來看意見是正負
+    收集資料用hashtag
+deceptive infromation detection 欺瞞性資訊偵測
+-content based
+-structure based e.g.轉發帳號的pattern
+
+
 
 Sheng-chen Yang, Lei-lei Shi, Lu Liu, "Community Detection Method Based on User Influence Probability and Similarity", Advanced Cloud and Big Data (CBD) 2018 Sixth International Conference on, pp. 183-190, 2018.
 Tsugawa, Sho & Kimura, Kazuma, 2018. "Identifying influencers from sampled social networks," Physica A: Statistical Mechanics and its Applications, Elsevier, vol. 507(C), pages 294-303.
