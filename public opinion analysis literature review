@@ -576,13 +576,44 @@ argument mining 論述探勘：
 -unsupervied stance detection
     問題: 很難收集pre-trained dataset，要先標記好的
     改用unsupervised learning: 先辨識文章講誰，再來看意見是正負
-    收集資料用hashtag
+    建立model給關鍵字可以跑出方便收集資料的相關hashtag
+    supervised可以達到60%~70%，unsupevised則可以達到40~45%(English)
+
 deceptive infromation detection 欺瞞性資訊偵測
 -content based
 -structure based e.g.轉發帳號的pattern
 
+現有研究譬如說看產品標示有什麼誇大不實的東西，幫他偵測哪些句子很危險會被罰錢
+-假新聞分類
+    誘餌式標題 clickbait: attention-grabbing, misleading. or vague headlines to attract an audience
+    陰謀論 conspiracy theory: uncorroborated or unreliable information to explain events or circumstances
+    虛傳 propaganda: intentionally misleading information to advance a social or political agenda
+    不實資訊 disinformation: fabricated or facturally incorrect information meant to intenionally deceive readers
+-fake news detection
+    參考人辨識假新聞的方法投射到機器上 e.g.人要看用字、日期、作者、傳播途徑
+    graph-based detection: propagetion path, user behavior
+    content-based detection: fact checking, style analysis
+-ground-truch of fake news
+    要怎麼拿到pre-trained data?
+    PolitiFact
+    Snopes
+    NewsTrust(deprecated)
+    Weibo Dataset
+-content0based facgt checking
+    先去抓川普講的話，抓幾個關鍵字，丟到google 搜尋，抓前十篇文章
+    接下來判斷文章的立場，再去看支持claim還是反對claim，還要算文章可靠度，最後再加權投票
+    explainable model for fact checking
+    evidence is provide for reference
+-trend of stance for T/F claims    
+    claim通常都要五天才足夠判斷是真是假，因為可能沒有那麼快有人討論
 
+-graph-based fake news detection
+    直接看傳播圖性上的帳號是誰
 
+-挑戰
+    定義很難釐清
+    沒有ground truth
+    mutimodal 用影像或圖片
 Sheng-chen Yang, Lei-lei Shi, Lu Liu, "Community Detection Method Based on User Influence Probability and Similarity", Advanced Cloud and Big Data (CBD) 2018 Sixth International Conference on, pp. 183-190, 2018.
 Tsugawa, Sho & Kimura, Kazuma, 2018. "Identifying influencers from sampled social networks," Physica A: Statistical Mechanics and its Applications, Elsevier, vol. 507(C), pages 294-303.
 WANG, Xun; ZHU, Feida; JIANG, Jing; and LI, Sujian. Real Time Event Detection in Twitter. (2013). Web-age information
