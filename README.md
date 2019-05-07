@@ -224,14 +224,21 @@ https://medium.com/bbc-visual-and-data-journalism/how-the-bbc-visual-and-data-jo
 > * Read at least 5 articles on [R-bloggers](https://www.cjr.org/index.php) weekly
 > * **Reading**: 梅菲斯特俱樂部, 催魂者 
 
-### week21_04/28
+### week22_04/28
+> * Prepared news writing interview
+> * Finished another one-third of **Chapter7** of [*Networks An Introduction*]
+> * Colleted NTU students' double major, minor, and transfer data, built networks using `igraph`
+> * Read at least 5 articles on medium related to R, A/B testing, E-commerce weekly
+> * Read at least 5 articles on [R-bloggers](https://www.cjr.org/index.php) weekly
+> * **Reading**: 
+
+### week23_05/04
 > * Prepared midterm test and news writing interview
 > * Finished one-third of **Chapter7** of [*Networks An Introduction*]
 > * Built the first version Shiny APP for Open NTU Course
 > * Read at least 5 articles on medium related to R, A/B testing, E-commerce weekly
 > * Read at least 5 articles on [R-bloggers](https://www.cjr.org/index.php) weekly
-> * **Reading**: 催魂者
-
+> * **Reading**: 
 http://colinfay.me/purrr-cookbook/
 http://d4sg.org/
 有機會讀Speech and Language Processing
