@@ -240,8 +240,8 @@ https://medium.com/bbc-visual-and-data-journalism/how-the-bbc-visual-and-data-jo
 
 ### week23_05/11
 > * Interviewed 裘必勝 and prepared 
-> * Public Opinion Final Project
-> * Social Network Final Project
+> * Public Opinion Final Project, using jeiba and `text mining with R`
+> * Social Network Final Project, built networks using `ggraph` and `tidygraph`
 > * Caught a cold
 > * Read at least 5 articles on medium related to R, A/B testing, E-commerce weekly
 > * Read at least 5 articles on [R-bloggers](https://www.cjr.org/index.php) weekly
