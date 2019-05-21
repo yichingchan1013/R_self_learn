@@ -230,9 +230,24 @@ https://medium.com/bbc-visual-and-data-journalism/how-the-bbc-visual-and-data-jo
 > * Colleted NTU students' double major, minor, and transfer data, built networks using `igraph`
 > * Read at least 5 articles on medium related to R, A/B testing, E-commerce weekly
 > * Read at least 5 articles on [R-bloggers](https://www.cjr.org/index.php) weekly
-> * **Reading**: 
+> * **Reading**: none
 
 ### week23_05/04
+> * Built the first version Shiny APP for Open NTU Course
+> * Read at least 5 articles on medium related to R, A/B testing, E-commerce weekly
+> * Read at least 5 articles on [R-bloggers](https://www.cjr.org/index.php) weekly
+> * **Reading**: none
+
+### week23_05/11
+> * Interviewed 裘必勝 and prepared 
+> * Public Opinion Final Project
+> * Social Network Final Project
+> * Caught a cold
+> * Read at least 5 articles on medium related to R, A/B testing, E-commerce weekly
+> * Read at least 5 articles on [R-bloggers](https://www.cjr.org/index.php) weekly
+> * **Reading**: none
+
+### week23_05/18
 > * Prepared midterm test and news writing interview
 > * Finished one-third of **Chapter7** of [*Networks An Introduction*]
 > * Built the first version Shiny APP for Open NTU Course
