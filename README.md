@@ -248,12 +248,23 @@ https://medium.com/bbc-visual-and-data-journalism/how-the-bbc-visual-and-data-jo
 > * **Reading**: none
 
 ### week23_05/18
-> * Prepared midterm test and news writing interview
-> * Finished one-third of **Chapter7** of [*Networks An Introduction*]
-> * Built the first version Shiny APP for Open NTU Course
+> * Finished the first draft of news writing final composition(?)
+> * Public Opinion Final Project, focused on word segmentation, doc grouping
+> * Social Network Final Project, focused on community detection
+> * Used regression to deal with prediction problem
 > * Read at least 5 articles on medium related to R, A/B testing, E-commerce weekly
 > * Read at least 5 articles on [R-bloggers](https://www.cjr.org/index.php) weekly
-> * **Reading**: 
+> * **Reading**: 東京大逃亡共兩本、潛沙記
+
+### week23_05/25
+> * Prepared midterm test and news writing interview
+> * Public Opinion Final Project, focused on word segmentation, doc grouping
+> * Social Network Final Project, focused on community detection
+> * Used regression, Keras, and two-step model to deal with prediction/classification problem and unbalanced data as well
+> * Read at least 5 articles on medium related to R, A/B testing, E-commerce weekly
+> * Read at least 5 articles on [R-bloggers](https://www.cjr.org/index.php) weekly
+> * **Reading**: 做工的人
+
 http://colinfay.me/purrr-cookbook/
 http://d4sg.org/
 有機會讀Speech and Language Processing
