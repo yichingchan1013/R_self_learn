@@ -254,16 +254,17 @@ https://medium.com/bbc-visual-and-data-journalism/how-the-bbc-visual-and-data-jo
 > * Used regression to deal with prediction problem
 > * Read at least 5 articles on medium related to R, A/B testing, E-commerce weekly
 > * Read at least 5 articles on [R-bloggers](https://www.cjr.org/index.php) weekly
-> * **Reading**: 東京大逃亡共兩本、潛沙記
+> * **Reading**: 東京大逃亡共兩本, 潛沙記
 
 ### week23_05/25
 > * Prepared midterm test and news writing interview
 > * Public Opinion Final Project, focused on word segmentation, doc grouping
 > * Social Network Final Project, focused on community detection
 > * Used regression, Keras, and two-step model to deal with prediction/classification problem and unbalanced data as well
+> * Graduation Ceremony
 > * Read at least 5 articles on medium related to R, A/B testing, E-commerce weekly
 > * Read at least 5 articles on [R-bloggers](https://www.cjr.org/index.php) weekly
-> * **Reading**: 做工的人
+> * **Reading**: 做工的人, 東京醫生
 
 http://colinfay.me/purrr-cookbook/
 http://d4sg.org/
