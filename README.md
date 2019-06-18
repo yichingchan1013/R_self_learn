@@ -232,13 +232,13 @@ https://medium.com/bbc-visual-and-data-journalism/how-the-bbc-visual-and-data-jo
 > * Read at least 5 articles on [R-bloggers](https://www.cjr.org/index.php) weekly
 > * **Reading**: none
 
-### week23_05/04
+### week23_05/05
 > * Built the first version Shiny APP for Open NTU Course
 > * Read at least 5 articles on medium related to R, A/B testing, E-commerce weekly
 > * Read at least 5 articles on [R-bloggers](https://www.cjr.org/index.php) weekly
 > * **Reading**: none
 
-### week23_05/11
+### week23_05/12
 > * Interviewed 裘必勝 and prepared 
 > * Public Opinion Final Project, using jeiba and `text mining with R`
 > * Social Network Final Project, built networks using `ggraph` and `tidygraph`
@@ -247,8 +247,10 @@ https://medium.com/bbc-visual-and-data-journalism/how-the-bbc-visual-and-data-jo
 > * Read at least 5 articles on [R-bloggers](https://www.cjr.org/index.php) weekly
 > * **Reading**: none
 
-### week23_05/18
-> * Finished the first draft of news writing final composition(?)
+### week23_05/19
+> * Finished the first draft of news writing final composition
+> * 訪問林德福？
+> * Finished the first draft of news writing final composition
 > * Public Opinion Final Project, focused on word segmentation, doc grouping
 > * Social Network Final Project, focused on community detection
 > * Used regression to deal with prediction problem
@@ -256,8 +258,8 @@ https://medium.com/bbc-visual-and-data-journalism/how-the-bbc-visual-and-data-jo
 > * Read at least 5 articles on [R-bloggers](https://www.cjr.org/index.php) weekly
 > * **Reading**: 東京大逃亡共兩本, 潛沙記
 
-### week23_05/25
-> * Prepared midterm test and news writing interview
+### week23_05/26
+> * Interviewed 球必勝？確認一下
 > * Public Opinion Final Project, focused on word segmentation, doc grouping
 > * Social Network Final Project, focused on community detection
 > * Used regression, Keras, and two-step model to deal with prediction/classification problem and unbalanced data as well
@@ -265,6 +267,30 @@ https://medium.com/bbc-visual-and-data-journalism/how-the-bbc-visual-and-data-jo
 > * Read at least 5 articles on medium related to R, A/B testing, E-commerce weekly
 > * Read at least 5 articles on [R-bloggers](https://www.cjr.org/index.php) weekly
 > * **Reading**: 做工的人, 東京醫生
+
+### week23_06/02
+> * Finished the final draft of news writing final composition
+> * Social Network Final Project, focused on community detection and centrality
+> * Read at least 5 articles on medium related to R, A/B testing, E-commerce weekly
+> * Read at least 5 articles on [R-bloggers](https://www.cjr.org/index.php) weekly
+> * **Reading**: 沈默的情人
+
+### week23_06/09
+> * Social Network Final Project: final presentation
+> * multiclass text classfication: ryan/esther/vivian's final kaggle project, using multinominal regression to classfiy
+> * Read at least 5 articles on medium related to R, A/B testing, E-commerce weekly
+> * Read at least 5 articles on [R-bloggers](https://www.cjr.org/index.php) weekly
+> * Used [xaringan](https://) package to build PPT in R      
+> * **Reading**: 明信片殺手
+
+### week23_06/16
+> * Prepared Final Exam
+> * Read at least 5 articles on medium related to R, A/B testing, E-commerce weekly
+> * Read at least 5 articles on [R-bloggers](https://www.cjr.org/index.php) weekly
+> * **Reading**: 
+
+書讀得再確認一下
+大數據隱私篇
 
 http://colinfay.me/purrr-cookbook/
 http://d4sg.org/
