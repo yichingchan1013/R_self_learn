@@ -285,11 +285,25 @@ https://medium.com/bbc-visual-and-data-journalism/how-the-bbc-visual-and-data-jo
 
 ### week23_06/16
 > * Prepared Final Exam
+> * Korea Drama
 > * Read at least 5 articles on medium related to R, A/B testing, E-commerce weekly
 > * Read at least 5 articles on [R-bloggers](https://www.cjr.org/index.php) weekly
 > * **Reading**: 
 
-書讀得再確認一下
+### week23_06/23
+> * Korea Drama
+> * Finalized social network paper report (rmd to pdf)
+> * Read at least 5 articles on medium related to R, A/B testing, E-commerce weekly
+> * Read at least 5 articles on [R-bloggers](https://www.cjr.org/index.php) weekly
+> * **Reading**: 恩田陸那本地圖，焦渴者
+
+### week23_06/30
+> * Double Major Network
+> * Yahoo Summer Intern
+> * Read at least 5 articles on medium related to R, A/B testing, E-commerce weekly
+> * Read at least 5 articles on [R-bloggers](https://www.cjr.org/index.php) weekly
+> * **Reading**: 
+
 大數據隱私篇
 
 http://colinfay.me/purrr-cookbook/
