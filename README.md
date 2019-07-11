@@ -300,12 +300,20 @@ https://medium.com/bbc-visual-and-data-journalism/how-the-bbc-visual-and-data-jo
 ### week23_06/30
 > * Double Major Network
 > * Yahoo Summer Intern
+> * Dcard cralwer, drive upload
+> * Read at least 5 articles on medium related to R, A/B testing, E-commerce weekly
+> * Read at least 5 articles on [R-bloggers](https://www.cjr.org/index.php) weekly
+> * **Reading**: 
+
+### week23_07/07
+> * Double Major Network
+> * Yahoo Summer Intern
+> * CronR, blogpost
 > * Read at least 5 articles on medium related to R, A/B testing, E-commerce weekly
 > * Read at least 5 articles on [R-bloggers](https://www.cjr.org/index.php) weekly
 > * **Reading**: 
 
 大數據隱私篇
-
 http://colinfay.me/purrr-cookbook/
 http://d4sg.org/
 有機會讀Speech and Language Processing
