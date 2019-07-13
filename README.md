@@ -1,5 +1,5 @@
 ## R_self_learn_2018/12
-
+```gg```, `gg`
 ### Goal
 > * Applied [Scrum](https://funevo.com/2015/06/27/scrum-ru-men-jie-shao-xin-shou-zhi-nan-introduce/) concept to self-learning path 
 > * Field: Basic and R-related, Statistics, Machine Learning, Text Mining, Data Vis, Data Journalsim, Others   
